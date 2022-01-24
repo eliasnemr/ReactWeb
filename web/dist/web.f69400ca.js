@@ -61191,112 +61191,9858 @@ var _useColorScheme = _interopRequireDefault(require("./exports/useColorScheme")
 var _useWindowDimensions = _interopRequireDefault(require("./exports/useWindowDimensions"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-},{"./exports/createElement":"node_modules/react-native-web/dist/exports/createElement/index.js","./exports/findNodeHandle":"node_modules/react-native-web/dist/exports/findNodeHandle/index.js","./exports/processColor":"node_modules/react-native-web/dist/exports/processColor/index.js","./exports/render":"node_modules/react-native-web/dist/exports/render/index.js","./exports/unmountComponentAtNode":"node_modules/react-native-web/dist/exports/unmountComponentAtNode/index.js","./exports/NativeModules":"node_modules/react-native-web/dist/exports/NativeModules/index.js","./exports/AccessibilityInfo":"node_modules/react-native-web/dist/exports/AccessibilityInfo/index.js","./exports/Alert":"node_modules/react-native-web/dist/exports/Alert/index.js","./exports/Animated":"node_modules/react-native-web/dist/exports/Animated/index.js","./exports/Appearance":"node_modules/react-native-web/dist/exports/Appearance/index.js","./exports/AppRegistry":"node_modules/react-native-web/dist/exports/AppRegistry/index.js","./exports/AppState":"node_modules/react-native-web/dist/exports/AppState/index.js","./exports/BackHandler":"node_modules/react-native-web/dist/exports/BackHandler/index.js","./exports/Clipboard":"node_modules/react-native-web/dist/exports/Clipboard/index.js","./exports/DeviceInfo":"node_modules/react-native-web/dist/exports/DeviceInfo/index.js","./exports/Dimensions":"node_modules/react-native-web/dist/exports/Dimensions/index.js","./exports/Easing":"node_modules/react-native-web/dist/exports/Easing/index.js","./exports/I18nManager":"node_modules/react-native-web/dist/exports/I18nManager/index.js","./exports/Keyboard":"node_modules/react-native-web/dist/exports/Keyboard/index.js","./exports/InteractionManager":"node_modules/react-native-web/dist/exports/InteractionManager/index.js","./exports/LayoutAnimation":"node_modules/react-native-web/dist/exports/LayoutAnimation/index.js","./exports/Linking":"node_modules/react-native-web/dist/exports/Linking/index.js","./exports/NativeEventEmitter":"node_modules/react-native-web/dist/exports/NativeEventEmitter/index.js","./exports/PanResponder":"node_modules/react-native-web/dist/exports/PanResponder/index.js","./exports/PixelRatio":"node_modules/react-native-web/dist/exports/PixelRatio/index.js","./exports/Platform":"node_modules/react-native-web/dist/exports/Platform/index.js","./exports/Share":"node_modules/react-native-web/dist/exports/Share/index.js","./exports/StyleSheet":"node_modules/react-native-web/dist/exports/StyleSheet/index.js","./exports/UIManager":"node_modules/react-native-web/dist/exports/UIManager/index.js","./exports/Vibration":"node_modules/react-native-web/dist/exports/Vibration/index.js","./exports/ActivityIndicator":"node_modules/react-native-web/dist/exports/ActivityIndicator/index.js","./exports/Button":"node_modules/react-native-web/dist/exports/Button/index.js","./exports/CheckBox":"node_modules/react-native-web/dist/exports/CheckBox/index.js","./exports/FlatList":"node_modules/react-native-web/dist/exports/FlatList/index.js","./exports/Image":"node_modules/react-native-web/dist/exports/Image/index.js","./exports/ImageBackground":"node_modules/react-native-web/dist/exports/ImageBackground/index.js","./exports/KeyboardAvoidingView":"node_modules/react-native-web/dist/exports/KeyboardAvoidingView/index.js","./exports/Modal":"node_modules/react-native-web/dist/exports/Modal/index.js","./exports/Picker":"node_modules/react-native-web/dist/exports/Picker/index.js","./exports/Pressable":"node_modules/react-native-web/dist/exports/Pressable/index.js","./exports/ProgressBar":"node_modules/react-native-web/dist/exports/ProgressBar/index.js","./exports/RefreshControl":"node_modules/react-native-web/dist/exports/RefreshControl/index.js","./exports/SafeAreaView":"node_modules/react-native-web/dist/exports/SafeAreaView/index.js","./exports/ScrollView":"node_modules/react-native-web/dist/exports/ScrollView/index.js","./exports/SectionList":"node_modules/react-native-web/dist/exports/SectionList/index.js","./exports/StatusBar":"node_modules/react-native-web/dist/exports/StatusBar/index.js","./exports/Switch":"node_modules/react-native-web/dist/exports/Switch/index.js","./exports/Text":"node_modules/react-native-web/dist/exports/Text/index.js","./exports/TextInput":"node_modules/react-native-web/dist/exports/TextInput/index.js","./exports/Touchable":"node_modules/react-native-web/dist/exports/Touchable/index.js","./exports/TouchableHighlight":"node_modules/react-native-web/dist/exports/TouchableHighlight/index.js","./exports/TouchableNativeFeedback":"node_modules/react-native-web/dist/exports/TouchableNativeFeedback/index.js","./exports/TouchableOpacity":"node_modules/react-native-web/dist/exports/TouchableOpacity/index.js","./exports/TouchableWithoutFeedback":"node_modules/react-native-web/dist/exports/TouchableWithoutFeedback/index.js","./exports/View":"node_modules/react-native-web/dist/exports/View/index.js","./exports/VirtualizedList":"node_modules/react-native-web/dist/exports/VirtualizedList/index.js","./exports/YellowBox":"node_modules/react-native-web/dist/exports/YellowBox/index.js","./exports/LogBox":"node_modules/react-native-web/dist/exports/LogBox/index.js","./exports/DrawerLayoutAndroid":"node_modules/react-native-web/dist/exports/DrawerLayoutAndroid/index.js","./exports/InputAccessoryView":"node_modules/react-native-web/dist/exports/InputAccessoryView/index.js","./exports/ToastAndroid":"node_modules/react-native-web/dist/exports/ToastAndroid/index.js","./exports/PermissionsAndroid":"node_modules/react-native-web/dist/exports/PermissionsAndroid/index.js","./exports/Settings":"node_modules/react-native-web/dist/exports/Settings/index.js","./exports/Systrace":"node_modules/react-native-web/dist/exports/Systrace/index.js","./exports/TVEventHandler":"node_modules/react-native-web/dist/exports/TVEventHandler/index.js","./exports/DeviceEventEmitter":"node_modules/react-native-web/dist/exports/DeviceEventEmitter/index.js","./exports/useColorScheme":"node_modules/react-native-web/dist/exports/useColorScheme/index.js","./exports/useWindowDimensions":"node_modules/react-native-web/dist/exports/useWindowDimensions/index.js"}],"shared/shared/components/counter.tsx":[function(require,module,exports) {
+},{"./exports/createElement":"node_modules/react-native-web/dist/exports/createElement/index.js","./exports/findNodeHandle":"node_modules/react-native-web/dist/exports/findNodeHandle/index.js","./exports/processColor":"node_modules/react-native-web/dist/exports/processColor/index.js","./exports/render":"node_modules/react-native-web/dist/exports/render/index.js","./exports/unmountComponentAtNode":"node_modules/react-native-web/dist/exports/unmountComponentAtNode/index.js","./exports/NativeModules":"node_modules/react-native-web/dist/exports/NativeModules/index.js","./exports/AccessibilityInfo":"node_modules/react-native-web/dist/exports/AccessibilityInfo/index.js","./exports/Alert":"node_modules/react-native-web/dist/exports/Alert/index.js","./exports/Animated":"node_modules/react-native-web/dist/exports/Animated/index.js","./exports/Appearance":"node_modules/react-native-web/dist/exports/Appearance/index.js","./exports/AppRegistry":"node_modules/react-native-web/dist/exports/AppRegistry/index.js","./exports/AppState":"node_modules/react-native-web/dist/exports/AppState/index.js","./exports/BackHandler":"node_modules/react-native-web/dist/exports/BackHandler/index.js","./exports/Clipboard":"node_modules/react-native-web/dist/exports/Clipboard/index.js","./exports/DeviceInfo":"node_modules/react-native-web/dist/exports/DeviceInfo/index.js","./exports/Dimensions":"node_modules/react-native-web/dist/exports/Dimensions/index.js","./exports/Easing":"node_modules/react-native-web/dist/exports/Easing/index.js","./exports/I18nManager":"node_modules/react-native-web/dist/exports/I18nManager/index.js","./exports/Keyboard":"node_modules/react-native-web/dist/exports/Keyboard/index.js","./exports/InteractionManager":"node_modules/react-native-web/dist/exports/InteractionManager/index.js","./exports/LayoutAnimation":"node_modules/react-native-web/dist/exports/LayoutAnimation/index.js","./exports/Linking":"node_modules/react-native-web/dist/exports/Linking/index.js","./exports/NativeEventEmitter":"node_modules/react-native-web/dist/exports/NativeEventEmitter/index.js","./exports/PanResponder":"node_modules/react-native-web/dist/exports/PanResponder/index.js","./exports/PixelRatio":"node_modules/react-native-web/dist/exports/PixelRatio/index.js","./exports/Platform":"node_modules/react-native-web/dist/exports/Platform/index.js","./exports/Share":"node_modules/react-native-web/dist/exports/Share/index.js","./exports/StyleSheet":"node_modules/react-native-web/dist/exports/StyleSheet/index.js","./exports/UIManager":"node_modules/react-native-web/dist/exports/UIManager/index.js","./exports/Vibration":"node_modules/react-native-web/dist/exports/Vibration/index.js","./exports/ActivityIndicator":"node_modules/react-native-web/dist/exports/ActivityIndicator/index.js","./exports/Button":"node_modules/react-native-web/dist/exports/Button/index.js","./exports/CheckBox":"node_modules/react-native-web/dist/exports/CheckBox/index.js","./exports/FlatList":"node_modules/react-native-web/dist/exports/FlatList/index.js","./exports/Image":"node_modules/react-native-web/dist/exports/Image/index.js","./exports/ImageBackground":"node_modules/react-native-web/dist/exports/ImageBackground/index.js","./exports/KeyboardAvoidingView":"node_modules/react-native-web/dist/exports/KeyboardAvoidingView/index.js","./exports/Modal":"node_modules/react-native-web/dist/exports/Modal/index.js","./exports/Picker":"node_modules/react-native-web/dist/exports/Picker/index.js","./exports/Pressable":"node_modules/react-native-web/dist/exports/Pressable/index.js","./exports/ProgressBar":"node_modules/react-native-web/dist/exports/ProgressBar/index.js","./exports/RefreshControl":"node_modules/react-native-web/dist/exports/RefreshControl/index.js","./exports/SafeAreaView":"node_modules/react-native-web/dist/exports/SafeAreaView/index.js","./exports/ScrollView":"node_modules/react-native-web/dist/exports/ScrollView/index.js","./exports/SectionList":"node_modules/react-native-web/dist/exports/SectionList/index.js","./exports/StatusBar":"node_modules/react-native-web/dist/exports/StatusBar/index.js","./exports/Switch":"node_modules/react-native-web/dist/exports/Switch/index.js","./exports/Text":"node_modules/react-native-web/dist/exports/Text/index.js","./exports/TextInput":"node_modules/react-native-web/dist/exports/TextInput/index.js","./exports/Touchable":"node_modules/react-native-web/dist/exports/Touchable/index.js","./exports/TouchableHighlight":"node_modules/react-native-web/dist/exports/TouchableHighlight/index.js","./exports/TouchableNativeFeedback":"node_modules/react-native-web/dist/exports/TouchableNativeFeedback/index.js","./exports/TouchableOpacity":"node_modules/react-native-web/dist/exports/TouchableOpacity/index.js","./exports/TouchableWithoutFeedback":"node_modules/react-native-web/dist/exports/TouchableWithoutFeedback/index.js","./exports/View":"node_modules/react-native-web/dist/exports/View/index.js","./exports/VirtualizedList":"node_modules/react-native-web/dist/exports/VirtualizedList/index.js","./exports/YellowBox":"node_modules/react-native-web/dist/exports/YellowBox/index.js","./exports/LogBox":"node_modules/react-native-web/dist/exports/LogBox/index.js","./exports/DrawerLayoutAndroid":"node_modules/react-native-web/dist/exports/DrawerLayoutAndroid/index.js","./exports/InputAccessoryView":"node_modules/react-native-web/dist/exports/InputAccessoryView/index.js","./exports/ToastAndroid":"node_modules/react-native-web/dist/exports/ToastAndroid/index.js","./exports/PermissionsAndroid":"node_modules/react-native-web/dist/exports/PermissionsAndroid/index.js","./exports/Settings":"node_modules/react-native-web/dist/exports/Settings/index.js","./exports/Systrace":"node_modules/react-native-web/dist/exports/Systrace/index.js","./exports/TVEventHandler":"node_modules/react-native-web/dist/exports/TVEventHandler/index.js","./exports/DeviceEventEmitter":"node_modules/react-native-web/dist/exports/DeviceEventEmitter/index.js","./exports/useColorScheme":"node_modules/react-native-web/dist/exports/useColorScheme/index.js","./exports/useWindowDimensions":"node_modules/react-native-web/dist/exports/useWindowDimensions/index.js"}],"node_modules/@react-navigation/routers/lib/module/CommonActions.js":[function(require,module,exports) {
 "use strict";
 
-function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.goBack = goBack;
+exports.navigate = navigate;
+exports.reset = reset;
+exports.setParams = setParams;
 
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+function goBack() {
+  return {
+    type: 'GO_BACK'
+  };
+} // eslint-disable-next-line no-redeclare
 
-function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
 
-function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+function navigate(...args) {
+  if (typeof args[0] === 'string') {
+    return {
+      type: 'NAVIGATE',
+      payload: {
+        name: args[0],
+        params: args[1]
+      }
+    };
+  } else {
+    const payload = args[0] || {};
 
-function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]; if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+    if (!payload.hasOwnProperty('key') && !payload.hasOwnProperty('name')) {
+      throw new Error('You need to specify name or key when calling navigate with an object as the argument. See https://reactnavigation.org/docs/navigation-actions#navigate for usage.');
+    }
 
-function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+    return {
+      type: 'NAVIGATE',
+      payload
+    };
+  }
+}
 
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
+function reset(state) {
+  return {
+    type: 'RESET',
+    payload: state
+  };
+}
 
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { _defineProperty(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
+function setParams(params) {
+  return {
+    type: 'SET_PARAMS',
+    payload: {
+      params
+    }
+  };
+}
+},{}],"node_modules/nanoid/non-secure/index.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.nanoid = exports.customAlphabet = void 0;
+let urlAlphabet = 'useandom-26T198340PX75pxJACKVERYMINDBUSHWOLF_GQZbfghjklqvwyzrict';
+
+let customAlphabet = (alphabet, size) => {
+  return () => {
+    let id = '';
+    let i = size;
+
+    while (i--) {
+      id += alphabet[Math.random() * alphabet.length | 0];
+    }
+
+    return id;
+  };
+};
+
+exports.customAlphabet = customAlphabet;
+
+let nanoid = (size = 21) => {
+  let id = '';
+  let i = size;
+
+  while (i--) {
+    id += urlAlphabet[Math.random() * 64 | 0];
+  }
+
+  return id;
+};
+
+exports.nanoid = nanoid;
+},{}],"node_modules/@react-navigation/routers/lib/module/BaseRouter.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _nonSecure = require("nanoid/non-secure");
+
+/**
+ * Base router object that can be used when writing custom routers.
+ * This provides few helper methods to handle common actions such as `RESET`.
+ */
+const BaseRouter = {
+  getStateForAction(state, action) {
+    switch (action.type) {
+      case 'SET_PARAMS':
+        {
+          const index = action.source ? state.routes.findIndex(r => r.key === action.source) : state.index;
+
+          if (index === -1) {
+            return null;
+          }
+
+          return { ...state,
+            routes: state.routes.map((r, i) => i === index ? { ...r,
+              params: { ...r.params,
+                ...action.payload.params
+              }
+            } : r)
+          };
+        }
+
+      case 'RESET':
+        {
+          const nextState = action.payload;
+
+          if (nextState.routes.length === 0 || nextState.routes.some(route => !state.routeNames.includes(route.name))) {
+            return null;
+          }
+
+          if (nextState.stale === false) {
+            if (state.routeNames.length !== nextState.routeNames.length || nextState.routeNames.some(name => !state.routeNames.includes(name))) {
+              return null;
+            }
+
+            return { ...nextState,
+              routes: nextState.routes.map(route => route.key ? route : { ...route,
+                key: `${route.name}-${(0, _nonSecure.nanoid)()}`
+              })
+            };
+          }
+
+          return nextState;
+        }
+
+      default:
+        return null;
+    }
+  },
+
+  shouldActionChangeFocus(action) {
+    return action.type === 'NAVIGATE';
+  }
+
+};
+var _default = BaseRouter;
+exports.default = _default;
+},{"nanoid/non-secure":"node_modules/nanoid/non-secure/index.js"}],"node_modules/@react-navigation/routers/lib/module/TabRouter.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.TabActions = void 0;
+exports.default = TabRouter;
+
+var _nonSecure = require("nanoid/non-secure");
+
+var _BaseRouter = _interopRequireDefault(require("./BaseRouter"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+const TYPE_ROUTE = 'route';
+const TabActions = {
+  jumpTo(name, params) {
+    return {
+      type: 'JUMP_TO',
+      payload: {
+        name,
+        params
+      }
+    };
+  }
+
+};
+exports.TabActions = TabActions;
+
+const getRouteHistory = (routes, index, backBehavior, initialRouteName) => {
+  const history = [{
+    type: TYPE_ROUTE,
+    key: routes[index].key
+  }];
+  let initialRouteIndex;
+
+  switch (backBehavior) {
+    case 'order':
+      for (let i = index; i > 0; i--) {
+        history.unshift({
+          type: TYPE_ROUTE,
+          key: routes[i - 1].key
+        });
+      }
+
+      break;
+
+    case 'firstRoute':
+      if (index !== 0) {
+        history.unshift({
+          type: TYPE_ROUTE,
+          key: routes[0].key
+        });
+      }
+
+      break;
+
+    case 'initialRoute':
+      initialRouteIndex = routes.findIndex(route => route.name === initialRouteName);
+      initialRouteIndex = initialRouteIndex === -1 ? 0 : initialRouteIndex;
+
+      if (index !== initialRouteIndex) {
+        history.unshift({
+          type: TYPE_ROUTE,
+          key: routes[initialRouteIndex].key
+        });
+      }
+
+      break;
+
+    case 'history':
+      // The history will fill up on navigation
+      break;
+  }
+
+  return history;
+};
+
+const changeIndex = (state, index, backBehavior, initialRouteName) => {
+  let history;
+
+  if (backBehavior === 'history') {
+    const currentKey = state.routes[index].key;
+    history = state.history.filter(it => it.type === 'route' ? it.key !== currentKey : false).concat({
+      type: TYPE_ROUTE,
+      key: currentKey
+    });
+  } else {
+    history = getRouteHistory(state.routes, index, backBehavior, initialRouteName);
+  }
+
+  return { ...state,
+    index,
+    history
+  };
+};
+
+function TabRouter({
+  initialRouteName,
+  backBehavior = 'firstRoute'
+}) {
+  const router = { ..._BaseRouter.default,
+    type: 'tab',
+
+    getInitialState({
+      routeNames,
+      routeParamList
+    }) {
+      const index = initialRouteName !== undefined && routeNames.includes(initialRouteName) ? routeNames.indexOf(initialRouteName) : 0;
+      const routes = routeNames.map(name => ({
+        name,
+        key: `${name}-${(0, _nonSecure.nanoid)()}`,
+        params: routeParamList[name]
+      }));
+      const history = getRouteHistory(routes, index, backBehavior, initialRouteName);
+      return {
+        stale: false,
+        type: 'tab',
+        key: `tab-${(0, _nonSecure.nanoid)()}`,
+        index,
+        routeNames,
+        history,
+        routes
+      };
+    },
+
+    getRehydratedState(partialState, {
+      routeNames,
+      routeParamList
+    }) {
+      var _state$routes, _state$index, _state$history$filter, _state$history;
+
+      let state = partialState;
+
+      if (state.stale === false) {
+        return state;
+      }
+
+      const routes = routeNames.map(name => {
+        const route = state.routes.find(r => r.name === name);
+        return { ...route,
+          name,
+          key: route && route.name === name && route.key ? route.key : `${name}-${(0, _nonSecure.nanoid)()}`,
+          params: routeParamList[name] !== undefined ? { ...routeParamList[name],
+            ...(route ? route.params : undefined)
+          } : route ? route.params : undefined
+        };
+      });
+      const index = Math.min(Math.max(routeNames.indexOf((_state$routes = state.routes[(_state$index = state === null || state === void 0 ? void 0 : state.index) !== null && _state$index !== void 0 ? _state$index : 0]) === null || _state$routes === void 0 ? void 0 : _state$routes.name), 0), routes.length - 1);
+      const history = (_state$history$filter = (_state$history = state.history) === null || _state$history === void 0 ? void 0 : _state$history.filter(it => routes.find(r => r.key === it.key))) !== null && _state$history$filter !== void 0 ? _state$history$filter : [];
+      return changeIndex({
+        stale: false,
+        type: 'tab',
+        key: `tab-${(0, _nonSecure.nanoid)()}`,
+        index,
+        routeNames,
+        history,
+        routes
+      }, index, backBehavior, initialRouteName);
+    },
+
+    getStateForRouteNamesChange(state, {
+      routeNames,
+      routeParamList,
+      routeKeyChanges
+    }) {
+      const routes = routeNames.map(name => state.routes.find(r => r.name === name && !routeKeyChanges.includes(r.name)) || {
+        name,
+        key: `${name}-${(0, _nonSecure.nanoid)()}`,
+        params: routeParamList[name]
+      });
+      const index = Math.max(0, routeNames.indexOf(state.routes[state.index].name));
+      let history = state.history.filter( // Type will always be 'route' for tabs, but could be different in a router extending this (e.g. drawer)
+      it => it.type !== 'route' || routes.find(r => r.key === it.key));
+
+      if (!history.length) {
+        history = getRouteHistory(routes, index, backBehavior, initialRouteName);
+      }
+
+      return { ...state,
+        history,
+        routeNames,
+        routes,
+        index
+      };
+    },
+
+    getStateForRouteFocus(state, key) {
+      const index = state.routes.findIndex(r => r.key === key);
+
+      if (index === -1 || index === state.index) {
+        return state;
+      }
+
+      return changeIndex(state, index, backBehavior, initialRouteName);
+    },
+
+    getStateForAction(state, action, {
+      routeParamList
+    }) {
+      switch (action.type) {
+        case 'JUMP_TO':
+        case 'NAVIGATE':
+          {
+            let index = -1;
+
+            if (action.type === 'NAVIGATE' && action.payload.key) {
+              index = state.routes.findIndex(route => route.key === action.payload.key);
+            } else {
+              index = state.routes.findIndex(route => route.name === action.payload.name);
+            }
+
+            if (index === -1) {
+              return null;
+            }
+
+            return changeIndex({ ...state,
+              routes: state.routes.map((route, i) => {
+                if (i !== index) {
+                  return route;
+                }
+
+                let params;
+
+                if (action.type === 'NAVIGATE' && action.payload.merge) {
+                  params = action.payload.params !== undefined || routeParamList[route.name] !== undefined ? { ...routeParamList[route.name],
+                    ...route.params,
+                    ...action.payload.params
+                  } : route.params;
+                } else {
+                  params = routeParamList[route.name] !== undefined ? { ...routeParamList[route.name],
+                    ...action.payload.params
+                  } : action.payload.params;
+                }
+
+                const path = action.type === 'NAVIGATE' && action.payload.path != null ? action.payload.path : route.path;
+                return params !== route.params || path !== route.path ? { ...route,
+                  path,
+                  params
+                } : route;
+              })
+            }, index, backBehavior, initialRouteName);
+          }
+
+        case 'GO_BACK':
+          {
+            if (state.history.length === 1) {
+              return null;
+            }
+
+            const previousKey = state.history[state.history.length - 2].key;
+            const index = state.routes.findIndex(route => route.key === previousKey);
+
+            if (index === -1) {
+              return null;
+            }
+
+            return { ...state,
+              history: state.history.slice(0, -1),
+              index
+            };
+          }
+
+        default:
+          return _BaseRouter.default.getStateForAction(state, action);
+      }
+    },
+
+    shouldActionChangeFocus(action) {
+      return action.type === 'NAVIGATE';
+    },
+
+    actionCreators: TabActions
+  };
+  return router;
+}
+},{"nanoid/non-secure":"node_modules/nanoid/non-secure/index.js","./BaseRouter":"node_modules/@react-navigation/routers/lib/module/BaseRouter.js"}],"node_modules/@react-navigation/routers/lib/module/DrawerRouter.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.DrawerActions = void 0;
+exports.default = DrawerRouter;
+
+var _nonSecure = require("nanoid/non-secure");
+
+var _TabRouter = _interopRequireWildcard(require("./TabRouter"));
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+const DrawerActions = { ..._TabRouter.TabActions,
+
+  openDrawer() {
+    return {
+      type: 'OPEN_DRAWER'
+    };
+  },
+
+  closeDrawer() {
+    return {
+      type: 'CLOSE_DRAWER'
+    };
+  },
+
+  toggleDrawer() {
+    return {
+      type: 'TOGGLE_DRAWER'
+    };
+  }
+
+};
+exports.DrawerActions = DrawerActions;
+
+function DrawerRouter({
+  defaultStatus = 'closed',
+  ...rest
+}) {
+  const router = (0, _TabRouter.default)(rest);
+
+  const isDrawerInHistory = state => {
+    var _state$history;
+
+    return Boolean((_state$history = state.history) === null || _state$history === void 0 ? void 0 : _state$history.some(it => it.type === 'drawer'));
+  };
+
+  const addDrawerToHistory = state => {
+    if (isDrawerInHistory(state)) {
+      return state;
+    }
+
+    return { ...state,
+      history: [...state.history, {
+        type: 'drawer',
+        status: defaultStatus === 'open' ? 'closed' : 'open'
+      }]
+    };
+  };
+
+  const removeDrawerFromHistory = state => {
+    if (!isDrawerInHistory(state)) {
+      return state;
+    }
+
+    return { ...state,
+      history: state.history.filter(it => it.type !== 'drawer')
+    };
+  };
+
+  const openDrawer = state => {
+    if (defaultStatus === 'open') {
+      return removeDrawerFromHistory(state);
+    }
+
+    return addDrawerToHistory(state);
+  };
+
+  const closeDrawer = state => {
+    if (defaultStatus === 'open') {
+      return addDrawerToHistory(state);
+    }
+
+    return removeDrawerFromHistory(state);
+  };
+
+  return { ...router,
+    type: 'drawer',
+
+    getInitialState({
+      routeNames,
+      routeParamList,
+      routeGetIdList
+    }) {
+      const state = router.getInitialState({
+        routeNames,
+        routeParamList,
+        routeGetIdList
+      });
+      return { ...state,
+        default: defaultStatus,
+        stale: false,
+        type: 'drawer',
+        key: `drawer-${(0, _nonSecure.nanoid)()}`
+      };
+    },
+
+    getRehydratedState(partialState, {
+      routeNames,
+      routeParamList,
+      routeGetIdList
+    }) {
+      if (partialState.stale === false) {
+        return partialState;
+      }
+
+      let state = router.getRehydratedState(partialState, {
+        routeNames,
+        routeParamList,
+        routeGetIdList
+      });
+
+      if (isDrawerInHistory(partialState)) {
+        // Re-sync the drawer entry in history to correct it if it was wrong
+        state = removeDrawerFromHistory(state);
+        state = addDrawerToHistory(state);
+      }
+
+      return { ...state,
+        default: defaultStatus,
+        type: 'drawer',
+        key: `drawer-${(0, _nonSecure.nanoid)()}`
+      };
+    },
+
+    getStateForRouteFocus(state, key) {
+      const result = router.getStateForRouteFocus(state, key);
+      return closeDrawer(result);
+    },
+
+    getStateForAction(state, action, options) {
+      switch (action.type) {
+        case 'OPEN_DRAWER':
+          return openDrawer(state);
+
+        case 'CLOSE_DRAWER':
+          return closeDrawer(state);
+
+        case 'TOGGLE_DRAWER':
+          if (isDrawerInHistory(state)) {
+            return removeDrawerFromHistory(state);
+          }
+
+          return addDrawerToHistory(state);
+
+        case 'JUMP_TO':
+        case 'NAVIGATE':
+          {
+            const result = router.getStateForAction(state, action, options);
+
+            if (result != null && result.index !== state.index) {
+              return closeDrawer(result);
+            }
+
+            return result;
+          }
+
+        case 'GO_BACK':
+          if (isDrawerInHistory(state)) {
+            return removeDrawerFromHistory(state);
+          }
+
+          return router.getStateForAction(state, action, options);
+
+        default:
+          return router.getStateForAction(state, action, options);
+      }
+    },
+
+    actionCreators: DrawerActions
+  };
+}
+},{"nanoid/non-secure":"node_modules/nanoid/non-secure/index.js","./TabRouter":"node_modules/@react-navigation/routers/lib/module/TabRouter.js"}],"node_modules/@react-navigation/routers/lib/module/StackRouter.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.StackActions = void 0;
+exports.default = StackRouter;
+
+var _nonSecure = require("nanoid/non-secure");
+
+var _BaseRouter = _interopRequireDefault(require("./BaseRouter"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+const StackActions = {
+  replace(name, params) {
+    return {
+      type: 'REPLACE',
+      payload: {
+        name,
+        params
+      }
+    };
+  },
+
+  push(name, params) {
+    return {
+      type: 'PUSH',
+      payload: {
+        name,
+        params
+      }
+    };
+  },
+
+  pop(count = 1) {
+    return {
+      type: 'POP',
+      payload: {
+        count
+      }
+    };
+  },
+
+  popToTop() {
+    return {
+      type: 'POP_TO_TOP'
+    };
+  }
+
+};
+exports.StackActions = StackActions;
+
+function StackRouter(options) {
+  const router = { ..._BaseRouter.default,
+    type: 'stack',
+
+    getInitialState({
+      routeNames,
+      routeParamList
+    }) {
+      const initialRouteName = options.initialRouteName !== undefined && routeNames.includes(options.initialRouteName) ? options.initialRouteName : routeNames[0];
+      return {
+        stale: false,
+        type: 'stack',
+        key: `stack-${(0, _nonSecure.nanoid)()}`,
+        index: 0,
+        routeNames,
+        routes: [{
+          key: `${initialRouteName}-${(0, _nonSecure.nanoid)()}`,
+          name: initialRouteName,
+          params: routeParamList[initialRouteName]
+        }]
+      };
+    },
+
+    getRehydratedState(partialState, {
+      routeNames,
+      routeParamList
+    }) {
+      let state = partialState;
+
+      if (state.stale === false) {
+        return state;
+      }
+
+      const routes = state.routes.filter(route => routeNames.includes(route.name)).map(route => ({ ...route,
+        key: route.key || `${route.name}-${(0, _nonSecure.nanoid)()}`,
+        params: routeParamList[route.name] !== undefined ? { ...routeParamList[route.name],
+          ...route.params
+        } : route.params
+      }));
+
+      if (routes.length === 0) {
+        const initialRouteName = options.initialRouteName !== undefined ? options.initialRouteName : routeNames[0];
+        routes.push({
+          key: `${initialRouteName}-${(0, _nonSecure.nanoid)()}`,
+          name: initialRouteName,
+          params: routeParamList[initialRouteName]
+        });
+      }
+
+      return {
+        stale: false,
+        type: 'stack',
+        key: `stack-${(0, _nonSecure.nanoid)()}`,
+        index: routes.length - 1,
+        routeNames,
+        routes
+      };
+    },
+
+    getStateForRouteNamesChange(state, {
+      routeNames,
+      routeParamList,
+      routeKeyChanges
+    }) {
+      const routes = state.routes.filter(route => routeNames.includes(route.name) && !routeKeyChanges.includes(route.name));
+
+      if (routes.length === 0) {
+        const initialRouteName = options.initialRouteName !== undefined && routeNames.includes(options.initialRouteName) ? options.initialRouteName : routeNames[0];
+        routes.push({
+          key: `${initialRouteName}-${(0, _nonSecure.nanoid)()}`,
+          name: initialRouteName,
+          params: routeParamList[initialRouteName]
+        });
+      }
+
+      return { ...state,
+        routeNames,
+        routes,
+        index: Math.min(state.index, routes.length - 1)
+      };
+    },
+
+    getStateForRouteFocus(state, key) {
+      const index = state.routes.findIndex(r => r.key === key);
+
+      if (index === -1 || index === state.index) {
+        return state;
+      }
+
+      return { ...state,
+        index,
+        routes: state.routes.slice(0, index + 1)
+      };
+    },
+
+    getStateForAction(state, action, options) {
+      const {
+        routeParamList
+      } = options;
+
+      switch (action.type) {
+        case 'REPLACE':
+          {
+            const index = action.target === state.key && action.source ? state.routes.findIndex(r => r.key === action.source) : state.index;
+
+            if (index === -1) {
+              return null;
+            }
+
+            const {
+              name,
+              key,
+              params
+            } = action.payload;
+
+            if (!state.routeNames.includes(name)) {
+              return null;
+            }
+
+            return { ...state,
+              routes: state.routes.map((route, i) => i === index ? {
+                key: key !== undefined ? key : `${name}-${(0, _nonSecure.nanoid)()}`,
+                name,
+                params: routeParamList[name] !== undefined ? { ...routeParamList[name],
+                  ...params
+                } : params
+              } : route)
+            };
+          }
+
+        case 'PUSH':
+          if (state.routeNames.includes(action.payload.name)) {
+            const getId = options.routeGetIdList[action.payload.name];
+            const id = getId === null || getId === void 0 ? void 0 : getId({
+              params: action.payload.params
+            });
+            const route = id ? state.routes.find(route => route.name === action.payload.name && id === (getId === null || getId === void 0 ? void 0 : getId({
+              params: route.params
+            }))) : undefined;
+            let routes;
+
+            if (route) {
+              routes = state.routes.filter(r => r.key !== route.key);
+              routes.push({ ...route,
+                params: routeParamList[action.payload.name] !== undefined ? { ...routeParamList[action.payload.name],
+                  ...action.payload.params
+                } : action.payload.params
+              });
+            } else {
+              routes = [...state.routes, {
+                key: `${action.payload.name}-${(0, _nonSecure.nanoid)()}`,
+                name: action.payload.name,
+                params: routeParamList[action.payload.name] !== undefined ? { ...routeParamList[action.payload.name],
+                  ...action.payload.params
+                } : action.payload.params
+              }];
+            }
+
+            return { ...state,
+              index: routes.length - 1,
+              routes
+            };
+          }
+
+          return null;
+
+        case 'POP':
+          {
+            const index = action.target === state.key && action.source ? state.routes.findIndex(r => r.key === action.source) : state.index;
+
+            if (index > 0) {
+              const count = Math.max(index - action.payload.count + 1, 1);
+              const routes = state.routes.slice(0, count).concat(state.routes.slice(index + 1));
+              return { ...state,
+                index: routes.length - 1,
+                routes
+              };
+            }
+
+            return null;
+          }
+
+        case 'POP_TO_TOP':
+          return router.getStateForAction(state, {
+            type: 'POP',
+            payload: {
+              count: state.routes.length - 1
+            }
+          }, options);
+
+        case 'NAVIGATE':
+          if (action.payload.name !== undefined && !state.routeNames.includes(action.payload.name)) {
+            return null;
+          }
+
+          if (action.payload.key || action.payload.name) {
+            var _action$payload$path; // If the route already exists, navigate to that
+
+
+            let index = -1;
+            const getId = // `getId` and `key` can't be used together
+            action.payload.key === undefined && action.payload.name !== undefined ? options.routeGetIdList[action.payload.name] : undefined;
+            const id = getId === null || getId === void 0 ? void 0 : getId({
+              params: action.payload.params
+            });
+
+            if (id) {
+              index = state.routes.findIndex(route => route.name === action.payload.name && id === (getId === null || getId === void 0 ? void 0 : getId({
+                params: route.params
+              })));
+            } else if (state.routes[state.index].name === action.payload.name && action.payload.key === undefined || state.routes[state.index].key === action.payload.key) {
+              index = state.index;
+            } else {
+              for (let i = state.routes.length - 1; i >= 0; i--) {
+                if (state.routes[i].name === action.payload.name && action.payload.key === undefined || state.routes[i].key === action.payload.key) {
+                  index = i;
+                  break;
+                }
+              }
+            }
+
+            if (index === -1 && action.payload.key && action.payload.name === undefined) {
+              return null;
+            }
+
+            if (index === -1 && action.payload.name !== undefined) {
+              var _action$payload$key;
+
+              const routes = [...state.routes, {
+                key: (_action$payload$key = action.payload.key) !== null && _action$payload$key !== void 0 ? _action$payload$key : `${action.payload.name}-${(0, _nonSecure.nanoid)()}`,
+                name: action.payload.name,
+                path: action.payload.path,
+                params: routeParamList[action.payload.name] !== undefined ? { ...routeParamList[action.payload.name],
+                  ...action.payload.params
+                } : action.payload.params
+              }];
+              return { ...state,
+                routes,
+                index: routes.length - 1
+              };
+            }
+
+            const route = state.routes[index];
+            let params;
+
+            if (action.payload.merge) {
+              params = action.payload.params !== undefined || routeParamList[route.name] !== undefined ? { ...routeParamList[route.name],
+                ...route.params,
+                ...action.payload.params
+              } : route.params;
+            } else {
+              params = routeParamList[route.name] !== undefined ? { ...routeParamList[route.name],
+                ...action.payload.params
+              } : action.payload.params;
+            }
+
+            return { ...state,
+              index,
+              routes: [...state.routes.slice(0, index), params !== route.params || action.payload.path && action.payload.path !== route.path ? { ...route,
+                path: (_action$payload$path = action.payload.path) !== null && _action$payload$path !== void 0 ? _action$payload$path : route.path,
+                params
+              } : state.routes[index]]
+            };
+          }
+
+          return null;
+
+        case 'GO_BACK':
+          if (state.index > 0) {
+            return router.getStateForAction(state, {
+              type: 'POP',
+              payload: {
+                count: 1
+              },
+              target: action.target,
+              source: action.source
+            }, options);
+          }
+
+          return null;
+
+        default:
+          return _BaseRouter.default.getStateForAction(state, action);
+      }
+    },
+
+    actionCreators: StackActions
+  };
+  return router;
+}
+},{"nanoid/non-secure":"node_modules/nanoid/non-secure/index.js","./BaseRouter":"node_modules/@react-navigation/routers/lib/module/BaseRouter.js"}],"node_modules/@react-navigation/routers/lib/module/types.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+},{}],"node_modules/@react-navigation/routers/lib/module/index.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var _exportNames = {
+  CommonActions: true,
+  BaseRouter: true,
+  DrawerActions: true,
+  DrawerRouter: true,
+  StackActions: true,
+  StackRouter: true,
+  TabActions: true,
+  TabRouter: true
+};
+Object.defineProperty(exports, "BaseRouter", {
+  enumerable: true,
+  get: function () {
+    return _BaseRouter.default;
+  }
+});
+exports.CommonActions = void 0;
+Object.defineProperty(exports, "DrawerActions", {
+  enumerable: true,
+  get: function () {
+    return _DrawerRouter.DrawerActions;
+  }
+});
+Object.defineProperty(exports, "DrawerRouter", {
+  enumerable: true,
+  get: function () {
+    return _DrawerRouter.default;
+  }
+});
+Object.defineProperty(exports, "StackActions", {
+  enumerable: true,
+  get: function () {
+    return _StackRouter.StackActions;
+  }
+});
+Object.defineProperty(exports, "StackRouter", {
+  enumerable: true,
+  get: function () {
+    return _StackRouter.default;
+  }
+});
+Object.defineProperty(exports, "TabActions", {
+  enumerable: true,
+  get: function () {
+    return _TabRouter.TabActions;
+  }
+});
+Object.defineProperty(exports, "TabRouter", {
+  enumerable: true,
+  get: function () {
+    return _TabRouter.default;
+  }
+});
+
+var CommonActions = _interopRequireWildcard(require("./CommonActions"));
+
+exports.CommonActions = CommonActions;
+
+var _BaseRouter = _interopRequireDefault(require("./BaseRouter"));
+
+var _DrawerRouter = _interopRequireWildcard(require("./DrawerRouter"));
+
+var _StackRouter = _interopRequireWildcard(require("./StackRouter"));
+
+var _TabRouter = _interopRequireWildcard(require("./TabRouter"));
+
+var _types = require("./types");
+
+Object.keys(_types).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _types[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _types[key];
+    }
+  });
+});
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+},{"./CommonActions":"node_modules/@react-navigation/routers/lib/module/CommonActions.js","./BaseRouter":"node_modules/@react-navigation/routers/lib/module/BaseRouter.js","./DrawerRouter":"node_modules/@react-navigation/routers/lib/module/DrawerRouter.js","./StackRouter":"node_modules/@react-navigation/routers/lib/module/StackRouter.js","./TabRouter":"node_modules/@react-navigation/routers/lib/module/TabRouter.js","./types":"node_modules/@react-navigation/routers/lib/module/types.js"}],"node_modules/@react-navigation/core/lib/module/checkDuplicateRouteNames.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = checkDuplicateRouteNames;
+
+function checkDuplicateRouteNames(state) {
+  const duplicates = [];
+
+  const getRouteNames = (location, state) => {
+    state.routes.forEach(route => {
+      var _route$state, _route$state$routeNam;
+
+      const currentLocation = location ? `${location} > ${route.name}` : route.name;
+      (_route$state = route.state) === null || _route$state === void 0 ? void 0 : (_route$state$routeNam = _route$state.routeNames) === null || _route$state$routeNam === void 0 ? void 0 : _route$state$routeNam.forEach(routeName => {
+        if (routeName === route.name) {
+          duplicates.push([currentLocation, `${currentLocation} > ${route.name}`]);
+        }
+      });
+
+      if (route.state) {
+        getRouteNames(currentLocation, route.state);
+      }
+    });
+  };
+
+  getRouteNames('', state);
+  return duplicates;
+}
+},{}],"node_modules/@react-navigation/core/lib/module/checkSerializable.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = checkSerializable;
+
+const checkSerializableWithoutCircularReference = (o, seen, location) => {
+  if (o === undefined || o === null || typeof o === 'boolean' || typeof o === 'number' || typeof o === 'string') {
+    return {
+      serializable: true
+    };
+  }
+
+  if (Object.prototype.toString.call(o) !== '[object Object]' && !Array.isArray(o)) {
+    return {
+      serializable: false,
+      location,
+      reason: typeof o === 'function' ? 'Function' : String(o)
+    };
+  }
+
+  if (seen.has(o)) {
+    return {
+      serializable: false,
+      reason: 'Circular reference',
+      location
+    };
+  }
+
+  seen.add(o);
+
+  if (Array.isArray(o)) {
+    for (let i = 0; i < o.length; i++) {
+      const childResult = checkSerializableWithoutCircularReference(o[i], new Set(seen), [...location, i]);
+
+      if (!childResult.serializable) {
+        return childResult;
+      }
+    }
+  } else {
+    for (const key in o) {
+      const childResult = checkSerializableWithoutCircularReference(o[key], new Set(seen), [...location, key]);
+
+      if (!childResult.serializable) {
+        return childResult;
+      }
+    }
+  }
+
+  return {
+    serializable: true
+  };
+};
+
+function checkSerializable(o) {
+  return checkSerializableWithoutCircularReference(o, new Set(), []);
+}
+},{}],"node_modules/@react-navigation/core/lib/module/createNavigationContainerRef.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.NOT_INITIALIZED_ERROR = void 0;
+exports.default = createNavigationContainerRef;
+
+var _routers = require("@react-navigation/routers");
+
+const NOT_INITIALIZED_ERROR = "The 'navigation' object hasn't been initialized yet. This might happen if you don't have a navigator mounted, or if the navigator hasn't finished mounting. See https://reactnavigation.org/docs/navigating-without-navigation-prop#handling-initialization for more details.";
+exports.NOT_INITIALIZED_ERROR = NOT_INITIALIZED_ERROR;
+
+function createNavigationContainerRef() {
+  const methods = [...Object.keys(_routers.CommonActions), 'addListener', 'removeListener', 'resetRoot', 'dispatch', 'isFocused', 'canGoBack', 'getRootState', 'getState', 'getParent', 'getCurrentRoute', 'getCurrentOptions'];
+  const listeners = {};
+
+  const removeListener = (event, callback) => {
+    var _listeners$event;
+
+    listeners[event] = (_listeners$event = listeners[event]) === null || _listeners$event === void 0 ? void 0 : _listeners$event.filter(cb => cb !== callback);
+  };
+
+  let current = null;
+  const ref = {
+    get current() {
+      return current;
+    },
+
+    set current(value) {
+      current = value;
+
+      if (value != null) {
+        Object.entries(listeners).forEach(([event, callbacks]) => {
+          callbacks.forEach(callback => {
+            value.addListener(event, callback);
+          });
+        });
+      }
+    },
+
+    isReady: () => {
+      if (current == null) {
+        return false;
+      }
+
+      return current.isReady();
+    },
+    ...methods.reduce((acc, name) => {
+      acc[name] = (...args) => {
+        if (current == null) {
+          switch (name) {
+            case 'addListener':
+              {
+                const [event, callback] = args;
+                listeners[event] = listeners[event] || [];
+                listeners[event].push(callback);
+                return () => removeListener(event, callback);
+              }
+
+            case 'removeListener':
+              {
+                const [event, callback] = args;
+                removeListener(event, callback);
+                break;
+              }
+
+            default:
+              console.error(NOT_INITIALIZED_ERROR);
+          }
+        } else {
+          // @ts-expect-error: this is ok
+          return current[name](...args);
+        }
+      };
+
+      return acc;
+    }, {})
+  };
+  return ref;
+}
+},{"@react-navigation/routers":"node_modules/@react-navigation/routers/lib/module/index.js"}],"node_modules/@react-navigation/core/lib/module/EnsureSingleNavigator.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.SingleNavigatorContext = void 0;
+exports.default = EnsureSingleNavigator;
+
+var React = _interopRequireWildcard(require("react"));
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+const MULTIPLE_NAVIGATOR_ERROR = `Another navigator is already registered for this container. You likely have multiple navigators under a single "NavigationContainer" or "Screen". Make sure each navigator is under a separate "Screen" container. See https://reactnavigation.org/docs/nesting-navigators for a guide on nesting.`;
+const SingleNavigatorContext = /*#__PURE__*/React.createContext(undefined);
+/**
+ * Component which ensures that there's only one navigator nested under it.
+ */
+
+exports.SingleNavigatorContext = SingleNavigatorContext;
+
+function EnsureSingleNavigator({
+  children
+}) {
+  const navigatorKeyRef = React.useRef();
+  const value = React.useMemo(() => ({
+    register(key) {
+      const currentKey = navigatorKeyRef.current;
+
+      if (currentKey !== undefined && key !== currentKey) {
+        throw new Error(MULTIPLE_NAVIGATOR_ERROR);
+      }
+
+      navigatorKeyRef.current = key;
+    },
+
+    unregister(key) {
+      const currentKey = navigatorKeyRef.current;
+
+      if (key !== currentKey) {
+        return;
+      }
+
+      navigatorKeyRef.current = undefined;
+    }
+
+  }), []);
+  return /*#__PURE__*/React.createElement(SingleNavigatorContext.Provider, {
+    value: value
+  }, children);
+}
+},{"react":"node_modules/react/index.js"}],"node_modules/@react-navigation/core/lib/module/findFocusedRoute.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = findFocusedRoute;
+
+function findFocusedRoute(state) {
+  var _current2, _current$index3, _current3;
+
+  let current = state;
+
+  while (((_current = current) === null || _current === void 0 ? void 0 : _current.routes[(_current$index = current.index) !== null && _current$index !== void 0 ? _current$index : 0].state) != null) {
+    var _current, _current$index, _current$index2;
+
+    current = current.routes[(_current$index2 = current.index) !== null && _current$index2 !== void 0 ? _current$index2 : 0].state;
+  }
+
+  const route = (_current2 = current) === null || _current2 === void 0 ? void 0 : _current2.routes[(_current$index3 = (_current3 = current) === null || _current3 === void 0 ? void 0 : _current3.index) !== null && _current$index3 !== void 0 ? _current$index3 : 0];
+  return route;
+}
+},{}],"node_modules/@react-navigation/core/lib/module/NavigationBuilderContext.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(require("react"));
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/**
+ * Context which holds the required helpers needed to build nested navigators.
+ */
+const NavigationBuilderContext = /*#__PURE__*/React.createContext({
+  onDispatchAction: () => undefined,
+  onOptionsChange: () => undefined
+});
+var _default = NavigationBuilderContext;
+exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"node_modules/@react-navigation/core/lib/module/NavigationContainerRefContext.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(require("react"));
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/**
+ * Context which holds the route prop for a screen.
+ */
+const NavigationContainerRefContext = /*#__PURE__*/React.createContext(undefined);
+var _default = NavigationContainerRefContext;
+exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"node_modules/@react-navigation/core/lib/module/NavigationContext.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(require("react"));
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/**
+ * Context which holds the navigation prop for a screen.
+ */
+const NavigationContext = /*#__PURE__*/React.createContext(undefined);
+var _default = NavigationContext;
+exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"node_modules/@react-navigation/core/lib/module/NavigationRouteContext.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(require("react"));
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/**
+ * Context which holds the route prop for a screen.
+ */
+const NavigationRouteContext = /*#__PURE__*/React.createContext(undefined);
+var _default = NavigationRouteContext;
+exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"node_modules/@react-navigation/core/lib/module/NavigationStateContext.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(require("react"));
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+const MISSING_CONTEXT_ERROR = "Couldn't find a navigation context. Have you wrapped your app with 'NavigationContainer'? See https://reactnavigation.org/docs/getting-started for setup instructions.";
+
+var _default = /*#__PURE__*/React.createContext({
+  isDefault: true,
+
+  get getKey() {
+    throw new Error(MISSING_CONTEXT_ERROR);
+  },
+
+  get setKey() {
+    throw new Error(MISSING_CONTEXT_ERROR);
+  },
+
+  get getState() {
+    throw new Error(MISSING_CONTEXT_ERROR);
+  },
+
+  get setState() {
+    throw new Error(MISSING_CONTEXT_ERROR);
+  },
+
+  get getIsInitial() {
+    throw new Error(MISSING_CONTEXT_ERROR);
+  }
+
+});
+
+exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"node_modules/@react-navigation/core/lib/module/UnhandledActionContext.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(require("react"));
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+const UnhandledActionContext = /*#__PURE__*/React.createContext(undefined);
+var _default = UnhandledActionContext;
+exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"node_modules/@react-navigation/core/lib/module/useChildListeners.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useChildListeners;
+
+var React = _interopRequireWildcard(require("react"));
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/**
+ * Hook which lets child navigators add action listeners.
+ */
+function useChildListeners() {
+  const {
+    current: listeners
+  } = React.useRef({
+    action: [],
+    focus: []
+  });
+  const addListener = React.useCallback((type, listener) => {
+    // @ts-expect-error: listener should be correct type according to `type`
+    listeners[type].push(listener);
+    return () => {
+      // @ts-expect-error: listener should be correct type according to `type`
+      const index = listeners[type].indexOf(listener);
+      listeners[type].splice(index, 1);
+    };
+  }, [listeners]);
+  return {
+    listeners,
+    addListener
+  };
+}
+},{"react":"node_modules/react/index.js"}],"node_modules/@react-navigation/core/lib/module/useEventEmitter.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useEventEmitter;
+
+var React = _interopRequireWildcard(require("react"));
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/**
+ * Hook to manage the event system used by the navigator to notify screens of various events.
+ */
+function useEventEmitter(listen) {
+  const listenRef = React.useRef(listen);
+  React.useEffect(() => {
+    listenRef.current = listen;
+  });
+  const listeners = React.useRef({});
+  const create = React.useCallback(target => {
+    const removeListener = (type, callback) => {
+      const callbacks = listeners.current[type] ? listeners.current[type][target] : undefined;
+
+      if (!callbacks) {
+        return;
+      }
+
+      const index = callbacks.indexOf(callback);
+      callbacks.splice(index, 1);
+    };
+
+    const addListener = (type, callback) => {
+      listeners.current[type] = listeners.current[type] || {};
+      listeners.current[type][target] = listeners.current[type][target] || [];
+      listeners.current[type][target].push(callback);
+      return () => removeListener(type, callback);
+    };
+
+    return {
+      addListener,
+      removeListener
+    };
+  }, []);
+  const emit = React.useCallback(({
+    type,
+    data,
+    target,
+    canPreventDefault
+  }) => {
+    var _items$target, _listenRef$current;
+
+    const items = listeners.current[type] || {}; // Copy the current list of callbacks in case they are mutated during execution
+
+    const callbacks = target !== undefined ? (_items$target = items[target]) === null || _items$target === void 0 ? void 0 : _items$target.slice() : [].concat(...Object.keys(items).map(t => items[t])).filter((cb, i, self) => self.lastIndexOf(cb) === i);
+    const event = {
+      get type() {
+        return type;
+      }
+
+    };
+
+    if (target !== undefined) {
+      Object.defineProperty(event, 'target', {
+        enumerable: true,
+
+        get() {
+          return target;
+        }
+
+      });
+    }
+
+    if (data !== undefined) {
+      Object.defineProperty(event, 'data', {
+        enumerable: true,
+
+        get() {
+          return data;
+        }
+
+      });
+    }
+
+    if (canPreventDefault) {
+      let defaultPrevented = false;
+      Object.defineProperties(event, {
+        defaultPrevented: {
+          enumerable: true,
+
+          get() {
+            return defaultPrevented;
+          }
+
+        },
+        preventDefault: {
+          enumerable: true,
+
+          value() {
+            defaultPrevented = true;
+          }
+
+        }
+      });
+    }
+
+    (_listenRef$current = listenRef.current) === null || _listenRef$current === void 0 ? void 0 : _listenRef$current.call(listenRef, event);
+    callbacks === null || callbacks === void 0 ? void 0 : callbacks.forEach(cb => cb(event));
+    return event;
+  }, []);
+  return React.useMemo(() => ({
+    create,
+    emit
+  }), [create, emit]);
+}
+},{"react":"node_modules/react/index.js"}],"node_modules/@react-navigation/core/lib/module/useKeyedChildListeners.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useKeyedChildListeners;
+
+var React = _interopRequireWildcard(require("react"));
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/**
+ * Hook which lets child navigators add getters to be called for obtaining rehydrated state.
+ */
+function useKeyedChildListeners() {
+  const {
+    current: keyedListeners
+  } = React.useRef({
+    getState: {},
+    beforeRemove: {}
+  });
+  const addKeyedListener = React.useCallback((type, key, listener) => {
+    keyedListeners[type][key] = listener;
+    return () => {
+      keyedListeners[type][key] = undefined;
+    };
+  }, [keyedListeners]);
+  return {
+    keyedListeners,
+    addKeyedListener
+  };
+}
+},{"react":"node_modules/react/index.js"}],"node_modules/@react-navigation/core/lib/module/useOptionsGetters.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useOptionsGetters;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _NavigationBuilderContext = _interopRequireDefault(require("./NavigationBuilderContext"));
+
+var _NavigationStateContext = _interopRequireDefault(require("./NavigationStateContext"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function useOptionsGetters({
+  key,
+  options,
+  navigation
+}) {
+  const optionsRef = React.useRef(options);
+  const optionsGettersFromChildRef = React.useRef({});
+  const {
+    onOptionsChange
+  } = React.useContext(_NavigationBuilderContext.default);
+  const {
+    addOptionsGetter: parentAddOptionsGetter
+  } = React.useContext(_NavigationStateContext.default);
+  const optionsChangeListener = React.useCallback(() => {
+    var _navigation$isFocused;
+
+    const isFocused = (_navigation$isFocused = navigation === null || navigation === void 0 ? void 0 : navigation.isFocused()) !== null && _navigation$isFocused !== void 0 ? _navigation$isFocused : true;
+    const hasChildren = Object.keys(optionsGettersFromChildRef.current).length;
+
+    if (isFocused && !hasChildren) {
+      var _optionsRef$current;
+
+      onOptionsChange((_optionsRef$current = optionsRef.current) !== null && _optionsRef$current !== void 0 ? _optionsRef$current : {});
+    }
+  }, [navigation, onOptionsChange]);
+  React.useEffect(() => {
+    optionsRef.current = options;
+    optionsChangeListener();
+    return navigation === null || navigation === void 0 ? void 0 : navigation.addListener('focus', optionsChangeListener);
+  }, [navigation, options, optionsChangeListener]);
+  const getOptionsFromListener = React.useCallback(() => {
+    for (let key in optionsGettersFromChildRef.current) {
+      if (optionsGettersFromChildRef.current.hasOwnProperty(key)) {
+        var _optionsGettersFromCh, _optionsGettersFromCh2;
+
+        const result = (_optionsGettersFromCh = (_optionsGettersFromCh2 = optionsGettersFromChildRef.current)[key]) === null || _optionsGettersFromCh === void 0 ? void 0 : _optionsGettersFromCh.call(_optionsGettersFromCh2); // null means unfocused route
+
+        if (result !== null) {
+          return result;
+        }
+      }
+    }
+
+    return null;
+  }, []);
+  const getCurrentOptions = React.useCallback(() => {
+    var _navigation$isFocused2;
+
+    const isFocused = (_navigation$isFocused2 = navigation === null || navigation === void 0 ? void 0 : navigation.isFocused()) !== null && _navigation$isFocused2 !== void 0 ? _navigation$isFocused2 : true;
+
+    if (!isFocused) {
+      return null;
+    }
+
+    const optionsFromListener = getOptionsFromListener();
+
+    if (optionsFromListener !== null) {
+      return optionsFromListener;
+    }
+
+    return optionsRef.current;
+  }, [navigation, getOptionsFromListener]);
+  React.useEffect(() => {
+    return parentAddOptionsGetter === null || parentAddOptionsGetter === void 0 ? void 0 : parentAddOptionsGetter(key, getCurrentOptions);
+  }, [getCurrentOptions, parentAddOptionsGetter, key]);
+  const addOptionsGetter = React.useCallback((key, getter) => {
+    optionsGettersFromChildRef.current[key] = getter;
+    optionsChangeListener();
+    return () => {
+      // eslint-disable-next-line @typescript-eslint/no-dynamic-delete
+      delete optionsGettersFromChildRef.current[key];
+      optionsChangeListener();
+    };
+  }, [optionsChangeListener]);
+  return {
+    addOptionsGetter,
+    getCurrentOptions
+  };
+}
+},{"react":"node_modules/react/index.js","./NavigationBuilderContext":"node_modules/@react-navigation/core/lib/module/NavigationBuilderContext.js","./NavigationStateContext":"node_modules/@react-navigation/core/lib/module/NavigationStateContext.js"}],"node_modules/@react-navigation/core/lib/module/useScheduleUpdate.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.ScheduleUpdateContext = void 0;
+exports.default = useScheduleUpdate;
+
+var React = _interopRequireWildcard(require("react"));
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+const MISSING_CONTEXT_ERROR = "Couldn't find a schedule context.";
+const ScheduleUpdateContext = /*#__PURE__*/React.createContext({
+  scheduleUpdate() {
+    throw new Error(MISSING_CONTEXT_ERROR);
+  },
+
+  flushUpdates() {
+    throw new Error(MISSING_CONTEXT_ERROR);
+  }
+
+});
+/**
+ * When screen config changes, we want to update the navigator in the same update phase.
+ * However, navigation state is in the root component and React won't let us update it from a child.
+ * This is a workaround for that, the scheduled update is stored in the ref without actually calling setState.
+ * It lets all subsequent updates access the latest state so it stays correct.
+ * Then we call setState during after the component updates.
+ */
+
+exports.ScheduleUpdateContext = ScheduleUpdateContext;
+
+function useScheduleUpdate(callback) {
+  const {
+    scheduleUpdate,
+    flushUpdates
+  } = React.useContext(ScheduleUpdateContext);
+  scheduleUpdate(callback);
+  React.useEffect(flushUpdates);
+}
+},{"react":"node_modules/react/index.js"}],"node_modules/@react-navigation/core/lib/module/useSyncState.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useSyncState;
+
+var React = _interopRequireWildcard(require("react"));
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+const UNINTIALIZED_STATE = {};
+/**
+ * This is definitely not compatible with concurrent mode, but we don't have a solution for sync state yet.
+ */
+
+function useSyncState(initialState) {
+  const stateRef = React.useRef(UNINTIALIZED_STATE);
+  const isSchedulingRef = React.useRef(false);
+  const isMountedRef = React.useRef(true);
+  React.useEffect(() => {
+    isMountedRef.current = true;
+    return () => {
+      isMountedRef.current = false;
+    };
+  }, []);
+
+  if (stateRef.current === UNINTIALIZED_STATE) {
+    stateRef.current = // @ts-expect-error: initialState is a function, but TypeScript doesn't think so
+    typeof initialState === 'function' ? initialState() : initialState;
+  }
+
+  const [trackingState, setTrackingState] = React.useState(stateRef.current);
+  const getState = React.useCallback(() => stateRef.current, []);
+  const setState = React.useCallback(state => {
+    if (state === stateRef.current || !isMountedRef.current) {
+      return;
+    }
+
+    stateRef.current = state;
+
+    if (!isSchedulingRef.current) {
+      setTrackingState(state);
+    }
+  }, []);
+  const scheduleUpdate = React.useCallback(callback => {
+    isSchedulingRef.current = true;
+
+    try {
+      callback();
+    } finally {
+      isSchedulingRef.current = false;
+    }
+  }, []);
+  const flushUpdates = React.useCallback(() => {
+    if (!isMountedRef.current) {
+      return;
+    } // Make sure that the tracking state is up-to-date.
+    // We call it unconditionally, but React should skip the update if state is unchanged.
+
+
+    setTrackingState(stateRef.current);
+  }, []); // If we're rendering and the tracking state is out of date, update it immediately
+  // This will make sure that our updates are applied as early as possible.
+
+  if (trackingState !== stateRef.current) {
+    setTrackingState(stateRef.current);
+  }
+
+  const state = stateRef.current;
+  React.useDebugValue(state);
+  return [state, getState, setState, scheduleUpdate, flushUpdates];
+}
+},{"react":"node_modules/react/index.js"}],"node_modules/@react-navigation/core/lib/module/BaseNavigationContainer.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _routers = require("@react-navigation/routers");
+
+var React = _interopRequireWildcard(require("react"));
+
+var _checkDuplicateRouteNames = _interopRequireDefault(require("./checkDuplicateRouteNames"));
+
+var _checkSerializable = _interopRequireDefault(require("./checkSerializable"));
+
+var _createNavigationContainerRef = require("./createNavigationContainerRef");
+
+var _EnsureSingleNavigator = _interopRequireDefault(require("./EnsureSingleNavigator"));
+
+var _findFocusedRoute = _interopRequireDefault(require("./findFocusedRoute"));
+
+var _NavigationBuilderContext = _interopRequireDefault(require("./NavigationBuilderContext"));
+
+var _NavigationContainerRefContext = _interopRequireDefault(require("./NavigationContainerRefContext"));
+
+var _NavigationContext = _interopRequireDefault(require("./NavigationContext"));
+
+var _NavigationRouteContext = _interopRequireDefault(require("./NavigationRouteContext"));
+
+var _NavigationStateContext = _interopRequireDefault(require("./NavigationStateContext"));
+
+var _UnhandledActionContext = _interopRequireDefault(require("./UnhandledActionContext"));
+
+var _useChildListeners = _interopRequireDefault(require("./useChildListeners"));
+
+var _useEventEmitter = _interopRequireDefault(require("./useEventEmitter"));
+
+var _useKeyedChildListeners = _interopRequireDefault(require("./useKeyedChildListeners"));
+
+var _useOptionsGetters = _interopRequireDefault(require("./useOptionsGetters"));
+
+var _useScheduleUpdate = require("./useScheduleUpdate");
+
+var _useSyncState = _interopRequireDefault(require("./useSyncState"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+const serializableWarnings = [];
+const duplicateNameWarnings = [];
+/**
+ * Remove `key` and `routeNames` from the state objects recursively to get partial state.
+ *
+ * @param state Initial state object.
+ */
+
+const getPartialState = state => {
+  if (state === undefined) {
+    return;
+  } // eslint-disable-next-line @typescript-eslint/no-unused-vars
+
+
+  const {
+    key,
+    routeNames,
+    ...partialState
+  } = state;
+  return { ...partialState,
+    stale: true,
+    routes: state.routes.map(route => {
+      if (route.state === undefined) {
+        return route;
+      }
+
+      return { ...route,
+        state: getPartialState(route.state)
+      };
+    })
+  };
+};
+/**
+ * Container component which holds the navigation state.
+ * This should be rendered at the root wrapping the whole app.
+ *
+ * @param props.initialState Initial state object for the navigation tree.
+ * @param props.onStateChange Callback which is called with the latest navigation state when it changes.
+ * @param props.children Child elements to render the content.
+ * @param props.ref Ref object which refers to the navigation object containing helper methods.
+ */
+
+
+const BaseNavigationContainer = /*#__PURE__*/React.forwardRef(function BaseNavigationContainer({
+  initialState,
+  onStateChange,
+  onUnhandledAction,
+  independent,
+  children
+}, ref) {
+  const parent = React.useContext(_NavigationStateContext.default);
+
+  if (!parent.isDefault && !independent) {
+    throw new Error("Looks like you have nested a 'NavigationContainer' inside another. Normally you need only one container at the root of the app, so this was probably an error. If this was intentional, pass 'independent={true}' explicitly. Note that this will make the child navigators disconnected from the parent and you won't be able to navigate between them.");
+  }
+
+  const [state, getState, setState, scheduleUpdate, flushUpdates] = (0, _useSyncState.default)(() => getPartialState(initialState == null ? undefined : initialState));
+  const isFirstMountRef = React.useRef(true);
+  const navigatorKeyRef = React.useRef();
+  const getKey = React.useCallback(() => navigatorKeyRef.current, []);
+  const setKey = React.useCallback(key => {
+    navigatorKeyRef.current = key;
+  }, []);
+  const {
+    listeners,
+    addListener
+  } = (0, _useChildListeners.default)();
+  const {
+    keyedListeners,
+    addKeyedListener
+  } = (0, _useKeyedChildListeners.default)();
+  const dispatch = React.useCallback(action => {
+    if (listeners.focus[0] == null) {
+      console.error(_createNavigationContainerRef.NOT_INITIALIZED_ERROR);
+    } else {
+      listeners.focus[0](navigation => navigation.dispatch(action));
+    }
+  }, [listeners.focus]);
+  const canGoBack = React.useCallback(() => {
+    if (listeners.focus[0] == null) {
+      return false;
+    }
+
+    const {
+      result,
+      handled
+    } = listeners.focus[0](navigation => navigation.canGoBack());
+
+    if (handled) {
+      return result;
+    } else {
+      return false;
+    }
+  }, [listeners.focus]);
+  const resetRoot = React.useCallback(state => {
+    var _state$key, _keyedListeners$getSt, _keyedListeners$getSt2;
+
+    const target = (_state$key = state === null || state === void 0 ? void 0 : state.key) !== null && _state$key !== void 0 ? _state$key : (_keyedListeners$getSt = (_keyedListeners$getSt2 = keyedListeners.getState).root) === null || _keyedListeners$getSt === void 0 ? void 0 : _keyedListeners$getSt.call(_keyedListeners$getSt2).key;
+
+    if (target == null) {
+      console.error(_createNavigationContainerRef.NOT_INITIALIZED_ERROR);
+    } else {
+      listeners.focus[0](navigation => navigation.dispatch({ ..._routers.CommonActions.reset(state),
+        target
+      }));
+    }
+  }, [keyedListeners.getState, listeners.focus]);
+  const getRootState = React.useCallback(() => {
+    var _keyedListeners$getSt3, _keyedListeners$getSt4;
+
+    return (_keyedListeners$getSt3 = (_keyedListeners$getSt4 = keyedListeners.getState).root) === null || _keyedListeners$getSt3 === void 0 ? void 0 : _keyedListeners$getSt3.call(_keyedListeners$getSt4);
+  }, [keyedListeners.getState]);
+  const getCurrentRoute = React.useCallback(() => {
+    const state = getRootState();
+
+    if (state == null) {
+      return undefined;
+    }
+
+    const route = (0, _findFocusedRoute.default)(state);
+    return route;
+  }, [getRootState]);
+  const emitter = (0, _useEventEmitter.default)();
+  const {
+    addOptionsGetter,
+    getCurrentOptions
+  } = (0, _useOptionsGetters.default)({});
+  const navigation = React.useMemo(() => ({ ...Object.keys(_routers.CommonActions).reduce((acc, name) => {
+      acc[name] = (...args) => // @ts-expect-error: this is ok
+      dispatch(_routers.CommonActions[name](...args));
+
+      return acc;
+    }, {}),
+    ...emitter.create('root'),
+    dispatch,
+    resetRoot,
+    isFocused: () => true,
+    canGoBack,
+    getParent: () => undefined,
+    getState: () => stateRef.current,
+    getRootState,
+    getCurrentRoute,
+    getCurrentOptions,
+    isReady: () => listeners.focus[0] != null
+  }), [canGoBack, dispatch, emitter, getCurrentOptions, getCurrentRoute, getRootState, listeners.focus, resetRoot]);
+  React.useImperativeHandle(ref, () => navigation, [navigation]);
+  const onDispatchAction = React.useCallback((action, noop) => {
+    emitter.emit({
+      type: '__unsafe_action__',
+      data: {
+        action,
+        noop,
+        stack: stackRef.current
+      }
+    });
+  }, [emitter]);
+  const lastEmittedOptionsRef = React.useRef();
+  const onOptionsChange = React.useCallback(options => {
+    if (lastEmittedOptionsRef.current === options) {
+      return;
+    }
+
+    lastEmittedOptionsRef.current = options;
+    emitter.emit({
+      type: 'options',
+      data: {
+        options
+      }
+    });
+  }, [emitter]);
+  const stackRef = React.useRef();
+  const builderContext = React.useMemo(() => ({
+    addListener,
+    addKeyedListener,
+    onDispatchAction,
+    onOptionsChange,
+    stackRef
+  }), [addListener, addKeyedListener, onDispatchAction, onOptionsChange]);
+  const scheduleContext = React.useMemo(() => ({
+    scheduleUpdate,
+    flushUpdates
+  }), [scheduleUpdate, flushUpdates]);
+  const isInitialRef = React.useRef(true);
+  const getIsInitial = React.useCallback(() => isInitialRef.current, []);
+  const context = React.useMemo(() => ({
+    state,
+    getState,
+    setState,
+    getKey,
+    setKey,
+    getIsInitial,
+    addOptionsGetter
+  }), [state, getState, setState, getKey, setKey, getIsInitial, addOptionsGetter]);
+  const onStateChangeRef = React.useRef(onStateChange);
+  const stateRef = React.useRef(state);
+  React.useEffect(() => {
+    isInitialRef.current = false;
+    onStateChangeRef.current = onStateChange;
+    stateRef.current = state;
+  });
+  React.useEffect(() => {
+    const hydratedState = getRootState();
+
+    if ("development" !== 'production') {
+      if (hydratedState !== undefined) {
+        const serializableResult = (0, _checkSerializable.default)(hydratedState);
+
+        if (!serializableResult.serializable) {
+          const {
+            location,
+            reason
+          } = serializableResult;
+          let path = '';
+          let pointer = hydratedState;
+          let params = false;
+
+          for (let i = 0; i < location.length; i++) {
+            const curr = location[i];
+            const prev = location[i - 1];
+            pointer = pointer[curr];
+
+            if (!params && curr === 'state') {
+              continue;
+            } else if (!params && curr === 'routes') {
+              if (path) {
+                path += ' > ';
+              }
+            } else if (!params && typeof curr === 'number' && prev === 'routes') {
+              var _pointer;
+
+              path += (_pointer = pointer) === null || _pointer === void 0 ? void 0 : _pointer.name;
+            } else if (!params) {
+              path += ` > ${curr}`;
+              params = true;
+            } else {
+              if (typeof curr === 'number' || /^[0-9]+$/.test(curr)) {
+                path += `[${curr}]`;
+              } else if (/^[a-z$_]+$/i.test(curr)) {
+                path += `.${curr}`;
+              } else {
+                path += `[${JSON.stringify(curr)}]`;
+              }
+            }
+          }
+
+          const message = `Non-serializable values were found in the navigation state. Check:\n\n${path} (${reason})\n\nThis can break usage such as persisting and restoring state. This might happen if you passed non-serializable values such as function, class instances etc. in params. If you need to use components with callbacks in your options, you can use 'navigation.setOptions' instead. See https://reactnavigation.org/docs/troubleshooting#i-get-the-warning-non-serializable-values-were-found-in-the-navigation-state for more details.`;
+
+          if (!serializableWarnings.includes(message)) {
+            serializableWarnings.push(message);
+            console.warn(message);
+          }
+        }
+
+        const duplicateRouteNamesResult = (0, _checkDuplicateRouteNames.default)(hydratedState);
+
+        if (duplicateRouteNamesResult.length) {
+          const message = `Found screens with the same name nested inside one another. Check:\n${duplicateRouteNamesResult.map(locations => `\n${locations.join(', ')}`)}\n\nThis can cause confusing behavior during navigation. Consider using unique names for each screen instead.`;
+
+          if (!duplicateNameWarnings.includes(message)) {
+            duplicateNameWarnings.push(message);
+            console.warn(message);
+          }
+        }
+      }
+    }
+
+    emitter.emit({
+      type: 'state',
+      data: {
+        state
+      }
+    });
+
+    if (!isFirstMountRef.current && onStateChangeRef.current) {
+      onStateChangeRef.current(hydratedState);
+    }
+
+    isFirstMountRef.current = false;
+  }, [getRootState, emitter, state]);
+  const defaultOnUnhandledAction = React.useCallback(action => {
+    if ("development" === 'production') {
+      return;
+    }
+
+    const payload = action.payload;
+    let message = `The action '${action.type}'${payload ? ` with payload ${JSON.stringify(action.payload)}` : ''} was not handled by any navigator.`;
+
+    switch (action.type) {
+      case 'NAVIGATE':
+      case 'PUSH':
+      case 'REPLACE':
+      case 'JUMP_TO':
+        if (payload !== null && payload !== void 0 && payload.name) {
+          message += `\n\nDo you have a screen named '${payload.name}'?\n\nIf you're trying to navigate to a screen in a nested navigator, see https://reactnavigation.org/docs/nesting-navigators#navigating-to-a-screen-in-a-nested-navigator.`;
+        } else {
+          message += `\n\nYou need to pass the name of the screen to navigate to.\n\nSee https://reactnavigation.org/docs/navigation-actions for usage.`;
+        }
+
+        break;
+
+      case 'GO_BACK':
+      case 'POP':
+      case 'POP_TO_TOP':
+        message += `\n\nIs there any screen to go back to?`;
+        break;
+
+      case 'OPEN_DRAWER':
+      case 'CLOSE_DRAWER':
+      case 'TOGGLE_DRAWER':
+        message += `\n\nIs your screen inside a Drawer navigator?`;
+        break;
+    }
+
+    message += `\n\nThis is a development-only warning and won't be shown in production.`;
+    console.error(message);
+  }, []);
+  let element = /*#__PURE__*/React.createElement(_NavigationContainerRefContext.default.Provider, {
+    value: navigation
+  }, /*#__PURE__*/React.createElement(_useScheduleUpdate.ScheduleUpdateContext.Provider, {
+    value: scheduleContext
+  }, /*#__PURE__*/React.createElement(_NavigationBuilderContext.default.Provider, {
+    value: builderContext
+  }, /*#__PURE__*/React.createElement(_NavigationStateContext.default.Provider, {
+    value: context
+  }, /*#__PURE__*/React.createElement(_UnhandledActionContext.default.Provider, {
+    value: onUnhandledAction !== null && onUnhandledAction !== void 0 ? onUnhandledAction : defaultOnUnhandledAction
+  }, /*#__PURE__*/React.createElement(_EnsureSingleNavigator.default, null, children))))));
+
+  if (independent) {
+    // We need to clear any existing contexts for nested independent container to work correctly
+    element = /*#__PURE__*/React.createElement(_NavigationRouteContext.default.Provider, {
+      value: undefined
+    }, /*#__PURE__*/React.createElement(_NavigationContext.default.Provider, {
+      value: undefined
+    }, element));
+  }
+
+  return element;
+});
+var _default = BaseNavigationContainer;
+exports.default = _default;
+},{"@react-navigation/routers":"node_modules/@react-navigation/routers/lib/module/index.js","react":"node_modules/react/index.js","./checkDuplicateRouteNames":"node_modules/@react-navigation/core/lib/module/checkDuplicateRouteNames.js","./checkSerializable":"node_modules/@react-navigation/core/lib/module/checkSerializable.js","./createNavigationContainerRef":"node_modules/@react-navigation/core/lib/module/createNavigationContainerRef.js","./EnsureSingleNavigator":"node_modules/@react-navigation/core/lib/module/EnsureSingleNavigator.js","./findFocusedRoute":"node_modules/@react-navigation/core/lib/module/findFocusedRoute.js","./NavigationBuilderContext":"node_modules/@react-navigation/core/lib/module/NavigationBuilderContext.js","./NavigationContainerRefContext":"node_modules/@react-navigation/core/lib/module/NavigationContainerRefContext.js","./NavigationContext":"node_modules/@react-navigation/core/lib/module/NavigationContext.js","./NavigationRouteContext":"node_modules/@react-navigation/core/lib/module/NavigationRouteContext.js","./NavigationStateContext":"node_modules/@react-navigation/core/lib/module/NavigationStateContext.js","./UnhandledActionContext":"node_modules/@react-navigation/core/lib/module/UnhandledActionContext.js","./useChildListeners":"node_modules/@react-navigation/core/lib/module/useChildListeners.js","./useEventEmitter":"node_modules/@react-navigation/core/lib/module/useEventEmitter.js","./useKeyedChildListeners":"node_modules/@react-navigation/core/lib/module/useKeyedChildListeners.js","./useOptionsGetters":"node_modules/@react-navigation/core/lib/module/useOptionsGetters.js","./useScheduleUpdate":"node_modules/@react-navigation/core/lib/module/useScheduleUpdate.js","./useSyncState":"node_modules/@react-navigation/core/lib/module/useSyncState.js"}],"node_modules/@react-navigation/core/lib/module/Group.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Group;
+
+/**
+ * Empty component used for grouping screen configs.
+ */
+function Group(_) {
+  /* istanbul ignore next */
+  return null;
+}
+},{}],"node_modules/@react-navigation/core/lib/module/Screen.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Screen;
+
+/**
+ * Empty component used for specifying route configuration.
+ */
+function Screen(_) {
+  /* istanbul ignore next */
+  return null;
+}
+},{}],"node_modules/@react-navigation/core/lib/module/createNavigatorFactory.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = createNavigatorFactory;
+
+var _Group = _interopRequireDefault(require("./Group"));
+
+var _Screen = _interopRequireDefault(require("./Screen"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/**
+ * Higher order component to create a `Navigator` and `Screen` pair.
+ * Custom navigators should wrap the navigator component in `createNavigator` before exporting.
+ *
+ * @param Navigator The navigtor component to wrap.
+ * @returns Factory method to create a `Navigator` and `Screen` pair.
+ */
+function createNavigatorFactory(Navigator) {
+  return function () {
+    if (arguments[0] !== undefined) {
+      throw new Error("Creating a navigator doesn't take an argument. Maybe you are trying to use React Navigation 4 API? See https://reactnavigation.org/docs/hello-react-navigation for the latest API and guides.");
+    }
+
+    return {
+      Navigator,
+      Group: _Group.default,
+      Screen: _Screen.default
+    };
+  };
+}
+},{"./Group":"node_modules/@react-navigation/core/lib/module/Group.js","./Screen":"node_modules/@react-navigation/core/lib/module/Screen.js"}],"node_modules/@react-navigation/core/lib/module/CurrentRenderContext.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(require("react"));
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/**
+ * Context which holds the values for the current navigation tree.
+ * Intended for use in SSR. This is not safe to use on the client.
+ */
+const CurrentRenderContext = /*#__PURE__*/React.createContext(undefined);
+var _default = CurrentRenderContext;
+exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"node_modules/@react-navigation/core/lib/module/getActionFromState.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = getActionFromState;
+
+function getActionFromState(state, options) {
+  var _state$index, _normalizedConfig$scr; // Create a normalized configs object which will be easier to use
+
+
+  const normalizedConfig = options ? createNormalizedConfigItem(options) : {};
+  const routes = state.index != null ? state.routes.slice(0, state.index + 1) : state.routes;
+
+  if (routes.length === 0) {
+    return undefined;
+  }
+
+  if (!(routes.length === 1 && routes[0].key === undefined || routes.length === 2 && routes[0].key === undefined && routes[0].name === (normalizedConfig === null || normalizedConfig === void 0 ? void 0 : normalizedConfig.initialRouteName) && routes[1].key === undefined)) {
+    return {
+      type: 'RESET',
+      payload: state
+    };
+  }
+
+  const route = state.routes[(_state$index = state.index) !== null && _state$index !== void 0 ? _state$index : state.routes.length - 1];
+  let current = route === null || route === void 0 ? void 0 : route.state;
+  let config = normalizedConfig === null || normalizedConfig === void 0 ? void 0 : (_normalizedConfig$scr = normalizedConfig.screens) === null || _normalizedConfig$scr === void 0 ? void 0 : _normalizedConfig$scr[route === null || route === void 0 ? void 0 : route.name];
+  let params = { ...route.params
+  };
+  let payload = route ? {
+    name: route.name,
+    path: route.path,
+    params
+  } : undefined;
+
+  while (current) {
+    var _config, _config2, _config2$screens;
+
+    if (current.routes.length === 0) {
+      return undefined;
+    }
+
+    const routes = current.index != null ? current.routes.slice(0, current.index + 1) : current.routes;
+    const route = routes[routes.length - 1]; // Explicitly set to override existing value when merging params
+
+    Object.assign(params, {
+      initial: undefined,
+      screen: undefined,
+      params: undefined,
+      state: undefined
+    });
+
+    if (routes.length === 1 && routes[0].key === undefined) {
+      params.initial = true;
+      params.screen = route.name;
+    } else if (routes.length === 2 && routes[0].key === undefined && routes[0].name === ((_config = config) === null || _config === void 0 ? void 0 : _config.initialRouteName) && routes[1].key === undefined) {
+      params.initial = false;
+      params.screen = route.name;
+    } else {
+      params.state = current;
+      break;
+    }
+
+    if (route.state) {
+      params.params = { ...route.params
+      };
+      params = params.params;
+    } else {
+      params.path = route.path;
+      params.params = route.params;
+    }
+
+    current = route.state;
+    config = (_config2 = config) === null || _config2 === void 0 ? void 0 : (_config2$screens = _config2.screens) === null || _config2$screens === void 0 ? void 0 : _config2$screens[route.name];
+  }
+
+  if (!payload) {
+    return;
+  } // Try to construct payload for a `NAVIGATE` action from the state
+  // This lets us preserve the navigation state and not lose it
+
+
+  return {
+    type: 'NAVIGATE',
+    payload
+  };
+}
+
+const createNormalizedConfigItem = config => typeof config === 'object' && config != null ? {
+  initialRouteName: config.initialRouteName,
+  screens: config.screens != null ? createNormalizedConfigs(config.screens) : undefined
+} : {};
+
+const createNormalizedConfigs = options => Object.entries(options).reduce((acc, [k, v]) => {
+  acc[k] = createNormalizedConfigItem(v);
+  return acc;
+}, {});
+},{}],"node_modules/@react-navigation/core/lib/module/useRouteCache.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.CHILD_STATE = void 0;
+exports.default = useRouteCache;
+
+var React = _interopRequireWildcard(require("react"));
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/**
+ * Utilites such as `getFocusedRouteNameFromRoute` need to access state.
+ * So we need a way to suppress the warning for those use cases.
+ * This is fine since they are internal utilities and this is not public API.
+ */
+const CHILD_STATE = Symbol('CHILD_STATE');
+/**
+ * Hook to cache route props for each screen in the navigator.
+ * This lets add warnings and modifications to the route object but keep references between renders.
+ */
+
+exports.CHILD_STATE = CHILD_STATE;
+
+function useRouteCache(routes) {
+  // Cache object which holds route objects for each screen
+  const cache = React.useMemo(() => ({
+    current: new Map()
+  }), []);
+
+  if ("development" === 'production') {
+    // We don't want the overhead of creating extra maps every render in prod
+    return routes;
+  }
+
+  cache.current = routes.reduce((acc, route) => {
+    const previous = cache.current.get(route);
+
+    if (previous) {
+      // If a cached route object already exists, reuse it
+      acc.set(route, previous);
+    } else {
+      const {
+        state,
+        ...proxy
+      } = route;
+      Object.defineProperty(proxy, CHILD_STATE, {
+        enumerable: false,
+        value: state
+      });
+      acc.set(route, proxy);
+    }
+
+    return acc;
+  }, new Map());
+  return Array.from(cache.current.values());
+}
+},{"react":"node_modules/react/index.js"}],"node_modules/@react-navigation/core/lib/module/getFocusedRouteNameFromRoute.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = getFocusedRouteNameFromRoute;
+
+var _useRouteCache = require("./useRouteCache");
+
+function getFocusedRouteNameFromRoute(route) {
+  var _route$CHILD_STATE, _state$index; // @ts-expect-error: this isn't in type definitions coz we want this private
+
+
+  const state = (_route$CHILD_STATE = route[_useRouteCache.CHILD_STATE]) !== null && _route$CHILD_STATE !== void 0 ? _route$CHILD_STATE : route.state;
+  const params = route.params;
+  const routeName = state ? // Get the currently active route name in the nested navigator
+  state.routes[// If we have a partial state without index, for tab/drawer, first screen will be focused one, and last for stack
+  // The type property will only exist for rehydrated state and not for state from deep link
+  (_state$index = state.index) !== null && _state$index !== void 0 ? _state$index : typeof state.type === 'string' && state.type !== 'stack' ? 0 : state.routes.length - 1].name : // If state doesn't exist, we need to default to `screen` param if available
+  typeof (params === null || params === void 0 ? void 0 : params.screen) === 'string' ? params.screen : undefined;
+  return routeName;
+}
+},{"./useRouteCache":"node_modules/@react-navigation/core/lib/module/useRouteCache.js"}],"node_modules/strict-uri-encode/index.js":[function(require,module,exports) {
+'use strict';
+
+module.exports = str => encodeURIComponent(str).replace(/[!'()*]/g, x => "%".concat(x.charCodeAt(0).toString(16).toUpperCase()));
+},{}],"node_modules/decode-uri-component/index.js":[function(require,module,exports) {
+'use strict';
+
+var token = '%[a-f0-9]{2}';
+var singleMatcher = new RegExp(token, 'gi');
+var multiMatcher = new RegExp('(' + token + ')+', 'gi');
+
+function decodeComponents(components, split) {
+  try {
+    // Try to decode the entire string first
+    return decodeURIComponent(components.join(''));
+  } catch (err) {// Do nothing
+  }
+
+  if (components.length === 1) {
+    return components;
+  }
+
+  split = split || 1; // Split the array in 2 parts
+
+  var left = components.slice(0, split);
+  var right = components.slice(split);
+  return Array.prototype.concat.call([], decodeComponents(left), decodeComponents(right));
+}
+
+function decode(input) {
+  try {
+    return decodeURIComponent(input);
+  } catch (err) {
+    var tokens = input.match(singleMatcher);
+
+    for (var i = 1; i < tokens.length; i++) {
+      input = decodeComponents(tokens, i).join('');
+      tokens = input.match(singleMatcher);
+    }
+
+    return input;
+  }
+}
+
+function customDecodeURIComponent(input) {
+  // Keep track of all the replacements and prefill the map with the `BOM`
+  var replaceMap = {
+    '%FE%FF': '\uFFFD\uFFFD',
+    '%FF%FE': '\uFFFD\uFFFD'
+  };
+  var match = multiMatcher.exec(input);
+
+  while (match) {
+    try {
+      // Decode as big chunks as possible
+      replaceMap[match[0]] = decodeURIComponent(match[0]);
+    } catch (err) {
+      var result = decode(match[0]);
+
+      if (result !== match[0]) {
+        replaceMap[match[0]] = result;
+      }
+    }
+
+    match = multiMatcher.exec(input);
+  } // Add `%C2` at the end of the map to make sure it does not replace the combinator before everything else
+
+
+  replaceMap['%C2'] = '\uFFFD';
+  var entries = Object.keys(replaceMap);
+
+  for (var i = 0; i < entries.length; i++) {
+    // Replace all decoded components
+    var key = entries[i];
+    input = input.replace(new RegExp(key, 'g'), replaceMap[key]);
+  }
+
+  return input;
+}
+
+module.exports = function (encodedURI) {
+  if (typeof encodedURI !== 'string') {
+    throw new TypeError('Expected `encodedURI` to be of type `string`, got `' + typeof encodedURI + '`');
+  }
+
+  try {
+    encodedURI = encodedURI.replace(/\+/g, ' '); // Try the built in decoder first
+
+    return decodeURIComponent(encodedURI);
+  } catch (err) {
+    // Fallback to a more advanced decoder
+    return customDecodeURIComponent(encodedURI);
+  }
+};
+},{}],"node_modules/split-on-first/index.js":[function(require,module,exports) {
+'use strict';
+
+module.exports = function (string, separator) {
+  if (!(typeof string === 'string' && typeof separator === 'string')) {
+    throw new TypeError('Expected the arguments to be of type `string`');
+  }
+
+  if (separator === '') {
+    return [string];
+  }
+
+  var separatorIndex = string.indexOf(separator);
+
+  if (separatorIndex === -1) {
+    return [string];
+  }
+
+  return [string.slice(0, separatorIndex), string.slice(separatorIndex + separator.length)];
+};
+},{}],"node_modules/filter-obj/index.js":[function(require,module,exports) {
+'use strict';
+
+module.exports = function (obj, predicate) {
+  var ret = {};
+  var keys = Object.keys(obj);
+  var isArr = Array.isArray(predicate);
+
+  for (var i = 0; i < keys.length; i++) {
+    var key = keys[i];
+    var val = obj[key];
+
+    if (isArr ? predicate.indexOf(key) !== -1 : predicate(key, val, obj)) {
+      ret[key] = val;
+    }
+  }
+
+  return ret;
+};
+},{}],"node_modules/query-string/index.js":[function(require,module,exports) {
+'use strict';
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-var __createBinding = this && this.__createBinding || (Object.create ? function (o, m, k, k2) {
-  if (k2 === undefined) k2 = k;
-  Object.defineProperty(o, k2, {
-    enumerable: true,
-    get: function get() {
-      return m[k];
-    }
-  });
-} : function (o, m, k, k2) {
-  if (k2 === undefined) k2 = k;
-  o[k2] = m[k];
-});
+function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
 
-var __setModuleDefault = this && this.__setModuleDefault || (Object.create ? function (o, v) {
-  Object.defineProperty(o, "default", {
-    enumerable: true,
-    value: v
-  });
-} : function (o, v) {
-  o["default"] = v;
-});
+function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
 
-var __importStar = this && this.__importStar || function (mod) {
-  if (mod && mod.__esModule) return mod;
-  var result = {};
-  if (mod != null) for (var k in mod) {
-    if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null) return Array.from(iter); }
+
+function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+var strictUriEncode = require('strict-uri-encode');
+
+var decodeComponent = require('decode-uri-component');
+
+var splitOnFirst = require('split-on-first');
+
+var filterObject = require('filter-obj');
+
+var isNullOrUndefined = function (value) {
+  return value === null || value === undefined;
+};
+
+var encodeFragmentIdentifier = Symbol('encodeFragmentIdentifier');
+
+function encoderForArrayFormat(options) {
+  switch (options.arrayFormat) {
+    case 'index':
+      return function (key) {
+        return function (result, value) {
+          var index = result.length;
+
+          if (value === undefined || options.skipNull && value === null || options.skipEmptyString && value === '') {
+            return result;
+          }
+
+          if (value === null) {
+            return [].concat(_toConsumableArray(result), [[encode(key, options), '[', index, ']'].join('')]);
+          }
+
+          return [].concat(_toConsumableArray(result), [[encode(key, options), '[', encode(index, options), ']=', encode(value, options)].join('')]);
+        };
+      };
+
+    case 'bracket':
+      return function (key) {
+        return function (result, value) {
+          if (value === undefined || options.skipNull && value === null || options.skipEmptyString && value === '') {
+            return result;
+          }
+
+          if (value === null) {
+            return [].concat(_toConsumableArray(result), [[encode(key, options), '[]'].join('')]);
+          }
+
+          return [].concat(_toConsumableArray(result), [[encode(key, options), '[]=', encode(value, options)].join('')]);
+        };
+      };
+
+    case 'colon-list-separator':
+      return function (key) {
+        return function (result, value) {
+          if (value === undefined || options.skipNull && value === null || options.skipEmptyString && value === '') {
+            return result;
+          }
+
+          if (value === null) {
+            return [].concat(_toConsumableArray(result), [[encode(key, options), ':list='].join('')]);
+          }
+
+          return [].concat(_toConsumableArray(result), [[encode(key, options), ':list=', encode(value, options)].join('')]);
+        };
+      };
+
+    case 'comma':
+    case 'separator':
+    case 'bracket-separator':
+      {
+        var keyValueSep = options.arrayFormat === 'bracket-separator' ? '[]=' : '=';
+        return function (key) {
+          return function (result, value) {
+            if (value === undefined || options.skipNull && value === null || options.skipEmptyString && value === '') {
+              return result;
+            } // Translate null to an empty string so that it doesn't serialize as 'null'
+
+
+            value = value === null ? '' : value;
+
+            if (result.length === 0) {
+              return [[encode(key, options), keyValueSep, encode(value, options)].join('')];
+            }
+
+            return [[result, encode(value, options)].join(options.arrayFormatSeparator)];
+          };
+        };
+      }
+
+    default:
+      return function (key) {
+        return function (result, value) {
+          if (value === undefined || options.skipNull && value === null || options.skipEmptyString && value === '') {
+            return result;
+          }
+
+          if (value === null) {
+            return [].concat(_toConsumableArray(result), [encode(key, options)]);
+          }
+
+          return [].concat(_toConsumableArray(result), [[encode(key, options), '=', encode(value, options)].join('')]);
+        };
+      };
+  }
+}
+
+function parserForArrayFormat(options) {
+  var result;
+
+  switch (options.arrayFormat) {
+    case 'index':
+      return function (key, value, accumulator) {
+        result = /\[(\d*)\]$/.exec(key);
+        key = key.replace(/\[\d*\]$/, '');
+
+        if (!result) {
+          accumulator[key] = value;
+          return;
+        }
+
+        if (accumulator[key] === undefined) {
+          accumulator[key] = {};
+        }
+
+        accumulator[key][result[1]] = value;
+      };
+
+    case 'bracket':
+      return function (key, value, accumulator) {
+        result = /(\[\])$/.exec(key);
+        key = key.replace(/\[\]$/, '');
+
+        if (!result) {
+          accumulator[key] = value;
+          return;
+        }
+
+        if (accumulator[key] === undefined) {
+          accumulator[key] = [value];
+          return;
+        }
+
+        accumulator[key] = [].concat(accumulator[key], value);
+      };
+
+    case 'colon-list-separator':
+      return function (key, value, accumulator) {
+        result = /(:list)$/.exec(key);
+        key = key.replace(/:list$/, '');
+
+        if (!result) {
+          accumulator[key] = value;
+          return;
+        }
+
+        if (accumulator[key] === undefined) {
+          accumulator[key] = [value];
+          return;
+        }
+
+        accumulator[key] = [].concat(accumulator[key], value);
+      };
+
+    case 'comma':
+    case 'separator':
+      return function (key, value, accumulator) {
+        var isArray = typeof value === 'string' && value.includes(options.arrayFormatSeparator);
+        var isEncodedArray = typeof value === 'string' && !isArray && decode(value, options).includes(options.arrayFormatSeparator);
+        value = isEncodedArray ? decode(value, options) : value;
+        var newValue = isArray || isEncodedArray ? value.split(options.arrayFormatSeparator).map(function (item) {
+          return decode(item, options);
+        }) : value === null ? value : decode(value, options);
+        accumulator[key] = newValue;
+      };
+
+    case 'bracket-separator':
+      return function (key, value, accumulator) {
+        var isArray = /(\[\])$/.test(key);
+        key = key.replace(/\[\]$/, '');
+
+        if (!isArray) {
+          accumulator[key] = value ? decode(value, options) : value;
+          return;
+        }
+
+        var arrayValue = value === null ? [] : value.split(options.arrayFormatSeparator).map(function (item) {
+          return decode(item, options);
+        });
+
+        if (accumulator[key] === undefined) {
+          accumulator[key] = arrayValue;
+          return;
+        }
+
+        accumulator[key] = [].concat(accumulator[key], arrayValue);
+      };
+
+    default:
+      return function (key, value, accumulator) {
+        if (accumulator[key] === undefined) {
+          accumulator[key] = value;
+          return;
+        }
+
+        accumulator[key] = [].concat(accumulator[key], value);
+      };
+  }
+}
+
+function validateArrayFormatSeparator(value) {
+  if (typeof value !== 'string' || value.length !== 1) {
+    throw new TypeError('arrayFormatSeparator must be single character string');
+  }
+}
+
+function encode(value, options) {
+  if (options.encode) {
+    return options.strict ? strictUriEncode(value) : encodeURIComponent(value);
   }
 
-  __setModuleDefault(result, mod);
+  return value;
+}
+
+function decode(value, options) {
+  if (options.decode) {
+    return decodeComponent(value);
+  }
+
+  return value;
+}
+
+function keysSorter(input) {
+  if (Array.isArray(input)) {
+    return input.sort();
+  }
+
+  if (_typeof(input) === 'object') {
+    return keysSorter(Object.keys(input)).sort(function (a, b) {
+      return Number(a) - Number(b);
+    }).map(function (key) {
+      return input[key];
+    });
+  }
+
+  return input;
+}
+
+function removeHash(input) {
+  var hashStart = input.indexOf('#');
+
+  if (hashStart !== -1) {
+    input = input.slice(0, hashStart);
+  }
+
+  return input;
+}
+
+function getHash(url) {
+  var hash = '';
+  var hashStart = url.indexOf('#');
+
+  if (hashStart !== -1) {
+    hash = url.slice(hashStart);
+  }
+
+  return hash;
+}
+
+function extract(input) {
+  input = removeHash(input);
+  var queryStart = input.indexOf('?');
+
+  if (queryStart === -1) {
+    return '';
+  }
+
+  return input.slice(queryStart + 1);
+}
+
+function parseValue(value, options) {
+  if (options.parseNumbers && !Number.isNaN(Number(value)) && typeof value === 'string' && value.trim() !== '') {
+    value = Number(value);
+  } else if (options.parseBooleans && value !== null && (value.toLowerCase() === 'true' || value.toLowerCase() === 'false')) {
+    value = value.toLowerCase() === 'true';
+  }
+
+  return value;
+}
+
+function parse(query, options) {
+  options = Object.assign({
+    decode: true,
+    sort: true,
+    arrayFormat: 'none',
+    arrayFormatSeparator: ',',
+    parseNumbers: false,
+    parseBooleans: false
+  }, options);
+  validateArrayFormatSeparator(options.arrayFormatSeparator);
+  var formatter = parserForArrayFormat(options); // Create an object with no prototype
+
+  var ret = Object.create(null);
+
+  if (typeof query !== 'string') {
+    return ret;
+  }
+
+  query = query.trim().replace(/^[?#&]/, '');
+
+  if (!query) {
+    return ret;
+  }
+
+  for (var param of query.split('&')) {
+    if (param === '') {
+      continue;
+    }
+
+    var [key, value] = splitOnFirst(options.decode ? param.replace(/\+/g, ' ') : param, '='); // Missing `=` should be `null`:
+    // http://w3.org/TR/2012/WD-url-20120524/#collect-url-parameters
+
+    value = value === undefined ? null : ['comma', 'separator', 'bracket-separator'].includes(options.arrayFormat) ? value : decode(value, options);
+    formatter(decode(key, options), value, ret);
+  }
+
+  for (var _key of Object.keys(ret)) {
+    var _value = ret[_key];
+
+    if (_typeof(_value) === 'object' && _value !== null) {
+      for (var k of Object.keys(_value)) {
+        _value[k] = parseValue(_value[k], options);
+      }
+    } else {
+      ret[_key] = parseValue(_value, options);
+    }
+  }
+
+  if (options.sort === false) {
+    return ret;
+  }
+
+  return (options.sort === true ? Object.keys(ret).sort() : Object.keys(ret).sort(options.sort)).reduce(function (result, key) {
+    var value = ret[key];
+
+    if (Boolean(value) && _typeof(value) === 'object' && !Array.isArray(value)) {
+      // Sort object keys, not values
+      result[key] = keysSorter(value);
+    } else {
+      result[key] = value;
+    }
+
+    return result;
+  }, Object.create(null));
+}
+
+exports.extract = extract;
+exports.parse = parse;
+
+exports.stringify = function (object, options) {
+  if (!object) {
+    return '';
+  }
+
+  options = Object.assign({
+    encode: true,
+    strict: true,
+    arrayFormat: 'none',
+    arrayFormatSeparator: ','
+  }, options);
+  validateArrayFormatSeparator(options.arrayFormatSeparator);
+
+  var shouldFilter = function (key) {
+    return options.skipNull && isNullOrUndefined(object[key]) || options.skipEmptyString && object[key] === '';
+  };
+
+  var formatter = encoderForArrayFormat(options);
+  var objectCopy = {};
+
+  for (var key of Object.keys(object)) {
+    if (!shouldFilter(key)) {
+      objectCopy[key] = object[key];
+    }
+  }
+
+  var keys = Object.keys(objectCopy);
+
+  if (options.sort !== false) {
+    keys.sort(options.sort);
+  }
+
+  return keys.map(function (key) {
+    var value = object[key];
+
+    if (value === undefined) {
+      return '';
+    }
+
+    if (value === null) {
+      return encode(key, options);
+    }
+
+    if (Array.isArray(value)) {
+      if (value.length === 0 && options.arrayFormat === 'bracket-separator') {
+        return encode(key, options) + '[]';
+      }
+
+      return value.reduce(formatter(key), []).join('&');
+    }
+
+    return encode(key, options) + '=' + encode(value, options);
+  }).filter(function (x) {
+    return x.length > 0;
+  }).join('&');
+};
+
+exports.parseUrl = function (url, options) {
+  options = Object.assign({
+    decode: true
+  }, options);
+  var [url_, hash] = splitOnFirst(url, '#');
+  return Object.assign({
+    url: url_.split('?')[0] || '',
+    query: parse(extract(url), options)
+  }, options && options.parseFragmentIdentifier && hash ? {
+    fragmentIdentifier: decode(hash, options)
+  } : {});
+};
+
+exports.stringifyUrl = function (object, options) {
+  options = Object.assign(_defineProperty({
+    encode: true,
+    strict: true
+  }, encodeFragmentIdentifier, true), options);
+  var url = removeHash(object.url).split('?')[0] || '';
+  var queryFromUrl = exports.extract(object.url);
+  var parsedQueryFromUrl = exports.parse(queryFromUrl, {
+    sort: false
+  });
+  var query = Object.assign(parsedQueryFromUrl, object.query);
+  var queryString = exports.stringify(query, options);
+
+  if (queryString) {
+    queryString = "?".concat(queryString);
+  }
+
+  var hash = getHash(object.url);
+
+  if (object.fragmentIdentifier) {
+    hash = "#".concat(options[encodeFragmentIdentifier] ? encode(object.fragmentIdentifier, options) : object.fragmentIdentifier);
+  }
+
+  return "".concat(url).concat(queryString).concat(hash);
+};
+
+exports.pick = function (input, filter, options) {
+  options = Object.assign(_defineProperty({
+    parseFragmentIdentifier: true
+  }, encodeFragmentIdentifier, false), options);
+  var {
+    url: url,
+    query: query,
+    fragmentIdentifier: fragmentIdentifier
+  } = exports.parseUrl(input, options);
+  return exports.stringifyUrl({
+    url: url,
+    query: filterObject(query, filter),
+    fragmentIdentifier: fragmentIdentifier
+  }, options);
+};
+
+exports.exclude = function (input, filter, options) {
+  var exclusionFilter = Array.isArray(filter) ? function (key) {
+    return !filter.includes(key);
+  } : function (key, value) {
+    return !filter(key, value);
+  };
+  return exports.pick(input, exclusionFilter, options);
+};
+},{"strict-uri-encode":"node_modules/strict-uri-encode/index.js","decode-uri-component":"node_modules/decode-uri-component/index.js","split-on-first":"node_modules/split-on-first/index.js","filter-obj":"node_modules/filter-obj/index.js"}],"node_modules/@react-navigation/core/lib/module/fromEntries.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = fromEntries;
+
+// Object.fromEntries is not available in older iOS versions
+function fromEntries(entries) {
+  return entries.reduce((acc, [k, v]) => {
+    if (acc.hasOwnProperty(k)) {
+      throw new Error(`A value for key '${k}' already exists in the object.`);
+    }
+
+    acc[k] = v;
+    return acc;
+  }, {});
+}
+},{}],"node_modules/@react-navigation/core/lib/module/validatePathConfig.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = validatePathConfig;
+
+const formatToList = items => items.map(key => `- ${key}`).join('\n');
+
+function validatePathConfig(config, root = true) {
+  const validKeys = ['initialRouteName', 'screens'];
+
+  if (!root) {
+    validKeys.push('path', 'exact', 'stringify', 'parse');
+  }
+
+  const invalidKeys = Object.keys(config).filter(key => !validKeys.includes(key));
+
+  if (invalidKeys.length) {
+    throw new Error(`Found invalid properties in the configuration:\n${formatToList(invalidKeys)}\n\nDid you forget to specify them under a 'screens' property?\n\nYou can only specify the following properties:\n${formatToList(validKeys)}\n\nSee https://reactnavigation.org/docs/configuring-links for more details on how to specify a linking configuration.`);
+  }
+
+  if (config.screens) {
+    Object.entries(config.screens).forEach(([_, value]) => {
+      if (typeof value !== 'string') {
+        validatePathConfig(value, false);
+      }
+    });
+  }
+}
+},{}],"node_modules/@react-navigation/core/lib/module/getPathFromState.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = getPathFromState;
+
+var queryString = _interopRequireWildcard(require("query-string"));
+
+var _fromEntries = _interopRequireDefault(require("./fromEntries"));
+
+var _validatePathConfig = _interopRequireDefault(require("./validatePathConfig"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+const getActiveRoute = state => {
+  const route = typeof state.index === 'number' ? state.routes[state.index] : state.routes[state.routes.length - 1];
+
+  if (route.state) {
+    return getActiveRoute(route.state);
+  }
+
+  return route;
+};
+/**
+ * Utility to serialize a navigation state object to a path string.
+ *
+ * @example
+ * ```js
+ * getPathFromState(
+ *   {
+ *     routes: [
+ *       {
+ *         name: 'Chat',
+ *         params: { author: 'Jane', id: 42 },
+ *       },
+ *     ],
+ *   },
+ *   {
+ *     screens: {
+ *       Chat: {
+ *         path: 'chat/:author/:id',
+ *         stringify: { author: author => author.toLowerCase() }
+ *       }
+ *     }
+ *   }
+ * )
+ * ```
+ *
+ * @param state Navigation state to serialize.
+ * @param options Extra options to fine-tune how to serialize the path.
+ * @returns Path representing the state, e.g. /foo/bar?count=42.
+ */
+
+
+function getPathFromState(state, options) {
+  if (state == null) {
+    throw Error("Got 'undefined' for the navigation state. You must pass a valid state object.");
+  }
+
+  if (options) {
+    (0, _validatePathConfig.default)(options);
+  } // Create a normalized configs object which will be easier to use
+
+
+  const configs = options !== null && options !== void 0 && options.screens ? createNormalizedConfigs(options === null || options === void 0 ? void 0 : options.screens) : {};
+  let path = '/';
+  let current = state;
+  const allParams = {};
+
+  while (current) {
+    let index = typeof current.index === 'number' ? current.index : 0;
+    let route = current.routes[index];
+    let pattern;
+    let focusedParams;
+    let focusedRoute = getActiveRoute(state);
+    let currentOptions = configs; // Keep all the route names that appeared during going deeper in config in case the pattern is resolved to undefined
+
+    let nestedRouteNames = [];
+    let hasNext = true;
+
+    while (route.name in currentOptions && hasNext) {
+      pattern = currentOptions[route.name].pattern;
+      nestedRouteNames.push(route.name);
+
+      if (route.params) {
+        var _currentOptions$route;
+
+        const stringify = (_currentOptions$route = currentOptions[route.name]) === null || _currentOptions$route === void 0 ? void 0 : _currentOptions$route.stringify;
+        const currentParams = (0, _fromEntries.default)(Object.entries(route.params).map(([key, value]) => [key, stringify !== null && stringify !== void 0 && stringify[key] ? stringify[key](value) : String(value)]));
+
+        if (pattern) {
+          Object.assign(allParams, currentParams);
+        }
+
+        if (focusedRoute === route) {
+          var _pattern; // If this is the focused route, keep the params for later use
+          // We save it here since it's been stringified already
+
+
+          focusedParams = { ...currentParams
+          };
+          (_pattern = pattern) === null || _pattern === void 0 ? void 0 : _pattern.split('/').filter(p => p.startsWith(':')) // eslint-disable-next-line no-loop-func
+          .forEach(p => {
+            const name = getParamName(p); // Remove the params present in the pattern since we'll only use the rest for query string
+
+            if (focusedParams) {
+              // eslint-disable-next-line @typescript-eslint/no-dynamic-delete
+              delete focusedParams[name];
+            }
+          });
+        }
+      } // If there is no `screens` property or no nested state, we return pattern
+
+
+      if (!currentOptions[route.name].screens || route.state === undefined) {
+        hasNext = false;
+      } else {
+        index = typeof route.state.index === 'number' ? route.state.index : route.state.routes.length - 1;
+        const nextRoute = route.state.routes[index];
+        const nestedConfig = currentOptions[route.name].screens; // if there is config for next route name, we go deeper
+
+        if (nestedConfig && nextRoute.name in nestedConfig) {
+          route = nextRoute;
+          currentOptions = nestedConfig;
+        } else {
+          // If not, there is no sense in going deeper in config
+          hasNext = false;
+        }
+      }
+    }
+
+    if (pattern === undefined) {
+      pattern = nestedRouteNames.join('/');
+    }
+
+    if (currentOptions[route.name] !== undefined) {
+      path += pattern.split('/').map(p => {
+        const name = getParamName(p); // We don't know what to show for wildcard patterns
+        // Showing the route name seems ok, though whatever we show here will be incorrect
+        // Since the page doesn't actually exist
+
+        if (p === '*') {
+          return route.name;
+        } // If the path has a pattern for a param, put the param in the path
+
+
+        if (p.startsWith(':')) {
+          const value = allParams[name];
+
+          if (value === undefined && p.endsWith('?')) {
+            // Optional params without value assigned in route.params should be ignored
+            return '';
+          }
+
+          return encodeURIComponent(value);
+        }
+
+        return encodeURIComponent(p);
+      }).join('/');
+    } else {
+      path += encodeURIComponent(route.name);
+    }
+
+    if (!focusedParams) {
+      focusedParams = focusedRoute.params;
+    }
+
+    if (route.state) {
+      path += '/';
+    } else if (focusedParams) {
+      for (let param in focusedParams) {
+        if (focusedParams[param] === 'undefined') {
+          // eslint-disable-next-line @typescript-eslint/no-dynamic-delete
+          delete focusedParams[param];
+        }
+      }
+
+      const query = queryString.stringify(focusedParams, {
+        sort: false
+      });
+
+      if (query) {
+        path += `?${query}`;
+      }
+    }
+
+    current = route.state;
+  } // Remove multiple as well as trailing slashes
+
+
+  path = path.replace(/\/+/g, '/');
+  path = path.length > 1 ? path.replace(/\/$/, '') : path;
+  return path;
+}
+
+const getParamName = pattern => pattern.replace(/^:/, '').replace(/\?$/, '');
+
+const joinPaths = (...paths) => [].concat(...paths.map(p => p.split('/'))).filter(Boolean).join('/');
+
+const createConfigItem = (config, parentPattern) => {
+  var _pattern2;
+
+  if (typeof config === 'string') {
+    // If a string is specified as the value of the key(e.g. Foo: '/path'), use it as the pattern
+    const pattern = parentPattern ? joinPaths(parentPattern, config) : config;
+    return {
+      pattern
+    };
+  } // If an object is specified as the value (e.g. Foo: { ... }),
+  // It can have `path` property and `screens` prop which has nested configs
+
+
+  let pattern;
+
+  if (config.exact && config.path === undefined) {
+    throw new Error("A 'path' needs to be specified when specifying 'exact: true'. If you don't want this screen in the URL, specify it as empty string, e.g. `path: ''`.");
+  }
+
+  pattern = config.exact !== true ? joinPaths(parentPattern || '', config.path || '') : config.path || '';
+  const screens = config.screens ? createNormalizedConfigs(config.screens, pattern) : undefined;
+  return {
+    // Normalize pattern to remove any leading, trailing slashes, duplicate slashes etc.
+    pattern: (_pattern2 = pattern) === null || _pattern2 === void 0 ? void 0 : _pattern2.split('/').filter(Boolean).join('/'),
+    stringify: config.stringify,
+    screens
+  };
+};
+
+const createNormalizedConfigs = (options, pattern) => (0, _fromEntries.default)(Object.entries(options).map(([name, c]) => {
+  const result = createConfigItem(c, pattern);
+  return [name, result];
+}));
+},{"query-string":"node_modules/query-string/index.js","./fromEntries":"node_modules/@react-navigation/core/lib/module/fromEntries.js","./validatePathConfig":"node_modules/@react-navigation/core/lib/module/validatePathConfig.js"}],"node_modules/@react-navigation/core/node_modules/escape-string-regexp/index.js":[function(require,module,exports) {
+'use strict';
+
+module.exports = function (string) {
+  if (typeof string !== 'string') {
+    throw new TypeError('Expected a string');
+  } // Escape characters with special meaning either inside or outside character sets.
+  // Use a simple backslash escape when it’s always valid, and a \unnnn escape when the simpler form would be disallowed by Unicode patterns’ stricter grammar.
+
+
+  return string.replace(/[|\\{}()[\]^$+*?.]/g, '\\$&').replace(/-/g, '\\x2d');
+};
+},{}],"node_modules/@react-navigation/core/lib/module/getStateFromPath.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = getStateFromPath;
+
+var _escapeStringRegexp = _interopRequireDefault(require("escape-string-regexp"));
+
+var queryString = _interopRequireWildcard(require("query-string"));
+
+var _findFocusedRoute = _interopRequireDefault(require("./findFocusedRoute"));
+
+var _validatePathConfig = _interopRequireDefault(require("./validatePathConfig"));
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/**
+ * Utility to parse a path string to initial state object accepted by the container.
+ * This is useful for deep linking when we need to handle the incoming URL.
+ *
+ * @example
+ * ```js
+ * getStateFromPath(
+ *   '/chat/jane/42',
+ *   {
+ *     screens: {
+ *       Chat: {
+ *         path: 'chat/:author/:id',
+ *         parse: { id: Number }
+ *       }
+ *     }
+ *   }
+ * )
+ * ```
+ * @param path Path string to parse and convert, e.g. /foo/bar?count=42.
+ * @param options Extra options to fine-tune how to parse the path.
+ */
+function getStateFromPath(path, options) {
+  if (options) {
+    (0, _validatePathConfig.default)(options);
+  }
+
+  let initialRoutes = [];
+
+  if (options !== null && options !== void 0 && options.initialRouteName) {
+    initialRoutes.push({
+      initialRouteName: options.initialRouteName,
+      parentScreens: []
+    });
+  }
+
+  const screens = options === null || options === void 0 ? void 0 : options.screens;
+  let remaining = path.replace(/\/+/g, '/') // Replace multiple slash (//) with single ones
+  .replace(/^\//, '') // Remove extra leading slash
+  .replace(/\?.*$/, ''); // Remove query params which we will handle later
+  // Make sure there is a trailing slash
+
+  remaining = remaining.endsWith('/') ? remaining : `${remaining}/`;
+
+  if (screens === undefined) {
+    // When no config is specified, use the path segments as route names
+    const routes = remaining.split('/').filter(Boolean).map(segment => {
+      const name = decodeURIComponent(segment);
+      return {
+        name
+      };
+    });
+
+    if (routes.length) {
+      return createNestedStateObject(path, routes, initialRoutes);
+    }
+
+    return undefined;
+  } // Create a normalized configs array which will be easier to use
+
+
+  const configs = [].concat(...Object.keys(screens).map(key => createNormalizedConfigs(key, screens, [], initialRoutes, []))).sort((a, b) => {
+    // Sort config so that:
+    // - the most exhaustive ones are always at the beginning
+    // - patterns with wildcard are always at the end
+    // If 2 patterns are same, move the one with less route names up
+    // This is an error state, so it's only useful for consistent error messages
+    if (a.pattern === b.pattern) {
+      return b.routeNames.join('>').localeCompare(a.routeNames.join('>'));
+    } // If one of the patterns starts with the other, it's more exhaustive
+    // So move it up
+
+
+    if (a.pattern.startsWith(b.pattern)) {
+      return -1;
+    }
+
+    if (b.pattern.startsWith(a.pattern)) {
+      return 1;
+    }
+
+    const aParts = a.pattern.split('/');
+    const bParts = b.pattern.split('/');
+
+    for (let i = 0; i < Math.max(aParts.length, bParts.length); i++) {
+      // if b is longer, b get higher priority
+      if (aParts[i] == null) {
+        return 1;
+      } // if a is longer, a get higher priority
+
+
+      if (bParts[i] == null) {
+        return -1;
+      }
+
+      const aWildCard = aParts[i] === '*' || aParts[i].startsWith(':');
+      const bWildCard = bParts[i] === '*' || bParts[i].startsWith(':'); // if both are wildcard we compare next component
+
+      if (aWildCard && bWildCard) {
+        continue;
+      } // if only a is wild card, b get higher priority
+
+
+      if (aWildCard) {
+        return 1;
+      } // if only b is wild card, a get higher priority
+
+
+      if (bWildCard) {
+        return -1;
+      }
+    }
+
+    return bParts.length - aParts.length;
+  }); // Check for duplicate patterns in the config
+
+  configs.reduce((acc, config) => {
+    if (acc[config.pattern]) {
+      const a = acc[config.pattern].routeNames;
+      const b = config.routeNames; // It's not a problem if the path string omitted from a inner most screen
+      // For example, it's ok if a path resolves to `A > B > C` or `A > B`
+
+      const intersects = a.length > b.length ? b.every((it, i) => a[i] === it) : a.every((it, i) => b[i] === it);
+
+      if (!intersects) {
+        throw new Error(`Found conflicting screens with the same pattern. The pattern '${config.pattern}' resolves to both '${a.join(' > ')}' and '${b.join(' > ')}'. Patterns must be unique and cannot resolve to more than one screen.`);
+      }
+    }
+
+    return Object.assign(acc, {
+      [config.pattern]: config
+    });
+  }, {});
+
+  if (remaining === '/') {
+    // We need to add special handling of empty path so navigation to empty path also works
+    // When handling empty path, we should only look at the root level config
+    const match = configs.find(config => config.path === '' && config.routeNames.every( // Make sure that none of the parent configs have a non-empty path defined
+    name => {
+      var _configs$find;
+
+      return !((_configs$find = configs.find(c => c.screen === name)) !== null && _configs$find !== void 0 && _configs$find.path);
+    }));
+
+    if (match) {
+      return createNestedStateObject(path, match.routeNames.map(name => ({
+        name
+      })), initialRoutes, configs);
+    }
+
+    return undefined;
+  }
+
+  let result;
+  let current; // We match the whole path against the regex instead of segments
+  // This makes sure matches such as wildcard will catch any unmatched routes, even if nested
+
+  const {
+    routes,
+    remainingPath
+  } = matchAgainstConfigs(remaining, configs.map(c => ({ ...c,
+    // Add `$` to the regex to make sure it matches till end of the path and not just beginning
+    regex: c.regex ? new RegExp(c.regex.source + '$') : undefined
+  })));
+
+  if (routes !== undefined) {
+    // This will always be empty if full path matched
+    current = createNestedStateObject(path, routes, initialRoutes, configs);
+    remaining = remainingPath;
+    result = current;
+  }
+
+  if (current == null || result == null) {
+    return undefined;
+  }
 
   return result;
+}
+
+const joinPaths = (...paths) => [].concat(...paths.map(p => p.split('/'))).filter(Boolean).join('/');
+
+const matchAgainstConfigs = (remaining, configs) => {
+  let routes;
+  let remainingPath = remaining; // Go through all configs, and see if the next path segment matches our regex
+
+  for (const config of configs) {
+    if (!config.regex) {
+      continue;
+    }
+
+    const match = remainingPath.match(config.regex); // If our regex matches, we need to extract params from the path
+
+    if (match) {
+      var _config$pattern;
+
+      const matchedParams = (_config$pattern = config.pattern) === null || _config$pattern === void 0 ? void 0 : _config$pattern.split('/').filter(p => p.startsWith(':')).reduce((acc, p, i) => Object.assign(acc, {
+        // The param segments appear every second item starting from 2 in the regex match result
+        [p]: match[(i + 1) * 2].replace(/\//, '')
+      }), {});
+      routes = config.routeNames.map(name => {
+        var _config$path;
+
+        const config = configs.find(c => c.screen === name);
+        const params = config === null || config === void 0 ? void 0 : (_config$path = config.path) === null || _config$path === void 0 ? void 0 : _config$path.split('/').filter(p => p.startsWith(':')).reduce((acc, p) => {
+          const value = matchedParams[p];
+
+          if (value) {
+            var _config$parse;
+
+            const key = p.replace(/^:/, '').replace(/\?$/, '');
+            acc[key] = (_config$parse = config.parse) !== null && _config$parse !== void 0 && _config$parse[key] ? config.parse[key](value) : value;
+          }
+
+          return acc;
+        }, {});
+
+        if (params && Object.keys(params).length) {
+          return {
+            name,
+            params
+          };
+        }
+
+        return {
+          name
+        };
+      });
+      remainingPath = remainingPath.replace(match[1], '');
+      break;
+    }
+  }
+
+  return {
+    routes,
+    remainingPath
+  };
+};
+
+const createNormalizedConfigs = (screen, routeConfig, routeNames = [], initials, parentScreens, parentPattern) => {
+  const configs = [];
+  routeNames.push(screen);
+  parentScreens.push(screen); // @ts-expect-error: we can't strongly typecheck this for now
+
+  const config = routeConfig[screen];
+
+  if (typeof config === 'string') {
+    // If a string is specified as the value of the key(e.g. Foo: '/path'), use it as the pattern
+    const pattern = parentPattern ? joinPaths(parentPattern, config) : config;
+    configs.push(createConfigItem(screen, routeNames, pattern, config));
+  } else if (typeof config === 'object') {
+    let pattern; // if an object is specified as the value (e.g. Foo: { ... }),
+    // it can have `path` property and
+    // it could have `screens` prop which has nested configs
+
+    if (typeof config.path === 'string') {
+      if (config.exact && config.path === undefined) {
+        throw new Error("A 'path' needs to be specified when specifying 'exact: true'. If you don't want this screen in the URL, specify it as empty string, e.g. `path: ''`.");
+      }
+
+      pattern = config.exact !== true ? joinPaths(parentPattern || '', config.path || '') : config.path || '';
+      configs.push(createConfigItem(screen, routeNames, pattern, config.path, config.parse));
+    }
+
+    if (config.screens) {
+      // property `initialRouteName` without `screens` has no purpose
+      if (config.initialRouteName) {
+        initials.push({
+          initialRouteName: config.initialRouteName,
+          parentScreens
+        });
+      }
+
+      Object.keys(config.screens).forEach(nestedConfig => {
+        var _pattern;
+
+        const result = createNormalizedConfigs(nestedConfig, config.screens, routeNames, initials, [...parentScreens], (_pattern = pattern) !== null && _pattern !== void 0 ? _pattern : parentPattern);
+        configs.push(...result);
+      });
+    }
+  }
+
+  routeNames.pop();
+  return configs;
+};
+
+const createConfigItem = (screen, routeNames, pattern, path, parse) => {
+  // Normalize pattern to remove any leading, trailing slashes, duplicate slashes etc.
+  pattern = pattern.split('/').filter(Boolean).join('/');
+  const regex = pattern ? new RegExp(`^(${pattern.split('/').map(it => {
+    if (it.startsWith(':')) {
+      return `(([^/]+\\/)${it.endsWith('?') ? '?' : ''})`;
+    }
+
+    return `${it === '*' ? '.*' : (0, _escapeStringRegexp.default)(it)}\\/`;
+  }).join('')})`) : undefined;
+  return {
+    screen,
+    regex,
+    pattern,
+    path,
+    // The routeNames array is mutated, so copy it to keep the current state
+    routeNames: [...routeNames],
+    parse
+  };
+};
+
+const findParseConfigForRoute = (routeName, flatConfig) => {
+  for (const config of flatConfig) {
+    if (routeName === config.routeNames[config.routeNames.length - 1]) {
+      return config.parse;
+    }
+  }
+
+  return undefined;
+}; // Try to find an initial route connected with the one passed
+
+
+const findInitialRoute = (routeName, parentScreens, initialRoutes) => {
+  for (const config of initialRoutes) {
+    if (parentScreens.length === config.parentScreens.length) {
+      let sameParents = true;
+
+      for (let i = 0; i < parentScreens.length; i++) {
+        if (parentScreens[i].localeCompare(config.parentScreens[i]) !== 0) {
+          sameParents = false;
+          break;
+        }
+      }
+
+      if (sameParents) {
+        return routeName !== config.initialRouteName ? config.initialRouteName : undefined;
+      }
+    }
+  }
+
+  return undefined;
+}; // returns state object with values depending on whether
+// it is the end of state and if there is initialRoute for this level
+
+
+const createStateObject = (initialRoute, route, isEmpty) => {
+  if (isEmpty) {
+    if (initialRoute) {
+      return {
+        index: 1,
+        routes: [{
+          name: initialRoute
+        }, route]
+      };
+    } else {
+      return {
+        routes: [route]
+      };
+    }
+  } else {
+    if (initialRoute) {
+      return {
+        index: 1,
+        routes: [{
+          name: initialRoute
+        }, { ...route,
+          state: {
+            routes: []
+          }
+        }]
+      };
+    } else {
+      return {
+        routes: [{ ...route,
+          state: {
+            routes: []
+          }
+        }]
+      };
+    }
+  }
+};
+
+const createNestedStateObject = (path, routes, initialRoutes, flatConfig) => {
+  let state;
+  let route = routes.shift();
+  const parentScreens = [];
+  let initialRoute = findInitialRoute(route.name, parentScreens, initialRoutes);
+  parentScreens.push(route.name);
+  state = createStateObject(initialRoute, route, routes.length === 0);
+
+  if (routes.length > 0) {
+    let nestedState = state;
+
+    while (route = routes.shift()) {
+      initialRoute = findInitialRoute(route.name, parentScreens, initialRoutes);
+      const nestedStateIndex = nestedState.index || nestedState.routes.length - 1;
+      nestedState.routes[nestedStateIndex].state = createStateObject(initialRoute, route, routes.length === 0);
+
+      if (routes.length > 0) {
+        nestedState = nestedState.routes[nestedStateIndex].state;
+      }
+
+      parentScreens.push(route.name);
+    }
+  }
+
+  route = (0, _findFocusedRoute.default)(state);
+  route.path = path;
+  const params = parseQueryParams(path, flatConfig ? findParseConfigForRoute(route.name, flatConfig) : undefined);
+
+  if (params) {
+    route.params = { ...route.params,
+      ...params
+    };
+  }
+
+  return state;
+};
+
+const parseQueryParams = (path, parseConfig) => {
+  const query = path.split('?')[1];
+  const params = queryString.parse(query);
+
+  if (parseConfig) {
+    Object.keys(params).forEach(name => {
+      if (parseConfig[name] && typeof params[name] === 'string') {
+        params[name] = parseConfig[name](params[name]);
+      }
+    });
+  }
+
+  return Object.keys(params).length ? params : undefined;
+};
+},{"escape-string-regexp":"node_modules/@react-navigation/core/node_modules/escape-string-regexp/index.js","query-string":"node_modules/query-string/index.js","./findFocusedRoute":"node_modules/@react-navigation/core/lib/module/findFocusedRoute.js","./validatePathConfig":"node_modules/@react-navigation/core/lib/module/validatePathConfig.js"}],"node_modules/@react-navigation/core/lib/module/NavigationHelpersContext.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(require("react"));
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/**
+ * Context which holds the navigation helpers of the parent navigator.
+ * Navigators should use this context in their view component.
+ */
+const NavigationHelpersContext = /*#__PURE__*/React.createContext(undefined);
+var _default = NavigationHelpersContext;
+exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"node_modules/@react-navigation/core/lib/module/types.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.PrivateValueStore = void 0;
+
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
+
+class PrivateValueStore {
+  constructor() {
+    _defineProperty(this, '', void 0);
+  }
+
+}
+
+exports.PrivateValueStore = PrivateValueStore;
+},{}],"node_modules/@react-navigation/core/lib/module/useNavigation.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useNavigation;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _NavigationContainerRefContext = _interopRequireDefault(require("./NavigationContainerRefContext"));
+
+var _NavigationContext = _interopRequireDefault(require("./NavigationContext"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/**
+ * Hook to access the navigation prop of the parent screen anywhere.
+ *
+ * @returns Navigation prop of the parent screen.
+ */
+function useNavigation() {
+  const root = React.useContext(_NavigationContainerRefContext.default);
+  const navigation = React.useContext(_NavigationContext.default);
+
+  if (navigation === undefined && root === undefined) {
+    throw new Error("Couldn't find a navigation object. Is your component inside NavigationContainer?");
+  } // FIXME: Figure out a better way to do this
+
+
+  return navigation !== null && navigation !== void 0 ? navigation : root;
+}
+},{"react":"node_modules/react/index.js","./NavigationContainerRefContext":"node_modules/@react-navigation/core/lib/module/NavigationContainerRefContext.js","./NavigationContext":"node_modules/@react-navigation/core/lib/module/NavigationContext.js"}],"node_modules/@react-navigation/core/lib/module/useFocusEffect.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useFocusEffect;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _useNavigation = _interopRequireDefault(require("./useNavigation"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/**
+ * Hook to run an effect in a focused screen, similar to `React.useEffect`.
+ * This can be used to perform side-effects such as fetching data or subscribing to events.
+ * The passed callback should be wrapped in `React.useCallback` to avoid running the effect too often.
+ *
+ * @param callback Memoized callback containing the effect, should optionally return a cleanup function.
+ */
+function useFocusEffect(effect) {
+  const navigation = (0, _useNavigation.default)();
+
+  if (arguments[1] !== undefined) {
+    const message = "You passed a second argument to 'useFocusEffect', but it only accepts one argument. " + "If you want to pass a dependency array, you can use 'React.useCallback':\n\n" + 'useFocusEffect(\n' + '  React.useCallback(() => {\n' + '    // Your code here\n' + '  }, [depA, depB])\n' + ');\n\n' + 'See usage guide: https://reactnavigation.org/docs/use-focus-effect';
+    console.error(message);
+  }
+
+  React.useEffect(() => {
+    let isFocused = false;
+    let cleanup;
+
+    const callback = () => {
+      const destroy = effect();
+
+      if (destroy === undefined || typeof destroy === 'function') {
+        return destroy;
+      }
+
+      if ("development" !== 'production') {
+        let message = 'An effect function must not return anything besides a function, which is used for clean-up.';
+
+        if (destroy === null) {
+          message += " You returned 'null'. If your effect does not require clean-up, return 'undefined' (or nothing).";
+        } else if (typeof destroy.then === 'function') {
+          message += "\n\nIt looks like you wrote 'useFocusEffect(async () => ...)' or returned a Promise. " + 'Instead, write the async function inside your effect ' + 'and call it immediately:\n\n' + 'useFocusEffect(\n' + '  React.useCallback() => {\n' + '    async function fetchData() {\n' + '      // You can await here\n' + '      const response = await MyAPI.getData(someId);\n' + '      // ...\n' + '    }\n\n' + '    fetchData();\n' + '  }, [someId])\n' + ');\n\n' + 'See usage guide: https://reactnavigation.org/docs/use-focus-effect';
+        } else {
+          message += ` You returned '${JSON.stringify(destroy)}'.`;
+        }
+
+        console.error(message);
+      }
+    }; // We need to run the effect on intial render/dep changes if the screen is focused
+
+
+    if (navigation.isFocused()) {
+      cleanup = callback();
+      isFocused = true;
+    }
+
+    const unsubscribeFocus = navigation.addListener('focus', () => {
+      // If callback was already called for focus, avoid calling it again
+      // The focus event may also fire on intial render, so we guard against runing the effect twice
+      if (isFocused) {
+        return;
+      }
+
+      if (cleanup !== undefined) {
+        cleanup();
+      }
+
+      cleanup = callback();
+      isFocused = true;
+    });
+    const unsubscribeBlur = navigation.addListener('blur', () => {
+      if (cleanup !== undefined) {
+        cleanup();
+      }
+
+      cleanup = undefined;
+      isFocused = false;
+    });
+    return () => {
+      if (cleanup !== undefined) {
+        cleanup();
+      }
+
+      unsubscribeFocus();
+      unsubscribeBlur();
+    };
+  }, [effect, navigation]);
+}
+},{"react":"node_modules/react/index.js","./useNavigation":"node_modules/@react-navigation/core/lib/module/useNavigation.js"}],"node_modules/@react-navigation/core/lib/module/useIsFocused.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useIsFocused;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _useNavigation = _interopRequireDefault(require("./useNavigation"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/**
+ * Hook to get the current focus state of the screen. Returns a `true` if screen is focused, otherwise `false`.
+ * This can be used if a component needs to render something based on the focus state.
+ */
+function useIsFocused() {
+  const navigation = (0, _useNavigation.default)();
+  const [isFocused, setIsFocused] = (0, React.useState)(navigation.isFocused);
+  const valueToReturn = navigation.isFocused();
+
+  if (isFocused !== valueToReturn) {
+    // If the value has changed since the last render, we need to update it.
+    // This could happen if we missed an update from the event listeners during re-render.
+    // React will process this update immediately, so the old subscription value won't be committed.
+    // It is still nice to avoid returning a mismatched value though, so let's override the return value.
+    // This is the same logic as in https://github.com/facebook/react/tree/master/packages/use-subscription
+    setIsFocused(valueToReturn);
+  }
+
+  React.useEffect(() => {
+    const unsubscribeFocus = navigation.addListener('focus', () => setIsFocused(true));
+    const unsubscribeBlur = navigation.addListener('blur', () => setIsFocused(false));
+    return () => {
+      unsubscribeFocus();
+      unsubscribeBlur();
+    };
+  }, [navigation]);
+  React.useDebugValue(valueToReturn);
+  return valueToReturn;
+}
+},{"react":"node_modules/react/index.js","./useNavigation":"node_modules/@react-navigation/core/lib/module/useNavigation.js"}],"node_modules/@react-navigation/core/lib/module/isArrayEqual.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isArrayEqual;
+
+/**
+ * Compare two arrays with primitive values as the content.
+ * We need to make sure that both values and order match.
+ */
+function isArrayEqual(a, b) {
+  if (a === b) {
+    return true;
+  }
+
+  if (a.length !== b.length) {
+    return false;
+  }
+
+  return a.every((it, index) => it === b[index]);
+}
+},{}],"node_modules/@react-navigation/core/lib/module/isRecordEqual.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = isRecordEqual;
+
+/**
+ * Compare two records with primitive values as the content.
+ */
+function isRecordEqual(a, b) {
+  if (a === b) {
+    return true;
+  }
+
+  const aKeys = Object.keys(a);
+  const bKeys = Object.keys(b);
+
+  if (aKeys.length !== bKeys.length) {
+    return false;
+  }
+
+  return aKeys.every(key => a[key] === b[key]);
+}
+},{}],"node_modules/@react-navigation/core/lib/module/useComponent.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useComponent;
+
+var React = _interopRequireWildcard(require("react"));
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _extends() {
+  _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
+
+function useComponent(Component, props) {
+  const propsRef = React.useRef(props); // Normally refs shouldn't be mutated in render
+  // But we return a component which will be rendered
+  // So it's just for immediate consumption
+
+  propsRef.current = props;
+  React.useEffect(() => {
+    propsRef.current = null;
+  });
+  return React.useRef(rest => {
+    const props = propsRef.current;
+
+    if (props === null) {
+      throw new Error('The returned component must be rendered in the same render phase as the hook.');
+    } // @ts-expect-error: the props should be fine here
+
+
+    return /*#__PURE__*/React.createElement(Component, _extends({}, props, rest));
+  }).current;
+}
+},{"react":"node_modules/react/index.js"}],"node_modules/@react-navigation/core/lib/module/useCurrentRender.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useCurrentRender;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _CurrentRenderContext = _interopRequireDefault(require("./CurrentRenderContext"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/**
+ * Write the current options, so that server renderer can get current values
+ * Mutating values like this is not safe in async mode, but it doesn't apply to SSR
+ */
+function useCurrentRender({
+  state,
+  navigation,
+  descriptors
+}) {
+  const current = React.useContext(_CurrentRenderContext.default);
+
+  if (current && navigation.isFocused()) {
+    current.options = descriptors[state.routes[state.index].key].options;
+  }
+}
+},{"react":"node_modules/react/index.js","./CurrentRenderContext":"node_modules/@react-navigation/core/lib/module/CurrentRenderContext.js"}],"node_modules/@react-navigation/core/lib/module/StaticContainer.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(require("react"));
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/**
+ * Component which prevents updates for children if no props changed
+ */
+function StaticContainer(props) {
+  return props.children;
+}
+
+var _default = /*#__PURE__*/React.memo(StaticContainer, (prevProps, nextProps) => {
+  const prevPropKeys = Object.keys(prevProps);
+  const nextPropKeys = Object.keys(nextProps);
+
+  if (prevPropKeys.length !== nextPropKeys.length) {
+    return false;
+  }
+
+  for (const key of prevPropKeys) {
+    if (key === 'children') {
+      continue;
+    }
+
+    if (prevProps[key] !== nextProps[key]) {
+      return false;
+    }
+  }
+
+  return true;
+});
+
+exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"node_modules/@react-navigation/core/lib/module/SceneView.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = SceneView;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _EnsureSingleNavigator = _interopRequireDefault(require("./EnsureSingleNavigator"));
+
+var _NavigationStateContext = _interopRequireDefault(require("./NavigationStateContext"));
+
+var _StaticContainer = _interopRequireDefault(require("./StaticContainer"));
+
+var _useOptionsGetters = _interopRequireDefault(require("./useOptionsGetters"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/**
+ * Component which takes care of rendering the screen for a route.
+ * It provides all required contexts and applies optimizations when applicable.
+ */
+function SceneView({
+  screen,
+  route,
+  navigation,
+  routeState,
+  getState,
+  setState,
+  options,
+  clearOptions
+}) {
+  const navigatorKeyRef = React.useRef();
+  const getKey = React.useCallback(() => navigatorKeyRef.current, []);
+  const {
+    addOptionsGetter
+  } = (0, _useOptionsGetters.default)({
+    key: route.key,
+    options,
+    navigation
+  });
+  const setKey = React.useCallback(key => {
+    navigatorKeyRef.current = key;
+  }, []);
+  const getCurrentState = React.useCallback(() => {
+    const state = getState();
+    const currentRoute = state.routes.find(r => r.key === route.key);
+    return currentRoute ? currentRoute.state : undefined;
+  }, [getState, route.key]);
+  const setCurrentState = React.useCallback(child => {
+    const state = getState();
+    setState({ ...state,
+      routes: state.routes.map(r => r.key === route.key ? { ...r,
+        state: child
+      } : r)
+    });
+  }, [getState, route.key, setState]);
+  const isInitialRef = React.useRef(true);
+  React.useEffect(() => {
+    isInitialRef.current = false;
+  }); // Clear options set by this screen when it is unmounted
+
+  React.useEffect(() => {
+    return clearOptions; // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+  const getIsInitial = React.useCallback(() => isInitialRef.current, []);
+  const context = React.useMemo(() => ({
+    state: routeState,
+    getState: getCurrentState,
+    setState: setCurrentState,
+    getKey,
+    setKey,
+    getIsInitial,
+    addOptionsGetter
+  }), [routeState, getCurrentState, setCurrentState, getKey, setKey, getIsInitial, addOptionsGetter]);
+  const ScreenComponent = screen.getComponent ? screen.getComponent() : screen.component;
+  return /*#__PURE__*/React.createElement(_NavigationStateContext.default.Provider, {
+    value: context
+  }, /*#__PURE__*/React.createElement(_EnsureSingleNavigator.default, null, /*#__PURE__*/React.createElement(_StaticContainer.default, {
+    name: screen.name,
+    render: ScreenComponent || screen.children,
+    navigation: navigation,
+    route: route
+  }, ScreenComponent !== undefined ? /*#__PURE__*/React.createElement(ScreenComponent, {
+    navigation: navigation,
+    route: route
+  }) : screen.children !== undefined ? screen.children({
+    navigation,
+    route
+  }) : null)));
+}
+},{"react":"node_modules/react/index.js","./EnsureSingleNavigator":"node_modules/@react-navigation/core/lib/module/EnsureSingleNavigator.js","./NavigationStateContext":"node_modules/@react-navigation/core/lib/module/NavigationStateContext.js","./StaticContainer":"node_modules/@react-navigation/core/lib/module/StaticContainer.js","./useOptionsGetters":"node_modules/@react-navigation/core/lib/module/useOptionsGetters.js"}],"node_modules/@react-navigation/core/lib/module/useNavigationCache.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useNavigationCache;
+
+var _routers = require("@react-navigation/routers");
+
+var React = _interopRequireWildcard(require("react"));
+
+var _NavigationBuilderContext = _interopRequireDefault(require("./NavigationBuilderContext"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/**
+ * Hook to cache navigation objects for each screen in the navigator.
+ * It's important to cache them to make sure navigation objects don't change between renders.
+ * This lets us apply optimizations like `React.memo` to minimize re-rendering screens.
+ */
+function useNavigationCache({
+  state,
+  getState,
+  navigation,
+  setOptions,
+  router,
+  emitter
+}) {
+  const {
+    stackRef
+  } = React.useContext(_NavigationBuilderContext.default); // Cache object which holds navigation objects for each screen
+  // We use `React.useMemo` instead of `React.useRef` coz we want to invalidate it when deps change
+  // In reality, these deps will rarely change, if ever
+
+  const cache = React.useMemo(() => ({
+    current: {}
+  }), // eslint-disable-next-line react-hooks/exhaustive-deps
+  [getState, navigation, setOptions, router, emitter]);
+  const actions = { ...router.actionCreators,
+    ..._routers.CommonActions
+  };
+  cache.current = state.routes.reduce((acc, route) => {
+    const previous = cache.current[route.key];
+
+    if (previous) {
+      // If a cached navigation object already exists, reuse it
+      acc[route.key] = previous;
+    } else {
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      const {
+        emit,
+        ...rest
+      } = navigation;
+
+      const dispatch = thunk => {
+        const action = typeof thunk === 'function' ? thunk(getState()) : thunk;
+
+        if (action != null) {
+          navigation.dispatch({
+            source: route.key,
+            ...action
+          });
+        }
+      };
+
+      const withStack = callback => {
+        let isStackSet = false;
+
+        try {
+          if ("development" !== 'production' && stackRef && !stackRef.current) {
+            // Capture the stack trace for devtools
+            stackRef.current = new Error().stack;
+            isStackSet = true;
+          }
+
+          callback();
+        } finally {
+          if (isStackSet && stackRef) {
+            stackRef.current = undefined;
+          }
+        }
+      };
+
+      const helpers = Object.keys(actions).reduce((acc, name) => {
+        acc[name] = (...args) => withStack(() => // @ts-expect-error: name is a valid key, but TypeScript is dumb
+        dispatch(actions[name](...args)));
+
+        return acc;
+      }, {});
+      acc[route.key] = { ...rest,
+        ...helpers,
+        // FIXME: too much work to fix the types for now
+        ...emitter.create(route.key),
+        dispatch: thunk => withStack(() => dispatch(thunk)),
+        setOptions: options => setOptions(o => ({ ...o,
+          [route.key]: { ...o[route.key],
+            ...options
+          }
+        })),
+        isFocused: () => {
+          const state = getState();
+
+          if (state.routes[state.index].key !== route.key) {
+            return false;
+          } // If the current screen is focused, we also need to check if parent navigator is focused
+          // This makes sure that we return the focus state in the whole tree, not just this navigator
+
+
+          return navigation ? navigation.isFocused() : true;
+        }
+      };
+    }
+
+    return acc;
+  }, {});
+  return cache.current;
+}
+},{"@react-navigation/routers":"node_modules/@react-navigation/routers/lib/module/index.js","react":"node_modules/react/index.js","./NavigationBuilderContext":"node_modules/@react-navigation/core/lib/module/NavigationBuilderContext.js"}],"node_modules/@react-navigation/core/lib/module/useDescriptors.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useDescriptors;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _NavigationBuilderContext = _interopRequireDefault(require("./NavigationBuilderContext"));
+
+var _NavigationContext = _interopRequireDefault(require("./NavigationContext"));
+
+var _NavigationRouteContext = _interopRequireDefault(require("./NavigationRouteContext"));
+
+var _SceneView = _interopRequireDefault(require("./SceneView"));
+
+var _useNavigationCache = _interopRequireDefault(require("./useNavigationCache"));
+
+var _useRouteCache = _interopRequireDefault(require("./useRouteCache"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/**
+ * Hook to create descriptor objects for the child routes.
+ *
+ * A descriptor object provides 3 things:
+ * - Helper method to render a screen
+ * - Options specified by the screen for the navigator
+ * - Navigation object intended for the route
+ */
+function useDescriptors({
+  state,
+  screens,
+  navigation,
+  screenOptions,
+  defaultScreenOptions,
+  onAction,
+  getState,
+  setState,
+  addListener,
+  addKeyedListener,
+  onRouteFocus,
+  router,
+  emitter
+}) {
+  const [options, setOptions] = React.useState({});
+  const {
+    onDispatchAction,
+    onOptionsChange,
+    stackRef
+  } = React.useContext(_NavigationBuilderContext.default);
+  const context = React.useMemo(() => ({
+    navigation,
+    onAction,
+    addListener,
+    addKeyedListener,
+    onRouteFocus,
+    onDispatchAction,
+    onOptionsChange,
+    stackRef
+  }), [navigation, onAction, addListener, addKeyedListener, onRouteFocus, onDispatchAction, onOptionsChange, stackRef]);
+  const navigations = (0, _useNavigationCache.default)({
+    state,
+    getState,
+    navigation,
+    setOptions,
+    router,
+    emitter
+  });
+  const routes = (0, _useRouteCache.default)(state.routes);
+  return routes.reduce((acc, route, i) => {
+    const config = screens[route.name];
+    const screen = config.props;
+    const navigation = navigations[route.key];
+    const optionsList = [// The default `screenOptions` passed to the navigator
+    screenOptions, // The `screenOptions` props passed to `Group` elements
+    ...(config.options ? config.options.filter(Boolean) : []), // The `options` prop passed to `Screen` elements,
+    screen.options, // The options set via `navigation.setOptions`
+    options[route.key]];
+    const customOptions = optionsList.reduce((acc, curr) => Object.assign(acc, typeof curr !== 'function' ? curr : curr({
+      route,
+      navigation
+    })), {});
+    const mergedOptions = { ...(typeof defaultScreenOptions === 'function' ? // @ts-expect-error: ts gives incorrect error here
+      defaultScreenOptions({
+        route,
+        navigation,
+        options: customOptions
+      }) : defaultScreenOptions),
+      ...customOptions
+    };
+
+    const clearOptions = () => setOptions(o => {
+      if (route.key in o) {
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
+        const {
+          [route.key]: _,
+          ...rest
+        } = o;
+        return rest;
+      }
+
+      return o;
+    });
+
+    acc[route.key] = {
+      route,
+      // @ts-expect-error: it's missing action helpers, fix later
+      navigation,
+
+      render() {
+        return /*#__PURE__*/React.createElement(_NavigationBuilderContext.default.Provider, {
+          key: route.key,
+          value: context
+        }, /*#__PURE__*/React.createElement(_NavigationContext.default.Provider, {
+          value: navigation
+        }, /*#__PURE__*/React.createElement(_NavigationRouteContext.default.Provider, {
+          value: route
+        }, /*#__PURE__*/React.createElement(_SceneView.default, {
+          navigation: navigation,
+          route: route,
+          screen: screen,
+          routeState: state.routes[i].state,
+          getState: getState,
+          setState: setState,
+          options: mergedOptions,
+          clearOptions: clearOptions
+        }))));
+      },
+
+      options: mergedOptions
+    };
+    return acc;
+  }, {});
+}
+},{"react":"node_modules/react/index.js","./NavigationBuilderContext":"node_modules/@react-navigation/core/lib/module/NavigationBuilderContext.js","./NavigationContext":"node_modules/@react-navigation/core/lib/module/NavigationContext.js","./NavigationRouteContext":"node_modules/@react-navigation/core/lib/module/NavigationRouteContext.js","./SceneView":"node_modules/@react-navigation/core/lib/module/SceneView.js","./useNavigationCache":"node_modules/@react-navigation/core/lib/module/useNavigationCache.js","./useRouteCache":"node_modules/@react-navigation/core/lib/module/useRouteCache.js"}],"node_modules/@react-navigation/core/lib/module/useFocusedListenersChildrenAdapter.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useFocusedListenersChildrenAdapter;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _NavigationBuilderContext = _interopRequireDefault(require("./NavigationBuilderContext"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/**
+ * Hook for passing focus callback to children
+ */
+function useFocusedListenersChildrenAdapter({
+  navigation,
+  focusedListeners
+}) {
+  const {
+    addListener
+  } = React.useContext(_NavigationBuilderContext.default);
+  const listener = React.useCallback(callback => {
+    if (navigation.isFocused()) {
+      for (const listener of focusedListeners) {
+        const {
+          handled,
+          result
+        } = listener(callback);
+
+        if (handled) {
+          return {
+            handled,
+            result
+          };
+        }
+      }
+
+      return {
+        handled: true,
+        result: callback(navigation)
+      };
+    } else {
+      return {
+        handled: false,
+        result: null
+      };
+    }
+  }, [focusedListeners, navigation]);
+  React.useEffect(() => addListener === null || addListener === void 0 ? void 0 : addListener('focus', listener), [addListener, listener]);
+}
+},{"react":"node_modules/react/index.js","./NavigationBuilderContext":"node_modules/@react-navigation/core/lib/module/NavigationBuilderContext.js"}],"node_modules/@react-navigation/core/lib/module/useFocusEvents.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useFocusEvents;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _NavigationContext = _interopRequireDefault(require("./NavigationContext"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/**
+ * Hook to take care of emitting `focus` and `blur` events.
+ */
+function useFocusEvents({
+  state,
+  emitter
+}) {
+  const navigation = React.useContext(_NavigationContext.default);
+  const lastFocusedKeyRef = React.useRef();
+  const currentFocusedKey = state.routes[state.index].key; // When the parent screen changes its focus state, we also need to change child's focus
+  // Coz the child screen can't be focused if the parent screen is out of focus
+
+  React.useEffect(() => navigation === null || navigation === void 0 ? void 0 : navigation.addListener('focus', () => {
+    lastFocusedKeyRef.current = currentFocusedKey;
+    emitter.emit({
+      type: 'focus',
+      target: currentFocusedKey
+    });
+  }), [currentFocusedKey, emitter, navigation]);
+  React.useEffect(() => navigation === null || navigation === void 0 ? void 0 : navigation.addListener('blur', () => {
+    lastFocusedKeyRef.current = undefined;
+    emitter.emit({
+      type: 'blur',
+      target: currentFocusedKey
+    });
+  }), [currentFocusedKey, emitter, navigation]);
+  React.useEffect(() => {
+    const lastFocusedKey = lastFocusedKeyRef.current;
+    lastFocusedKeyRef.current = currentFocusedKey; // We wouldn't have `lastFocusedKey` on initial mount
+    // Fire focus event for the current route on mount if there's no parent navigator
+
+    if (lastFocusedKey === undefined && !navigation) {
+      emitter.emit({
+        type: 'focus',
+        target: currentFocusedKey
+      });
+    } // We should only emit events when the focused key changed and navigator is focused
+    // When navigator is not focused, screens inside shouldn't receive focused status either
+
+
+    if (lastFocusedKey === currentFocusedKey || !(navigation ? navigation.isFocused() : true)) {
+      return;
+    }
+
+    if (lastFocusedKey === undefined) {
+      // Only fire events after initial mount
+      return;
+    }
+
+    emitter.emit({
+      type: 'blur',
+      target: lastFocusedKey
+    });
+    emitter.emit({
+      type: 'focus',
+      target: currentFocusedKey
+    });
+  }, [currentFocusedKey, emitter, navigation]);
+}
+},{"react":"node_modules/react/index.js","./NavigationContext":"node_modules/@react-navigation/core/lib/module/NavigationContext.js"}],"node_modules/@react-navigation/core/lib/module/useNavigationHelpers.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useNavigationHelpers;
+
+var _routers = require("@react-navigation/routers");
+
+var React = _interopRequireWildcard(require("react"));
+
+var _NavigationContext = _interopRequireDefault(require("./NavigationContext"));
+
+var _types = require("./types");
+
+var _UnhandledActionContext = _interopRequireDefault(require("./UnhandledActionContext"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+// This is to make TypeScript compiler happy
+// eslint-disable-next-line babel/no-unused-expressions
+_types.PrivateValueStore;
+/**
+ * Navigation object with helper methods to be used by a navigator.
+ * This object includes methods for common actions as well as methods the parent screen's navigation object.
+ */
+
+function useNavigationHelpers({
+  onAction,
+  getState,
+  emitter,
+  router
+}) {
+  const onUnhandledAction = React.useContext(_UnhandledActionContext.default);
+  const parentNavigationHelpers = React.useContext(_NavigationContext.default);
+  return React.useMemo(() => {
+    const dispatch = op => {
+      const action = typeof op === 'function' ? op(getState()) : op;
+      const handled = onAction(action);
+
+      if (!handled) {
+        onUnhandledAction === null || onUnhandledAction === void 0 ? void 0 : onUnhandledAction(action);
+      }
+    };
+
+    const actions = { ...router.actionCreators,
+      ..._routers.CommonActions
+    };
+    const helpers = Object.keys(actions).reduce((acc, name) => {
+      // @ts-expect-error: name is a valid key, but TypeScript is dumb
+      acc[name] = (...args) => dispatch(actions[name](...args));
+
+      return acc;
+    }, {});
+    return { ...parentNavigationHelpers,
+      ...helpers,
+      dispatch,
+      emit: emitter.emit,
+      isFocused: parentNavigationHelpers ? parentNavigationHelpers.isFocused : () => true,
+      canGoBack: () => {
+        const state = getState();
+        return router.getStateForAction(state, _routers.CommonActions.goBack(), {
+          routeNames: state.routeNames,
+          routeParamList: {},
+          routeGetIdList: {}
+        }) !== null || (parentNavigationHelpers === null || parentNavigationHelpers === void 0 ? void 0 : parentNavigationHelpers.canGoBack()) || false;
+      },
+      getParent: () => parentNavigationHelpers,
+      getState
+    };
+  }, [emitter.emit, getState, onAction, onUnhandledAction, parentNavigationHelpers, router]);
+}
+},{"@react-navigation/routers":"node_modules/@react-navigation/routers/lib/module/index.js","react":"node_modules/react/index.js","./NavigationContext":"node_modules/@react-navigation/core/lib/module/NavigationContext.js","./types":"node_modules/@react-navigation/core/lib/module/types.js","./UnhandledActionContext":"node_modules/@react-navigation/core/lib/module/UnhandledActionContext.js"}],"node_modules/@react-navigation/core/lib/module/useOnPreventRemove.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useOnPreventRemove;
+exports.shouldPreventRemove = void 0;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _NavigationBuilderContext = _interopRequireDefault(require("./NavigationBuilderContext"));
+
+var _NavigationRouteContext = _interopRequireDefault(require("./NavigationRouteContext"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+const VISITED_ROUTE_KEYS = Symbol('VISITED_ROUTE_KEYS');
+
+const shouldPreventRemove = (emitter, beforeRemoveListeners, currentRoutes, nextRoutes, action) => {
+  var _action$VISITED_ROUTE;
+
+  const nextRouteKeys = nextRoutes.map(route => route.key); // Call these in reverse order so last screens handle the event first
+
+  const removedRoutes = currentRoutes.filter(route => !nextRouteKeys.includes(route.key)).reverse();
+  const visitedRouteKeys = // @ts-expect-error: add this property to mark that we've already emitted this action
+  (_action$VISITED_ROUTE = action[VISITED_ROUTE_KEYS]) !== null && _action$VISITED_ROUTE !== void 0 ? _action$VISITED_ROUTE : new Set();
+  const beforeRemoveAction = { ...action,
+    [VISITED_ROUTE_KEYS]: visitedRouteKeys
+  };
+
+  for (const route of removedRoutes) {
+    var _beforeRemoveListener;
+
+    if (visitedRouteKeys.has(route.key)) {
+      // Skip if we've already emitted this action for this screen
+      continue;
+    } // First, we need to check if any child screens want to prevent it
+
+
+    const isPrevented = (_beforeRemoveListener = beforeRemoveListeners[route.key]) === null || _beforeRemoveListener === void 0 ? void 0 : _beforeRemoveListener.call(beforeRemoveListeners, beforeRemoveAction);
+
+    if (isPrevented) {
+      return true;
+    }
+
+    visitedRouteKeys.add(route.key);
+    const event = emitter.emit({
+      type: 'beforeRemove',
+      target: route.key,
+      data: {
+        action: beforeRemoveAction
+      },
+      canPreventDefault: true
+    });
+
+    if (event.defaultPrevented) {
+      return true;
+    }
+  }
+
+  return false;
+};
+
+exports.shouldPreventRemove = shouldPreventRemove;
+
+function useOnPreventRemove({
+  getState,
+  emitter,
+  beforeRemoveListeners
+}) {
+  const {
+    addKeyedListener
+  } = React.useContext(_NavigationBuilderContext.default);
+  const route = React.useContext(_NavigationRouteContext.default);
+  const routeKey = route === null || route === void 0 ? void 0 : route.key;
+  React.useEffect(() => {
+    if (routeKey) {
+      return addKeyedListener === null || addKeyedListener === void 0 ? void 0 : addKeyedListener('beforeRemove', routeKey, action => {
+        const state = getState();
+        return shouldPreventRemove(emitter, beforeRemoveListeners, state.routes, [], action);
+      });
+    }
+  }, [addKeyedListener, beforeRemoveListeners, emitter, getState, routeKey]);
+}
+},{"react":"node_modules/react/index.js","./NavigationBuilderContext":"node_modules/@react-navigation/core/lib/module/NavigationBuilderContext.js","./NavigationRouteContext":"node_modules/@react-navigation/core/lib/module/NavigationRouteContext.js"}],"node_modules/@react-navigation/core/lib/module/useOnAction.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useOnAction;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _NavigationBuilderContext = _interopRequireDefault(require("./NavigationBuilderContext"));
+
+var _useOnPreventRemove = _interopRequireWildcard(require("./useOnPreventRemove"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/**
+ * Hook to handle actions for a navigator, including state updates and bubbling.
+ *
+ * Bubbling an action is achieved in 2 ways:
+ * 1. To bubble action to parent, we expose the action handler in context and then access the parent context
+ * 2. To bubble action to child, child adds event listeners subscribing to actions from parent
+ *
+ * When the action handler handles as action, it returns `true`, otherwise `false`.
+ */
+function useOnAction({
+  router,
+  getState,
+  setState,
+  key,
+  actionListeners,
+  beforeRemoveListeners,
+  routerConfigOptions,
+  emitter
+}) {
+  const {
+    onAction: onActionParent,
+    onRouteFocus: onRouteFocusParent,
+    addListener: addListenerParent,
+    onDispatchAction
+  } = React.useContext(_NavigationBuilderContext.default);
+  const routerConfigOptionsRef = React.useRef(routerConfigOptions);
+  React.useEffect(() => {
+    routerConfigOptionsRef.current = routerConfigOptions;
+  });
+  const onAction = React.useCallback((action, visitedNavigators = new Set()) => {
+    const state = getState(); // Since actions can bubble both up and down, they could come to the same navigator again
+    // We keep track of navigators which have already tried to handle the action and return if it's already visited
+
+    if (visitedNavigators.has(state.key)) {
+      return false;
+    }
+
+    visitedNavigators.add(state.key);
+
+    if (typeof action.target !== 'string' || action.target === state.key) {
+      let result = router.getStateForAction(state, action, routerConfigOptionsRef.current); // If a target is specified and set to current navigator, the action shouldn't bubble
+      // So instead of `null`, we use the state object for such cases to signal that action was handled
+
+      result = result === null && action.target === state.key ? state : result;
+
+      if (result !== null) {
+        onDispatchAction(action, state === result);
+
+        if (state !== result) {
+          const isPrevented = (0, _useOnPreventRemove.shouldPreventRemove)(emitter, beforeRemoveListeners, state.routes, result.routes, action);
+
+          if (isPrevented) {
+            return true;
+          }
+
+          setState(result);
+        }
+
+        if (onRouteFocusParent !== undefined) {
+          // Some actions such as `NAVIGATE` also want to bring the navigated route to focus in the whole tree
+          // This means we need to focus all of the parent navigators of this navigator as well
+          const shouldFocus = router.shouldActionChangeFocus(action);
+
+          if (shouldFocus && key !== undefined) {
+            onRouteFocusParent(key);
+          }
+        }
+
+        return true;
+      }
+    }
+
+    if (onActionParent !== undefined) {
+      // Bubble action to the parent if the current navigator didn't handle it
+      if (onActionParent(action, visitedNavigators)) {
+        return true;
+      }
+    } // If the action wasn't handled by current navigator or a parent navigator, let children handle it
+
+
+    for (let i = actionListeners.length - 1; i >= 0; i--) {
+      const listener = actionListeners[i];
+
+      if (listener(action, visitedNavigators)) {
+        return true;
+      }
+    }
+
+    return false;
+  }, [actionListeners, beforeRemoveListeners, emitter, getState, key, onActionParent, onDispatchAction, onRouteFocusParent, router, setState]);
+  (0, _useOnPreventRemove.default)({
+    getState,
+    emitter,
+    beforeRemoveListeners
+  });
+  React.useEffect(() => addListenerParent === null || addListenerParent === void 0 ? void 0 : addListenerParent('action', onAction), [addListenerParent, onAction]);
+  return onAction;
+}
+},{"react":"node_modules/react/index.js","./NavigationBuilderContext":"node_modules/@react-navigation/core/lib/module/NavigationBuilderContext.js","./useOnPreventRemove":"node_modules/@react-navigation/core/lib/module/useOnPreventRemove.js"}],"node_modules/@react-navigation/core/lib/module/useOnGetState.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useOnGetState;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _isArrayEqual = _interopRequireDefault(require("./isArrayEqual"));
+
+var _NavigationBuilderContext = _interopRequireDefault(require("./NavigationBuilderContext"));
+
+var _NavigationRouteContext = _interopRequireDefault(require("./NavigationRouteContext"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function useOnGetState({
+  getState,
+  getStateListeners
+}) {
+  const {
+    addKeyedListener
+  } = React.useContext(_NavigationBuilderContext.default);
+  const route = React.useContext(_NavigationRouteContext.default);
+  const key = route ? route.key : 'root';
+  const getRehydratedState = React.useCallback(() => {
+    const state = getState(); // Avoid returning new route objects if we don't need to
+
+    const routes = state.routes.map(route => {
+      var _getStateListeners$ro;
+
+      const childState = (_getStateListeners$ro = getStateListeners[route.key]) === null || _getStateListeners$ro === void 0 ? void 0 : _getStateListeners$ro.call(getStateListeners);
+
+      if (route.state === childState) {
+        return route;
+      }
+
+      return { ...route,
+        state: childState
+      };
+    });
+
+    if ((0, _isArrayEqual.default)(state.routes, routes)) {
+      return state;
+    }
+
+    return { ...state,
+      routes
+    };
+  }, [getState, getStateListeners]);
+  React.useEffect(() => {
+    return addKeyedListener === null || addKeyedListener === void 0 ? void 0 : addKeyedListener('getState', key, getRehydratedState);
+  }, [addKeyedListener, getRehydratedState, key]);
+}
+},{"react":"node_modules/react/index.js","./isArrayEqual":"node_modules/@react-navigation/core/lib/module/isArrayEqual.js","./NavigationBuilderContext":"node_modules/@react-navigation/core/lib/module/NavigationBuilderContext.js","./NavigationRouteContext":"node_modules/@react-navigation/core/lib/module/NavigationRouteContext.js"}],"node_modules/@react-navigation/core/lib/module/useOnRouteFocus.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useOnRouteFocus;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _NavigationBuilderContext = _interopRequireDefault(require("./NavigationBuilderContext"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/**
+ * Hook to handle focus actions for a route.
+ * Focus action needs to be treated specially, coz when a nested route is focused,
+ * the parent navigators also needs to be focused.
+ */
+function useOnRouteFocus({
+  router,
+  getState,
+  key: sourceRouteKey,
+  setState
+}) {
+  const {
+    onRouteFocus: onRouteFocusParent
+  } = React.useContext(_NavigationBuilderContext.default);
+  return React.useCallback(key => {
+    const state = getState();
+    const result = router.getStateForRouteFocus(state, key);
+
+    if (result !== state) {
+      setState(result);
+    }
+
+    if (onRouteFocusParent !== undefined && sourceRouteKey !== undefined) {
+      onRouteFocusParent(sourceRouteKey);
+    }
+  }, [getState, onRouteFocusParent, router, setState, sourceRouteKey]);
+}
+},{"react":"node_modules/react/index.js","./NavigationBuilderContext":"node_modules/@react-navigation/core/lib/module/NavigationBuilderContext.js"}],"node_modules/@react-navigation/core/lib/module/useRegisterNavigator.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useRegisterNavigator;
+
+var _nonSecure = require("nanoid/non-secure");
+
+var React = _interopRequireWildcard(require("react"));
+
+var _EnsureSingleNavigator = require("./EnsureSingleNavigator");
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/**
+ * Register a navigator in the parent context (either a navigation container or a screen).
+ * This is used to prevent multiple navigators under a single container or screen.
+ */
+function useRegisterNavigator() {
+  const [key] = React.useState(() => (0, _nonSecure.nanoid)());
+  const container = React.useContext(_EnsureSingleNavigator.SingleNavigatorContext);
+
+  if (container === undefined) {
+    throw new Error("Couldn't register the navigator. Have you wrapped your app with 'NavigationContainer'?\n\nThis can also happen if there are multiple copies of '@react-navigation' packages installed.");
+  }
+
+  React.useEffect(() => {
+    const {
+      register,
+      unregister
+    } = container;
+    register(key);
+    return () => unregister(key);
+  }, [container, key]);
+  return key;
+}
+},{"nanoid/non-secure":"node_modules/nanoid/non-secure/index.js","react":"node_modules/react/index.js","./EnsureSingleNavigator":"node_modules/@react-navigation/core/lib/module/EnsureSingleNavigator.js"}],"node_modules/@react-navigation/core/lib/module/useNavigationBuilder.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useNavigationBuilder;
+
+var _routers = require("@react-navigation/routers");
+
+var React = _interopRequireWildcard(require("react"));
+
+var _reactIs = require("react-is");
+
+var _Group = _interopRequireDefault(require("./Group"));
+
+var _isArrayEqual = _interopRequireDefault(require("./isArrayEqual"));
+
+var _isRecordEqual = _interopRequireDefault(require("./isRecordEqual"));
+
+var _NavigationHelpersContext = _interopRequireDefault(require("./NavigationHelpersContext"));
+
+var _NavigationRouteContext = _interopRequireDefault(require("./NavigationRouteContext"));
+
+var _NavigationStateContext = _interopRequireDefault(require("./NavigationStateContext"));
+
+var _Screen = _interopRequireDefault(require("./Screen"));
+
+var _types = require("./types");
+
+var _useChildListeners = _interopRequireDefault(require("./useChildListeners"));
+
+var _useComponent = _interopRequireDefault(require("./useComponent"));
+
+var _useCurrentRender = _interopRequireDefault(require("./useCurrentRender"));
+
+var _useDescriptors = _interopRequireDefault(require("./useDescriptors"));
+
+var _useEventEmitter = _interopRequireDefault(require("./useEventEmitter"));
+
+var _useFocusedListenersChildrenAdapter = _interopRequireDefault(require("./useFocusedListenersChildrenAdapter"));
+
+var _useFocusEvents = _interopRequireDefault(require("./useFocusEvents"));
+
+var _useKeyedChildListeners = _interopRequireDefault(require("./useKeyedChildListeners"));
+
+var _useNavigationHelpers = _interopRequireDefault(require("./useNavigationHelpers"));
+
+var _useOnAction = _interopRequireDefault(require("./useOnAction"));
+
+var _useOnGetState = _interopRequireDefault(require("./useOnGetState"));
+
+var _useOnRouteFocus = _interopRequireDefault(require("./useOnRouteFocus"));
+
+var _useRegisterNavigator = _interopRequireDefault(require("./useRegisterNavigator"));
+
+var _useScheduleUpdate = _interopRequireDefault(require("./useScheduleUpdate"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+// This is to make TypeScript compiler happy
+// eslint-disable-next-line babel/no-unused-expressions
+_types.PrivateValueStore;
+
+const isValidKey = key => key === undefined || typeof key === 'string' && key !== '';
+/**
+ * Extract route config object from React children elements.
+ *
+ * @param children React Elements to extract the config from.
+ */
+
+
+const getRouteConfigsFromChildren = (children, groupKey, groupOptions) => {
+  const configs = React.Children.toArray(children).reduce((acc, child) => {
+    var _child$type, _child$props;
+
+    if ( /*#__PURE__*/React.isValidElement(child)) {
+      if (child.type === _Screen.default) {
+        // We can only extract the config from `Screen` elements
+        // If something else was rendered, it's probably a bug
+        if (!isValidKey(child.props.navigationKey)) {
+          throw new Error(`Got an invalid 'navigationKey' prop (${JSON.stringify(child.props.navigationKey)}) for the screen '${child.props.name}'. It must be a non-empty string or 'undefined'.`);
+        }
+
+        acc.push({
+          keys: [groupKey, child.props.navigationKey],
+          options: groupOptions,
+          props: child.props
+        });
+        return acc;
+      }
+
+      if (child.type === React.Fragment || child.type === _Group.default) {
+        if (!isValidKey(child.props.navigationKey)) {
+          throw new Error(`Got an invalid 'navigationKey' prop (${JSON.stringify(child.props.navigationKey)}) for the group. It must be a non-empty string or 'undefined'.`);
+        } // When we encounter a fragment or group, we need to dive into its children to extract the configs
+        // This is handy to conditionally define a group of screens
+
+
+        acc.push(...getRouteConfigsFromChildren(child.props.children, child.props.navigationKey, child.type !== _Group.default ? groupOptions : groupOptions != null ? [...groupOptions, child.props.screenOptions] : [child.props.screenOptions]));
+        return acc;
+      }
+    }
+
+    throw new Error(`A navigator can only contain 'Screen', 'Group' or 'React.Fragment' as its direct children (found ${
+    /*#__PURE__*/
+    React.isValidElement(child) ? `'${typeof child.type === 'string' ? child.type : (_child$type = child.type) === null || _child$type === void 0 ? void 0 : _child$type.name}'${(_child$props = child.props) !== null && _child$props !== void 0 && _child$props.name ? ` for the screen '${child.props.name}'` : ''}` : typeof child === 'object' ? JSON.stringify(child) : `'${String(child)}'`}). To render this component in the navigator, pass it in the 'component' prop to 'Screen'.`);
+  }, []);
+
+  if ("development" !== 'production') {
+    configs.forEach(config => {
+      const {
+        name,
+        children,
+        component,
+        getComponent
+      } = config.props;
+
+      if (typeof name !== 'string' || !name) {
+        throw new Error(`Got an invalid name (${JSON.stringify(name)}) for the screen. It must be a non-empty string.`);
+      }
+
+      if (children != null || component !== undefined || getComponent !== undefined) {
+        if (children != null && component !== undefined) {
+          throw new Error(`Got both 'component' and 'children' props for the screen '${name}'. You must pass only one of them.`);
+        }
+
+        if (children != null && getComponent !== undefined) {
+          throw new Error(`Got both 'getComponent' and 'children' props for the screen '${name}'. You must pass only one of them.`);
+        }
+
+        if (component !== undefined && getComponent !== undefined) {
+          throw new Error(`Got both 'component' and 'getComponent' props for the screen '${name}'. You must pass only one of them.`);
+        }
+
+        if (children != null && typeof children !== 'function') {
+          throw new Error(`Got an invalid value for 'children' prop for the screen '${name}'. It must be a function returning a React Element.`);
+        }
+
+        if (component !== undefined && !(0, _reactIs.isValidElementType)(component)) {
+          throw new Error(`Got an invalid value for 'component' prop for the screen '${name}'. It must be a valid React Component.`);
+        }
+
+        if (getComponent !== undefined && typeof getComponent !== 'function') {
+          throw new Error(`Got an invalid value for 'getComponent' prop for the screen '${name}'. It must be a function returning a React Component.`);
+        }
+
+        if (typeof component === 'function' && component.name === 'component') {
+          // Inline anonymous functions passed in the `component` prop will have the name of the prop
+          // It's relatively safe to assume that it's not a component since it should also have PascalCase name
+          // We won't catch all scenarios here, but this should catch a good chunk of incorrect use.
+          console.warn(`Looks like you're passing an inline function for 'component' prop for the screen '${name}' (e.g. component={() => <SomeComponent />}). Passing an inline function will cause the component state to be lost on re-render and cause perf issues since it's re-created every render. You can pass the function as children to 'Screen' instead to achieve the desired behaviour.`);
+        }
+      } else {
+        throw new Error(`Couldn't find a 'component', 'getComponent' or 'children' prop for the screen '${name}'. This can happen if you passed 'undefined'. You likely forgot to export your component from the file it's defined in, or mixed up default import and named import when importing.`);
+      }
+    });
+  }
+
+  return configs;
+};
+/**
+ * Hook for building navigators.
+ *
+ * @param createRouter Factory method which returns router object.
+ * @param options Options object containing `children` and additional options for the router.
+ * @returns An object containing `state`, `navigation`, `descriptors` objects.
+ */
+
+
+function useNavigationBuilder(createRouter, options) {
+  const navigatorKey = (0, _useRegisterNavigator.default)();
+  const route = React.useContext(_NavigationRouteContext.default);
+  const {
+    children,
+    screenListeners,
+    ...rest
+  } = options;
+  const {
+    current: router
+  } = React.useRef(createRouter({ ...rest,
+    ...(route !== null && route !== void 0 && route.params && route.params.state == null && route.params.initial !== false && typeof route.params.screen === 'string' ? {
+      initialRouteName: route.params.screen
+    } : null)
+  }));
+  const routeConfigs = getRouteConfigsFromChildren(children);
+  const screens = routeConfigs.reduce((acc, config) => {
+    if (config.props.name in acc) {
+      throw new Error(`A navigator cannot contain multiple 'Screen' components with the same name (found duplicate screen named '${config.props.name}')`);
+    }
+
+    acc[config.props.name] = config;
+    return acc;
+  }, {});
+  const routeNames = routeConfigs.map(config => config.props.name);
+  const routeKeyList = routeNames.reduce((acc, curr) => {
+    acc[curr] = screens[curr].keys.map(key => key !== null && key !== void 0 ? key : '').join(':');
+    return acc;
+  }, {});
+  const routeParamList = routeNames.reduce((acc, curr) => {
+    const {
+      initialParams
+    } = screens[curr].props;
+    acc[curr] = initialParams;
+    return acc;
+  }, {});
+  const routeGetIdList = routeNames.reduce((acc, curr) => Object.assign(acc, {
+    [curr]: screens[curr].props.getId
+  }), {});
+
+  if (!routeNames.length) {
+    throw new Error("Couldn't find any screens for the navigator. Have you defined any screens as its children?");
+  }
+
+  const isStateValid = React.useCallback(state => state.type === undefined || state.type === router.type, [router.type]);
+  const isStateInitialized = React.useCallback(state => state !== undefined && state.stale === false && isStateValid(state), [isStateValid]);
+  const {
+    state: currentState,
+    getState: getCurrentState,
+    setState: setCurrentState,
+    setKey,
+    getKey,
+    getIsInitial
+  } = React.useContext(_NavigationStateContext.default);
+  const stateCleanedUp = React.useRef(false);
+  const cleanUpState = React.useCallback(() => {
+    setCurrentState(undefined);
+    stateCleanedUp.current = true;
+  }, [setCurrentState]);
+  const setState = React.useCallback(state => {
+    if (stateCleanedUp.current) {
+      // State might have been already cleaned up due to unmount
+      // We do not want to expose API allowing to override this
+      // This would lead to old data preservation on main navigator unmount
+      return;
+    }
+
+    setCurrentState(state);
+  }, [setCurrentState]);
+  const [initializedState, isFirstStateInitialization] = React.useMemo(() => {
+    var _route$params4;
+
+    const initialRouteParamList = routeNames.reduce((acc, curr) => {
+      var _route$params, _route$params2, _route$params3;
+
+      const {
+        initialParams
+      } = screens[curr].props;
+      const initialParamsFromParams = (route === null || route === void 0 ? void 0 : (_route$params = route.params) === null || _route$params === void 0 ? void 0 : _route$params.state) == null && (route === null || route === void 0 ? void 0 : (_route$params2 = route.params) === null || _route$params2 === void 0 ? void 0 : _route$params2.initial) !== false && (route === null || route === void 0 ? void 0 : (_route$params3 = route.params) === null || _route$params3 === void 0 ? void 0 : _route$params3.screen) === curr ? route.params.params : undefined;
+      acc[curr] = initialParams !== undefined || initialParamsFromParams !== undefined ? { ...initialParams,
+        ...initialParamsFromParams
+      } : undefined;
+      return acc;
+    }, {}); // If the current state isn't initialized on first render, we initialize it
+    // We also need to re-initialize it if the state passed from parent was changed (maybe due to reset)
+    // Otherwise assume that the state was provided as initial state
+    // So we need to rehydrate it to make it usable
+
+    if ((currentState === undefined || !isStateValid(currentState)) && (route === null || route === void 0 ? void 0 : (_route$params4 = route.params) === null || _route$params4 === void 0 ? void 0 : _route$params4.state) == null) {
+      return [router.getInitialState({
+        routeNames,
+        routeParamList: initialRouteParamList,
+        routeGetIdList
+      }), true];
+    } else {
+      var _route$params$state, _route$params5;
+
+      return [router.getRehydratedState((_route$params$state = route === null || route === void 0 ? void 0 : (_route$params5 = route.params) === null || _route$params5 === void 0 ? void 0 : _route$params5.state) !== null && _route$params$state !== void 0 ? _route$params$state : currentState, {
+        routeNames,
+        routeParamList: initialRouteParamList,
+        routeGetIdList
+      }), false];
+    } // We explicitly don't include routeNames, route.params etc. in the dep list
+    // below. We want to avoid forcing a new state to be calculated in those cases
+    // Instead, we handle changes to these in the nextState code below. Note
+    // that some changes to routeConfigs are explicitly ignored, such as changes
+    // to initialParams
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+
+  }, [currentState, router, isStateValid]);
+  const previousRouteKeyListRef = React.useRef(routeKeyList);
+  React.useEffect(() => {
+    previousRouteKeyListRef.current = routeKeyList;
+  });
+  const previousRouteKeyList = previousRouteKeyListRef.current;
+  let state = // If the state isn't initialized, or stale, use the state we initialized instead
+  // The state won't update until there's a change needed in the state we have initalized locally
+  // So it'll be `undefined` or stale until the first navigation event happens
+  isStateInitialized(currentState) ? currentState : initializedState;
+  let nextState = state;
+
+  if (!(0, _isArrayEqual.default)(state.routeNames, routeNames) || !(0, _isRecordEqual.default)(routeKeyList, previousRouteKeyList)) {
+    // When the list of route names change, the router should handle it to remove invalid routes
+    nextState = router.getStateForRouteNamesChange(state, {
+      routeNames,
+      routeParamList,
+      routeGetIdList,
+      routeKeyChanges: Object.keys(routeKeyList).filter(name => previousRouteKeyList.hasOwnProperty(name) && routeKeyList[name] !== previousRouteKeyList[name])
+    });
+  }
+
+  const previousNestedParamsRef = React.useRef(route === null || route === void 0 ? void 0 : route.params);
+  React.useEffect(() => {
+    previousNestedParamsRef.current = route === null || route === void 0 ? void 0 : route.params;
+  }, [route === null || route === void 0 ? void 0 : route.params]);
+
+  if (route !== null && route !== void 0 && route.params) {
+    const previousParams = previousNestedParamsRef.current;
+    let action;
+
+    if (typeof route.params.state === 'object' && route.params.state != null && route.params !== previousParams) {
+      // If the route was updated with new state, we should reset to it
+      action = _routers.CommonActions.reset(route.params.state);
+    } else if (typeof route.params.screen === 'string' && (route.params.initial === false && isFirstStateInitialization || route.params !== previousParams)) {
+      // If the route was updated with new screen name and/or params, we should navigate there
+      action = _routers.CommonActions.navigate({
+        name: route.params.screen,
+        params: route.params.params,
+        path: route.params.path
+      });
+    } // The update should be limited to current navigator only, so we call the router manually
+
+
+    const updatedState = action ? router.getStateForAction(nextState, action, {
+      routeNames,
+      routeParamList,
+      routeGetIdList
+    }) : null;
+    nextState = updatedState !== null ? router.getRehydratedState(updatedState, {
+      routeNames,
+      routeParamList,
+      routeGetIdList
+    }) : nextState;
+  }
+
+  const shouldUpdate = state !== nextState;
+  (0, _useScheduleUpdate.default)(() => {
+    if (shouldUpdate) {
+      // If the state needs to be updated, we'll schedule an update
+      setState(nextState);
+    }
+  }); // The up-to-date state will come in next render, but we don't need to wait for it
+  // We can't use the outdated state since the screens have changed, which will cause error due to mismatched config
+  // So we override the state object we return to use the latest state as soon as possible
+
+  state = nextState;
+  React.useEffect(() => {
+    setKey(navigatorKey);
+
+    if (!getIsInitial()) {
+      // If it's not initial render, we need to update the state
+      // This will make sure that our container gets notifier of state changes due to new mounts
+      // This is necessary for proper screen tracking, URL updates etc.
+      setState(nextState);
+    }
+
+    return () => {
+      // We need to clean up state for this navigator on unmount
+      // We do it in a timeout because we need to detect if another navigator mounted in the meantime
+      // For example, if another navigator has started rendering, we should skip cleanup
+      // Otherwise, our cleanup step will cleanup state for the other navigator and re-initialize it
+      setTimeout(() => {
+        if (getCurrentState() !== undefined && getKey() === navigatorKey) {
+          cleanUpState();
+        }
+      }, 0);
+    }; // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []); // We initialize this ref here to avoid a new getState getting initialized
+  // whenever initializedState changes. We want getState to have access to the
+  // latest initializedState, but don't need it to change when that happens
+
+  const initializedStateRef = React.useRef();
+  initializedStateRef.current = initializedState;
+  const getState = React.useCallback(() => {
+    const currentState = getCurrentState();
+    return isStateInitialized(currentState) ? currentState : initializedStateRef.current;
+  }, [getCurrentState, isStateInitialized]);
+  const emitter = (0, _useEventEmitter.default)(e => {
+    let routeNames = [];
+    let route;
+
+    if (e.target) {
+      var _route;
+
+      route = state.routes.find(route => route.key === e.target);
+
+      if ((_route = route) !== null && _route !== void 0 && _route.name) {
+        routeNames.push(route.name);
+      }
+    } else {
+      route = state.routes[state.index];
+      routeNames.push(...Object.keys(screens).filter(name => {
+        var _route2;
+
+        return ((_route2 = route) === null || _route2 === void 0 ? void 0 : _route2.name) === name;
+      }));
+    }
+
+    if (route == null) {
+      return;
+    }
+
+    const navigation = descriptors[route.key].navigation;
+    const listeners = [].concat( // Get an array of listeners for all screens + common listeners on navigator
+    ...[screenListeners, ...routeNames.map(name => {
+      const {
+        listeners
+      } = screens[name].props;
+      return listeners;
+    })].map(listeners => {
+      const map = typeof listeners === 'function' ? listeners({
+        route: route,
+        navigation
+      }) : listeners;
+      return map ? Object.keys(map).filter(type => type === e.type).map(type => map === null || map === void 0 ? void 0 : map[type]) : undefined;
+    })) // We don't want same listener to be called multiple times for same event
+    // So we remove any duplicate functions from the array
+    .filter((cb, i, self) => cb && self.lastIndexOf(cb) === i);
+    listeners.forEach(listener => listener === null || listener === void 0 ? void 0 : listener(e));
+  });
+  (0, _useFocusEvents.default)({
+    state,
+    emitter
+  });
+  React.useEffect(() => {
+    emitter.emit({
+      type: 'state',
+      data: {
+        state
+      }
+    });
+  }, [emitter, state]);
+  const {
+    listeners: childListeners,
+    addListener
+  } = (0, _useChildListeners.default)();
+  const {
+    keyedListeners,
+    addKeyedListener
+  } = (0, _useKeyedChildListeners.default)();
+  const onAction = (0, _useOnAction.default)({
+    router,
+    getState,
+    setState,
+    key: route === null || route === void 0 ? void 0 : route.key,
+    actionListeners: childListeners.action,
+    beforeRemoveListeners: keyedListeners.beforeRemove,
+    routerConfigOptions: {
+      routeNames,
+      routeParamList,
+      routeGetIdList
+    },
+    emitter
+  });
+  const onRouteFocus = (0, _useOnRouteFocus.default)({
+    router,
+    key: route === null || route === void 0 ? void 0 : route.key,
+    getState,
+    setState
+  });
+  const navigation = (0, _useNavigationHelpers.default)({
+    onAction,
+    getState,
+    emitter,
+    router
+  });
+  (0, _useFocusedListenersChildrenAdapter.default)({
+    navigation,
+    focusedListeners: childListeners.focus
+  });
+  (0, _useOnGetState.default)({
+    getState,
+    getStateListeners: keyedListeners.getState
+  });
+  const descriptors = (0, _useDescriptors.default)({
+    state,
+    screens,
+    navigation,
+    screenOptions: options.screenOptions,
+    defaultScreenOptions: options.defaultScreenOptions,
+    onAction,
+    getState,
+    setState,
+    onRouteFocus,
+    addListener,
+    addKeyedListener,
+    router,
+    // @ts-expect-error: this should have both core and custom events, but too much work right now
+    emitter
+  });
+  (0, _useCurrentRender.default)({
+    state,
+    navigation,
+    descriptors
+  });
+  const NavigationContent = (0, _useComponent.default)(_NavigationHelpersContext.default.Provider, {
+    value: navigation
+  });
+  return {
+    state,
+    navigation,
+    descriptors,
+    NavigationContent
+  };
+}
+},{"@react-navigation/routers":"node_modules/@react-navigation/routers/lib/module/index.js","react":"node_modules/react/index.js","react-is":"node_modules/react-is/index.js","./Group":"node_modules/@react-navigation/core/lib/module/Group.js","./isArrayEqual":"node_modules/@react-navigation/core/lib/module/isArrayEqual.js","./isRecordEqual":"node_modules/@react-navigation/core/lib/module/isRecordEqual.js","./NavigationHelpersContext":"node_modules/@react-navigation/core/lib/module/NavigationHelpersContext.js","./NavigationRouteContext":"node_modules/@react-navigation/core/lib/module/NavigationRouteContext.js","./NavigationStateContext":"node_modules/@react-navigation/core/lib/module/NavigationStateContext.js","./Screen":"node_modules/@react-navigation/core/lib/module/Screen.js","./types":"node_modules/@react-navigation/core/lib/module/types.js","./useChildListeners":"node_modules/@react-navigation/core/lib/module/useChildListeners.js","./useComponent":"node_modules/@react-navigation/core/lib/module/useComponent.js","./useCurrentRender":"node_modules/@react-navigation/core/lib/module/useCurrentRender.js","./useDescriptors":"node_modules/@react-navigation/core/lib/module/useDescriptors.js","./useEventEmitter":"node_modules/@react-navigation/core/lib/module/useEventEmitter.js","./useFocusedListenersChildrenAdapter":"node_modules/@react-navigation/core/lib/module/useFocusedListenersChildrenAdapter.js","./useFocusEvents":"node_modules/@react-navigation/core/lib/module/useFocusEvents.js","./useKeyedChildListeners":"node_modules/@react-navigation/core/lib/module/useKeyedChildListeners.js","./useNavigationHelpers":"node_modules/@react-navigation/core/lib/module/useNavigationHelpers.js","./useOnAction":"node_modules/@react-navigation/core/lib/module/useOnAction.js","./useOnGetState":"node_modules/@react-navigation/core/lib/module/useOnGetState.js","./useOnRouteFocus":"node_modules/@react-navigation/core/lib/module/useOnRouteFocus.js","./useRegisterNavigator":"node_modules/@react-navigation/core/lib/module/useRegisterNavigator.js","./useScheduleUpdate":"node_modules/@react-navigation/core/lib/module/useScheduleUpdate.js"}],"node_modules/@react-navigation/core/lib/module/useNavigationContainerRef.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useNavigationContainerRef;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _createNavigationContainerRef = _interopRequireDefault(require("./createNavigationContainerRef"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function useNavigationContainerRef() {
+  const navigation = React.useRef(null);
+
+  if (navigation.current == null) {
+    navigation.current = (0, _createNavigationContainerRef.default)();
+  }
+
+  return navigation.current;
+}
+},{"react":"node_modules/react/index.js","./createNavigationContainerRef":"node_modules/@react-navigation/core/lib/module/createNavigationContainerRef.js"}],"node_modules/@react-navigation/core/lib/module/useNavigationState.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useNavigationState;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _useNavigation = _interopRequireDefault(require("./useNavigation"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/**
+ * Hook to get a value from the current navigation state using a selector.
+ *
+ * @param selector Selector function to get a value from the state.
+ */
+function useNavigationState(selector) {
+  const navigation = (0, _useNavigation.default)(); // We don't care about the state value, we run the selector again at the end
+  // The state is only to make sure that there's a re-render when we have a new value
+
+  const [, setResult] = React.useState(() => selector(navigation.getState())); // We store the selector in a ref to avoid re-subscribing listeners every render
+
+  const selectorRef = React.useRef(selector);
+  React.useEffect(() => {
+    selectorRef.current = selector;
+  });
+  React.useEffect(() => {
+    const unsubscribe = navigation.addListener('state', e => {
+      setResult(selectorRef.current(e.data.state));
+    });
+    return unsubscribe;
+  }, [navigation]);
+  return selector(navigation.getState());
+}
+},{"react":"node_modules/react/index.js","./useNavigation":"node_modules/@react-navigation/core/lib/module/useNavigation.js"}],"node_modules/@react-navigation/core/lib/module/useRoute.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useRoute;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _NavigationRouteContext = _interopRequireDefault(require("./NavigationRouteContext"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/**
+ * Hook to access the route prop of the parent screen anywhere.
+ *
+ * @returns Route prop of the parent screen.
+ */
+function useRoute() {
+  const route = React.useContext(_NavigationRouteContext.default);
+
+  if (route === undefined) {
+    throw new Error("Couldn't find a route object. Is your component inside a screen in a navigator?");
+  }
+
+  return route;
+}
+},{"react":"node_modules/react/index.js","./NavigationRouteContext":"node_modules/@react-navigation/core/lib/module/NavigationRouteContext.js"}],"node_modules/@react-navigation/core/lib/module/index.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var _exportNames = {
+  BaseNavigationContainer: true,
+  createNavigationContainerRef: true,
+  createNavigatorFactory: true,
+  CurrentRenderContext: true,
+  findFocusedRoute: true,
+  getActionFromState: true,
+  getFocusedRouteNameFromRoute: true,
+  getPathFromState: true,
+  getStateFromPath: true,
+  NavigationContainerRefContext: true,
+  NavigationContext: true,
+  NavigationHelpersContext: true,
+  NavigationRouteContext: true,
+  useFocusEffect: true,
+  useIsFocused: true,
+  useNavigation: true,
+  useNavigationBuilder: true,
+  useNavigationContainerRef: true,
+  useNavigationState: true,
+  useRoute: true,
+  validatePathConfig: true
+};
+Object.defineProperty(exports, "BaseNavigationContainer", {
+  enumerable: true,
+  get: function () {
+    return _BaseNavigationContainer.default;
+  }
+});
+Object.defineProperty(exports, "CurrentRenderContext", {
+  enumerable: true,
+  get: function () {
+    return _CurrentRenderContext.default;
+  }
+});
+Object.defineProperty(exports, "NavigationContainerRefContext", {
+  enumerable: true,
+  get: function () {
+    return _NavigationContainerRefContext.default;
+  }
+});
+Object.defineProperty(exports, "NavigationContext", {
+  enumerable: true,
+  get: function () {
+    return _NavigationContext.default;
+  }
+});
+Object.defineProperty(exports, "NavigationHelpersContext", {
+  enumerable: true,
+  get: function () {
+    return _NavigationHelpersContext.default;
+  }
+});
+Object.defineProperty(exports, "NavigationRouteContext", {
+  enumerable: true,
+  get: function () {
+    return _NavigationRouteContext.default;
+  }
+});
+Object.defineProperty(exports, "createNavigationContainerRef", {
+  enumerable: true,
+  get: function () {
+    return _createNavigationContainerRef.default;
+  }
+});
+Object.defineProperty(exports, "createNavigatorFactory", {
+  enumerable: true,
+  get: function () {
+    return _createNavigatorFactory.default;
+  }
+});
+Object.defineProperty(exports, "findFocusedRoute", {
+  enumerable: true,
+  get: function () {
+    return _findFocusedRoute.default;
+  }
+});
+Object.defineProperty(exports, "getActionFromState", {
+  enumerable: true,
+  get: function () {
+    return _getActionFromState.default;
+  }
+});
+Object.defineProperty(exports, "getFocusedRouteNameFromRoute", {
+  enumerable: true,
+  get: function () {
+    return _getFocusedRouteNameFromRoute.default;
+  }
+});
+Object.defineProperty(exports, "getPathFromState", {
+  enumerable: true,
+  get: function () {
+    return _getPathFromState.default;
+  }
+});
+Object.defineProperty(exports, "getStateFromPath", {
+  enumerable: true,
+  get: function () {
+    return _getStateFromPath.default;
+  }
+});
+Object.defineProperty(exports, "useFocusEffect", {
+  enumerable: true,
+  get: function () {
+    return _useFocusEffect.default;
+  }
+});
+Object.defineProperty(exports, "useIsFocused", {
+  enumerable: true,
+  get: function () {
+    return _useIsFocused.default;
+  }
+});
+Object.defineProperty(exports, "useNavigation", {
+  enumerable: true,
+  get: function () {
+    return _useNavigation.default;
+  }
+});
+Object.defineProperty(exports, "useNavigationBuilder", {
+  enumerable: true,
+  get: function () {
+    return _useNavigationBuilder.default;
+  }
+});
+Object.defineProperty(exports, "useNavigationContainerRef", {
+  enumerable: true,
+  get: function () {
+    return _useNavigationContainerRef.default;
+  }
+});
+Object.defineProperty(exports, "useNavigationState", {
+  enumerable: true,
+  get: function () {
+    return _useNavigationState.default;
+  }
+});
+Object.defineProperty(exports, "useRoute", {
+  enumerable: true,
+  get: function () {
+    return _useRoute.default;
+  }
+});
+Object.defineProperty(exports, "validatePathConfig", {
+  enumerable: true,
+  get: function () {
+    return _validatePathConfig.default;
+  }
+});
+
+var _BaseNavigationContainer = _interopRequireDefault(require("./BaseNavigationContainer"));
+
+var _createNavigationContainerRef = _interopRequireDefault(require("./createNavigationContainerRef"));
+
+var _createNavigatorFactory = _interopRequireDefault(require("./createNavigatorFactory"));
+
+var _CurrentRenderContext = _interopRequireDefault(require("./CurrentRenderContext"));
+
+var _findFocusedRoute = _interopRequireDefault(require("./findFocusedRoute"));
+
+var _getActionFromState = _interopRequireDefault(require("./getActionFromState"));
+
+var _getFocusedRouteNameFromRoute = _interopRequireDefault(require("./getFocusedRouteNameFromRoute"));
+
+var _getPathFromState = _interopRequireDefault(require("./getPathFromState"));
+
+var _getStateFromPath = _interopRequireDefault(require("./getStateFromPath"));
+
+var _NavigationContainerRefContext = _interopRequireDefault(require("./NavigationContainerRefContext"));
+
+var _NavigationContext = _interopRequireDefault(require("./NavigationContext"));
+
+var _NavigationHelpersContext = _interopRequireDefault(require("./NavigationHelpersContext"));
+
+var _NavigationRouteContext = _interopRequireDefault(require("./NavigationRouteContext"));
+
+var _types = require("./types");
+
+Object.keys(_types).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _types[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _types[key];
+    }
+  });
+});
+
+var _useFocusEffect = _interopRequireDefault(require("./useFocusEffect"));
+
+var _useIsFocused = _interopRequireDefault(require("./useIsFocused"));
+
+var _useNavigation = _interopRequireDefault(require("./useNavigation"));
+
+var _useNavigationBuilder = _interopRequireDefault(require("./useNavigationBuilder"));
+
+var _useNavigationContainerRef = _interopRequireDefault(require("./useNavigationContainerRef"));
+
+var _useNavigationState = _interopRequireDefault(require("./useNavigationState"));
+
+var _useRoute = _interopRequireDefault(require("./useRoute"));
+
+var _validatePathConfig = _interopRequireDefault(require("./validatePathConfig"));
+
+var _routers = require("@react-navigation/routers");
+
+Object.keys(_routers).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _routers[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _routers[key];
+    }
+  });
+});
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+},{"./BaseNavigationContainer":"node_modules/@react-navigation/core/lib/module/BaseNavigationContainer.js","./createNavigationContainerRef":"node_modules/@react-navigation/core/lib/module/createNavigationContainerRef.js","./createNavigatorFactory":"node_modules/@react-navigation/core/lib/module/createNavigatorFactory.js","./CurrentRenderContext":"node_modules/@react-navigation/core/lib/module/CurrentRenderContext.js","./findFocusedRoute":"node_modules/@react-navigation/core/lib/module/findFocusedRoute.js","./getActionFromState":"node_modules/@react-navigation/core/lib/module/getActionFromState.js","./getFocusedRouteNameFromRoute":"node_modules/@react-navigation/core/lib/module/getFocusedRouteNameFromRoute.js","./getPathFromState":"node_modules/@react-navigation/core/lib/module/getPathFromState.js","./getStateFromPath":"node_modules/@react-navigation/core/lib/module/getStateFromPath.js","./NavigationContainerRefContext":"node_modules/@react-navigation/core/lib/module/NavigationContainerRefContext.js","./NavigationContext":"node_modules/@react-navigation/core/lib/module/NavigationContext.js","./NavigationHelpersContext":"node_modules/@react-navigation/core/lib/module/NavigationHelpersContext.js","./NavigationRouteContext":"node_modules/@react-navigation/core/lib/module/NavigationRouteContext.js","./types":"node_modules/@react-navigation/core/lib/module/types.js","./useFocusEffect":"node_modules/@react-navigation/core/lib/module/useFocusEffect.js","./useIsFocused":"node_modules/@react-navigation/core/lib/module/useIsFocused.js","./useNavigation":"node_modules/@react-navigation/core/lib/module/useNavigation.js","./useNavigationBuilder":"node_modules/@react-navigation/core/lib/module/useNavigationBuilder.js","./useNavigationContainerRef":"node_modules/@react-navigation/core/lib/module/useNavigationContainerRef.js","./useNavigationState":"node_modules/@react-navigation/core/lib/module/useNavigationState.js","./useRoute":"node_modules/@react-navigation/core/lib/module/useRoute.js","./validatePathConfig":"node_modules/@react-navigation/core/lib/module/validatePathConfig.js","@react-navigation/routers":"node_modules/@react-navigation/routers/lib/module/index.js"}],"node_modules/@react-navigation/native/lib/module/LinkingContext.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(require("react"));
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+const LinkingContext = /*#__PURE__*/React.createContext({
+  options: undefined
+});
+LinkingContext.displayName = 'LinkingContext';
+var _default = LinkingContext;
+exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"node_modules/@react-navigation/native/lib/module/useLinkTo.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useLinkTo;
+
+var _core = require("@react-navigation/core");
+
+var React = _interopRequireWildcard(require("react"));
+
+var _LinkingContext = _interopRequireDefault(require("./LinkingContext"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function useLinkTo() {
+  const navigation = React.useContext(_core.NavigationContainerRefContext);
+  const linking = React.useContext(_LinkingContext.default);
+  const linkTo = React.useCallback(to => {
+    if (navigation === undefined) {
+      throw new Error("Couldn't find a navigation object. Is your component inside NavigationContainer?");
+    }
+
+    if (typeof to !== 'string') {
+      // @ts-expect-error: This is fine
+      navigation.navigate(to.screen, to.params);
+      return;
+    }
+
+    if (!to.startsWith('/')) {
+      throw new Error(`The path must start with '/' (${to}).`);
+    }
+
+    const {
+      options
+    } = linking;
+    const state = options !== null && options !== void 0 && options.getStateFromPath ? options.getStateFromPath(to, options.config) : (0, _core.getStateFromPath)(to, options === null || options === void 0 ? void 0 : options.config);
+
+    if (state) {
+      const action = (0, _core.getActionFromState)(state, options === null || options === void 0 ? void 0 : options.config);
+
+      if (action !== undefined) {
+        navigation.dispatch(action);
+      } else {
+        navigation.reset(state);
+      }
+    } else {
+      throw new Error('Failed to parse the path to a navigation state.');
+    }
+  }, [linking, navigation]);
+  return linkTo;
+}
+},{"@react-navigation/core":"node_modules/@react-navigation/core/lib/module/index.js","react":"node_modules/react/index.js","./LinkingContext":"node_modules/@react-navigation/native/lib/module/LinkingContext.js"}],"node_modules/@react-navigation/native/lib/module/useLinkProps.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useLinkProps;
+
+var _core = require("@react-navigation/core");
+
+var React = _interopRequireWildcard(require("react"));
+
+var _reactNative = require("react-native");
+
+var _LinkingContext = _interopRequireDefault(require("./LinkingContext"));
+
+var _useLinkTo = _interopRequireDefault(require("./useLinkTo"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+const getStateFromParams = params => {
+  if (params !== null && params !== void 0 && params.state) {
+    return params.state;
+  }
+
+  if (params !== null && params !== void 0 && params.screen) {
+    return {
+      routes: [{
+        name: params.screen,
+        params: params.params,
+        // @ts-expect-error
+        state: params.screen ? getStateFromParams(params.params) : undefined
+      }]
+    };
+  }
+
+  return undefined;
+};
+/**
+ * Hook to get props for an anchor tag so it can work with in page navigation.
+ *
+ * @param props.to Absolute path to screen (e.g. `/feeds/hot`).
+ * @param props.action Optional action to use for in-page navigation. By default, the path is parsed to an action based on linking config.
+ */
+
+
+function useLinkProps({
+  to,
+  action
+}) {
+  var _options$getPathFromS;
+
+  const root = React.useContext(_core.NavigationContainerRefContext);
+  const navigation = React.useContext(_core.NavigationHelpersContext);
+  const {
+    options
+  } = React.useContext(_LinkingContext.default);
+  const linkTo = (0, _useLinkTo.default)();
+
+  const onPress = e => {
+    var _e$currentTarget;
+
+    let shouldHandle = false;
+
+    if (_reactNative.Platform.OS !== 'web' || !e) {
+      shouldHandle = e ? !e.defaultPrevented : true;
+    } else if (!e.defaultPrevented && // onPress prevented default
+    // @ts-expect-error: these properties exist on web, but not in React Native
+    !(e.metaKey || e.altKey || e.ctrlKey || e.shiftKey) && (e.button == null || e.button === 0) && // ignore everything but left clicks
+    // @ts-expect-error: these properties exist on web, but not in React Native
+    [undefined, null, '', 'self'].includes((_e$currentTarget = e.currentTarget) === null || _e$currentTarget === void 0 ? void 0 : _e$currentTarget.target) // let browser handle "target=_blank" etc.
+    ) {
+      e.preventDefault();
+      shouldHandle = true;
+    }
+
+    if (shouldHandle) {
+      if (action) {
+        if (navigation) {
+          navigation.dispatch(action);
+        } else if (root) {
+          root.dispatch(action);
+        } else {
+          throw new Error("Couldn't find a navigation object. Is your component inside NavigationContainer?");
+        }
+      } else {
+        linkTo(to);
+      }
+    }
+  };
+
+  const getPathFromStateHelper = (_options$getPathFromS = options === null || options === void 0 ? void 0 : options.getPathFromState) !== null && _options$getPathFromS !== void 0 ? _options$getPathFromS : _core.getPathFromState;
+  const href = typeof to === 'string' ? to : getPathFromStateHelper({
+    routes: [{
+      name: to.screen,
+      // @ts-expect-error
+      params: to.params,
+      // @ts-expect-error
+      state: getStateFromParams(to.params)
+    }]
+  }, options === null || options === void 0 ? void 0 : options.config);
+  return {
+    href,
+    accessibilityRole: 'link',
+    onPress
+  };
+}
+},{"@react-navigation/core":"node_modules/@react-navigation/core/lib/module/index.js","react":"node_modules/react/index.js","react-native":"node_modules/react-native-web/dist/index.js","./LinkingContext":"node_modules/@react-navigation/native/lib/module/LinkingContext.js","./useLinkTo":"node_modules/@react-navigation/native/lib/module/useLinkTo.js"}],"node_modules/@react-navigation/native/lib/module/Link.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Link;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _reactNative = require("react-native");
+
+var _useLinkProps = _interopRequireDefault(require("./useLinkProps"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/**
+ * Component to render link to another screen using a path.
+ * Uses an anchor tag on the web.
+ *
+ * @param props.to Absolute path to screen (e.g. `/feeds/hot`).
+ * @param props.action Optional action to use for in-page navigation. By default, the path is parsed to an action based on linking config.
+ * @param props.children Child elements to render the content.
+ */
+function Link({
+  to,
+  action,
+  ...rest
+}) {
+  const props = (0, _useLinkProps.default)({
+    to,
+    action
+  });
+
+  const onPress = e => {
+    if ('onPress' in rest) {
+      var _rest$onPress;
+
+      (_rest$onPress = rest.onPress) === null || _rest$onPress === void 0 ? void 0 : _rest$onPress.call(rest, e);
+    }
+
+    props.onPress(e);
+  };
+
+  return /*#__PURE__*/React.createElement(_reactNative.Text, { ...props,
+    ...rest,
+    ..._reactNative.Platform.select({
+      web: {
+        onClick: onPress
+      },
+      default: {
+        onPress
+      }
+    })
+  });
+}
+},{"react":"node_modules/react/index.js","react-native":"node_modules/react-native-web/dist/index.js","./useLinkProps":"node_modules/@react-navigation/native/lib/module/useLinkProps.js"}],"node_modules/@react-navigation/native/lib/module/theming/DefaultTheme.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+const DefaultTheme = {
+  dark: false,
+  colors: {
+    primary: 'rgb(0, 122, 255)',
+    background: 'rgb(242, 242, 242)',
+    card: 'rgb(255, 255, 255)',
+    text: 'rgb(28, 28, 30)',
+    border: 'rgb(216, 216, 216)',
+    notification: 'rgb(255, 59, 48)'
+  }
+};
+var _default = DefaultTheme;
+exports.default = _default;
+},{}],"node_modules/@react-navigation/native/lib/module/theming/ThemeContext.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _DefaultTheme = _interopRequireDefault(require("./DefaultTheme"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+const ThemeContext = /*#__PURE__*/React.createContext(_DefaultTheme.default);
+ThemeContext.displayName = 'ThemeContext';
+var _default = ThemeContext;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./DefaultTheme":"node_modules/@react-navigation/native/lib/module/theming/DefaultTheme.js"}],"node_modules/@react-navigation/native/lib/module/theming/ThemeProvider.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = ThemeProvider;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _ThemeContext = _interopRequireDefault(require("./ThemeContext"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function ThemeProvider({
+  value,
+  children
+}) {
+  return /*#__PURE__*/React.createElement(_ThemeContext.default.Provider, {
+    value: value
+  }, children);
+}
+},{"react":"node_modules/react/index.js","./ThemeContext":"node_modules/@react-navigation/native/lib/module/theming/ThemeContext.js"}],"node_modules/@react-navigation/native/lib/module/useBackButton.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useBackButton;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _reactNative = require("react-native");
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function useBackButton(ref) {
+  React.useEffect(() => {
+    const subscription = _reactNative.BackHandler.addEventListener('hardwareBackPress', () => {
+      const navigation = ref.current;
+
+      if (navigation == null) {
+        return false;
+      }
+
+      if (navigation.canGoBack()) {
+        navigation.goBack();
+        return true;
+      }
+
+      return false;
+    });
+
+    return () => subscription.remove();
+  }, [ref]);
+}
+},{"react":"node_modules/react/index.js","react-native":"node_modules/react-native-web/dist/index.js"}],"node_modules/@react-navigation/native/lib/module/useDocumentTitle.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useDocumentTitle;
+
+var React = _interopRequireWildcard(require("react"));
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/**
+ * Set the document title for the active screen
+ */
+function useDocumentTitle(ref, {
+  enabled = true,
+  formatter = (options, route) => {
+    var _options$title;
+
+    return (_options$title = options === null || options === void 0 ? void 0 : options.title) !== null && _options$title !== void 0 ? _options$title : route === null || route === void 0 ? void 0 : route.name;
+  }
+} = {}) {
+  React.useEffect(() => {
+    if (!enabled) {
+      return;
+    }
+
+    const navigation = ref.current;
+
+    if (navigation) {
+      const title = formatter(navigation.getCurrentOptions(), navigation.getCurrentRoute());
+      document.title = title;
+    }
+
+    return navigation === null || navigation === void 0 ? void 0 : navigation.addListener('options', e => {
+      const title = formatter(e.data.options, navigation === null || navigation === void 0 ? void 0 : navigation.getCurrentRoute());
+      document.title = title;
+    });
+  });
+}
+},{"react":"node_modules/react/index.js"}],"node_modules/@react-navigation/native/lib/module/ServerContext.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var React = _interopRequireWildcard(require("react"));
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+const ServerContext = /*#__PURE__*/React.createContext(undefined);
+var _default = ServerContext;
+exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"node_modules/@react-navigation/native/lib/module/useLinking.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useLinking;
+
+var _core = require("@react-navigation/core");
+
+var _nonSecure = require("nanoid/non-secure");
+
+var React = _interopRequireWildcard(require("react"));
+
+var _ServerContext = _interopRequireDefault(require("./ServerContext"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+const createMemoryHistory = () => {
+  let index = 0;
+  let items = []; // Pending callbacks for `history.go(n)`
+  // We might modify the callback stored if it was interrupted, so we have a ref to identify it
+
+  const pending = [];
+
+  const interrupt = () => {
+    // If another history operation was performed we need to interrupt existing ones
+    // This makes sure that calls such as `history.replace` after `history.go` don't happen
+    // Since otherwise it won't be correct if something else has changed
+    pending.forEach(it => {
+      const cb = it.cb;
+
+      it.cb = () => cb(true);
+    });
+  };
+
+  const history = {
+    get index() {
+      var _window$history$state; // We store an id in the state instead of an index
+      // Index could get out of sync with in-memory values if page reloads
+
+
+      const id = (_window$history$state = window.history.state) === null || _window$history$state === void 0 ? void 0 : _window$history$state.id;
+
+      if (id) {
+        const index = items.findIndex(item => item.id === id);
+        return index > -1 ? index : 0;
+      }
+
+      return 0;
+    },
+
+    get(index) {
+      return items[index];
+    },
+
+    backIndex({
+      path
+    }) {
+      // We need to find the index from the element before current to get closest path to go back to
+      for (let i = index - 1; i >= 0; i--) {
+        const item = items[i];
+
+        if (item.path === path) {
+          return i;
+        }
+      }
+
+      return -1;
+    },
+
+    push({
+      path,
+      state
+    }) {
+      interrupt();
+      const id = (0, _nonSecure.nanoid)(); // When a new entry is pushed, all the existing entries after index will be inaccessible
+      // So we remove any existing entries after the current index to clean them up
+
+      items = items.slice(0, index + 1);
+      items.push({
+        path,
+        state,
+        id
+      });
+      index = items.length - 1; // We pass empty string for title because it's ignored in all browsers except safari
+      // We don't store state object in history.state because:
+      // - browsers have limits on how big it can be, and we don't control the size
+      // - while not recommended, there could be non-serializable data in state
+
+      window.history.pushState({
+        id
+      }, '', path);
+    },
+
+    replace({
+      path,
+      state
+    }) {
+      var _window$history$state2, _window$history$state3;
+
+      interrupt();
+      const id = (_window$history$state2 = (_window$history$state3 = window.history.state) === null || _window$history$state3 === void 0 ? void 0 : _window$history$state3.id) !== null && _window$history$state2 !== void 0 ? _window$history$state2 : (0, _nonSecure.nanoid)();
+
+      if (!items.length || items.findIndex(item => item.id === id) < 0) {
+        // There are two scenarios for creating an array with only one history record:
+        // - When loaded id not found in the items array, this function by default will replace
+        //   the first item. We need to keep only the new updated object, otherwise it will break
+        //   the page when navigating forward in history.
+        // - This is the first time any state modifications are done
+        //   So we need to push the entry as there's nothing to replace
+        items = [{
+          path,
+          state,
+          id
+        }];
+      } else {
+        items[index] = {
+          path,
+          state,
+          id
+        };
+      }
+
+      window.history.replaceState({
+        id
+      }, '', path);
+    },
+
+    // `history.go(n)` is asynchronous, there are couple of things to keep in mind:
+    // - it won't do anything if we can't go `n` steps, the `popstate` event won't fire.
+    // - each `history.go(n)` call will trigger a separate `popstate` event with correct location.
+    // - the `popstate` event fires before the next frame after calling `history.go(n)`.
+    // This method differs from `history.go(n)` in the sense that it'll go back as many steps it can.
+    go(n) {
+      interrupt();
+
+      if (n > 0) {
+        // We shouldn't go forward more than available index
+        n = Math.min(n, items.length - 1);
+      } else if (n < 0) {
+        // We shouldn't go back more than the 0 index
+        // Otherwise we'll exit the page
+        n = index + n < 0 ? -index : n;
+      }
+
+      if (n === 0) {
+        return;
+      }
+
+      index += n; // When we call `history.go`, `popstate` will fire when there's history to go back to
+      // So we need to somehow handle following cases:
+      // - There's history to go back, `history.go` is called, and `popstate` fires
+      // - `history.go` is called multiple times, we need to resolve on respective `popstate`
+      // - No history to go back, but `history.go` was called, browser has no API to detect it
+
+      return new Promise((resolve, reject) => {
+        const done = interrupted => {
+          clearTimeout(timer);
+
+          if (interrupted) {
+            reject(new Error('History was changed during navigation.'));
+            return;
+          } // There seems to be a bug in Chrome regarding updating the title
+          // If we set a title just before calling `history.go`, the title gets lost
+          // However the value of `document.title` is still what we set it to
+          // It's just not displayed in the tab bar
+          // To update the tab bar, we need to reset the title to something else first (e.g. '')
+          // And set the title to what it was before so it gets applied
+          // It won't work without setting it to empty string coz otherwise title isn't changing
+          // Which means that the browser won't do anything after setting the title
+
+
+          const {
+            title
+          } = window.document;
+          window.document.title = '';
+          window.document.title = title;
+          resolve();
+        };
+
+        pending.push({
+          ref: done,
+          cb: done
+        }); // If navigation didn't happen within 100ms, assume that it won't happen
+        // This may not be accurate, but hopefully it won't take so much time
+        // In Chrome, navigation seems to happen instantly in next microtask
+        // But on Firefox, it seems to take much longer, around 50ms from our testing
+        // We're using a hacky timeout since there doesn't seem to be way to know for sure
+
+        const timer = setTimeout(() => {
+          const index = pending.findIndex(it => it.ref === done);
+
+          if (index > -1) {
+            pending[index].cb();
+            pending.splice(index, 1);
+          }
+        }, 100);
+
+        const onPopState = () => {
+          var _window$history$state4;
+
+          const id = (_window$history$state4 = window.history.state) === null || _window$history$state4 === void 0 ? void 0 : _window$history$state4.id;
+          const currentIndex = items.findIndex(item => item.id === id); // Fix createMemoryHistory.index variable's value
+          // as it may go out of sync when navigating in the browser.
+
+          index = Math.max(currentIndex, 0);
+          const last = pending.pop();
+          window.removeEventListener('popstate', onPopState);
+          last === null || last === void 0 ? void 0 : last.cb();
+        };
+
+        window.addEventListener('popstate', onPopState);
+        window.history.go(n);
+      });
+    },
+
+    // The `popstate` event is triggered when history changes, except `pushState` and `replaceState`
+    // If we call `history.go(n)` ourselves, we don't want it to trigger the listener
+    // Here we normalize it so that only external changes (e.g. user pressing back/forward) trigger the listener
+    listen(listener) {
+      const onPopState = () => {
+        if (pending.length) {
+          // This was triggered by `history.go(n)`, we shouldn't call the listener
+          return;
+        }
+
+        listener();
+      };
+
+      window.addEventListener('popstate', onPopState);
+      return () => window.removeEventListener('popstate', onPopState);
+    }
+
+  };
+  return history;
+};
+/**
+ * Find the matching navigation state that changed between 2 navigation states
+ * e.g.: a -> b -> c -> d and a -> b -> c -> e -> f, if history in b changed, b is the matching state
+ */
+
+
+const findMatchingState = (a, b) => {
+  if (a === undefined || b === undefined || a.key !== b.key) {
+    return [undefined, undefined];
+  } // Tab and drawer will have `history` property, but stack will have history in `routes`
+
+
+  const aHistoryLength = a.history ? a.history.length : a.routes.length;
+  const bHistoryLength = b.history ? b.history.length : b.routes.length;
+  const aRoute = a.routes[a.index];
+  const bRoute = b.routes[b.index];
+  const aChildState = aRoute.state;
+  const bChildState = bRoute.state; // Stop here if this is the state object that changed:
+  // - history length is different
+  // - focused routes are different
+  // - one of them doesn't have child state
+  // - child state keys are different
+
+  if (aHistoryLength !== bHistoryLength || aRoute.key !== bRoute.key || aChildState === undefined || bChildState === undefined || aChildState.key !== bChildState.key) {
+    return [a, b];
+  }
+
+  return findMatchingState(aChildState, bChildState);
+};
+/**
+ * Run async function in series as it's called.
+ */
+
+
+const series = cb => {
+  // Whether we're currently handling a callback
+  let handling = false;
+  let queue = [];
+
+  const callback = async () => {
+    try {
+      if (handling) {
+        // If we're currently handling a previous event, wait before handling this one
+        // Add the callback to the beginning of the queue
+        queue.unshift(callback);
+        return;
+      }
+
+      handling = true;
+      await cb();
+    } finally {
+      handling = false;
+
+      if (queue.length) {
+        // If we have queued items, handle the last one
+        const last = queue.pop();
+        last === null || last === void 0 ? void 0 : last();
+      }
+    }
+  };
+
+  return callback;
+};
+
+let linkingHandlers = [];
+
+function useLinking(ref, {
+  independent,
+  enabled = true,
+  config,
+  getStateFromPath = _core.getStateFromPath,
+  getPathFromState = _core.getPathFromState,
+  getActionFromState = _core.getActionFromState
+}) {
+  React.useEffect(() => {
+    if ("development" === 'production') {
+      return undefined;
+    }
+
+    if (independent) {
+      return undefined;
+    }
+
+    if (enabled !== false && linkingHandlers.length) {
+      console.error(['Looks like you have configured linking in multiple places. This is likely an error since deep links should only be handled in one place to avoid conflicts. Make sure that:', "- You don't have multiple NavigationContainers in the app each with 'linking' enabled", '- Only a single instance of the root component is rendered'].join('\n').trim());
+    }
+
+    const handler = Symbol();
+
+    if (enabled !== false) {
+      linkingHandlers.push(handler);
+    }
+
+    return () => {
+      const index = linkingHandlers.indexOf(handler);
+
+      if (index > -1) {
+        linkingHandlers.splice(index, 1);
+      }
+    };
+  }, [enabled, independent]);
+  const [history] = React.useState(createMemoryHistory); // We store these options in ref to avoid re-creating getInitialState and re-subscribing listeners
+  // This lets user avoid wrapping the items in `React.useCallback` or `React.useMemo`
+  // Not re-creating `getInitialState` is important coz it makes it easier for the user to use in an effect
+
+  const enabledRef = React.useRef(enabled);
+  const configRef = React.useRef(config);
+  const getStateFromPathRef = React.useRef(getStateFromPath);
+  const getPathFromStateRef = React.useRef(getPathFromState);
+  const getActionFromStateRef = React.useRef(getActionFromState);
+  React.useEffect(() => {
+    enabledRef.current = enabled;
+    configRef.current = config;
+    getStateFromPathRef.current = getStateFromPath;
+    getPathFromStateRef.current = getPathFromState;
+    getActionFromStateRef.current = getActionFromState;
+  });
+  const server = React.useContext(_ServerContext.default);
+  const getInitialState = React.useCallback(() => {
+    let value;
+
+    if (enabledRef.current) {
+      var _server$location;
+
+      const location = (_server$location = server === null || server === void 0 ? void 0 : server.location) !== null && _server$location !== void 0 ? _server$location : typeof window !== 'undefined' ? window.location : undefined;
+      const path = location ? location.pathname + location.search : undefined;
+
+      if (path) {
+        value = getStateFromPathRef.current(path, configRef.current);
+      }
+    }
+
+    const thenable = {
+      then(onfulfilled) {
+        return Promise.resolve(onfulfilled ? onfulfilled(value) : value);
+      },
+
+      catch() {
+        return thenable;
+      }
+
+    };
+    return thenable; // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+  const previousIndexRef = React.useRef(undefined);
+  const previousStateRef = React.useRef(undefined);
+  const pendingPopStatePathRef = React.useRef(undefined);
+  React.useEffect(() => {
+    previousIndexRef.current = history.index;
+    return history.listen(() => {
+      var _previousIndexRef$cur;
+
+      const navigation = ref.current;
+
+      if (!navigation || !enabled) {
+        return;
+      }
+
+      const path = location.pathname + location.search;
+      const index = history.index;
+      const previousIndex = (_previousIndexRef$cur = previousIndexRef.current) !== null && _previousIndexRef$cur !== void 0 ? _previousIndexRef$cur : 0;
+      previousIndexRef.current = index;
+      pendingPopStatePathRef.current = path; // When browser back/forward is clicked, we first need to check if state object for this index exists
+      // If it does we'll reset to that state object
+      // Otherwise, we'll handle it like a regular deep link
+
+      const record = history.get(index);
+
+      if ((record === null || record === void 0 ? void 0 : record.path) === path && record !== null && record !== void 0 && record.state) {
+        navigation.resetRoot(record.state);
+        return;
+      }
+
+      const state = getStateFromPathRef.current(path, configRef.current); // We should only dispatch an action when going forward
+      // Otherwise the action will likely add items to history, which would mess things up
+
+      if (state) {
+        // Make sure that the routes in the state exist in the root navigator
+        // Otherwise there's an error in the linking configuration
+        const rootState = navigation.getRootState();
+
+        if (state.routes.some(r => !(rootState !== null && rootState !== void 0 && rootState.routeNames.includes(r.name)))) {
+          console.warn("The navigation state parsed from the URL contains routes not present in the root navigator. This usually means that the linking configuration doesn't match the navigation structure. See https://reactnavigation.org/docs/configuring-links for more details on how to specify a linking configuration.");
+          return;
+        }
+
+        if (index > previousIndex) {
+          const action = getActionFromStateRef.current(state, configRef.current);
+
+          if (action !== undefined) {
+            try {
+              navigation.dispatch(action);
+            } catch (e) {
+              // Ignore any errors from deep linking.
+              // This could happen in case of malformed links, navigation object not being initialized etc.
+              console.warn(`An error occurred when trying to handle the link '${path}': ${e.message}`);
+            }
+          } else {
+            navigation.resetRoot(state);
+          }
+        } else {
+          navigation.resetRoot(state);
+        }
+      } else {
+        // if current path didn't return any state, we should revert to initial state
+        navigation.resetRoot(state);
+      }
+    });
+  }, [enabled, history, ref]);
+  React.useEffect(() => {
+    var _ref$current;
+
+    if (!enabled) {
+      return;
+    }
+
+    if (ref.current) {
+      // We need to record the current metadata on the first render if they aren't set
+      // This will allow the initial state to be in the history entry
+      const state = ref.current.getRootState();
+
+      if (state) {
+        var _route$path;
+
+        const route = (0, _core.findFocusedRoute)(state);
+        const path = (_route$path = route === null || route === void 0 ? void 0 : route.path) !== null && _route$path !== void 0 ? _route$path : getPathFromStateRef.current(state, configRef.current);
+
+        if (previousStateRef.current === undefined) {
+          previousStateRef.current = state;
+        }
+
+        history.replace({
+          path,
+          state
+        });
+      }
+    }
+
+    const onStateChange = async () => {
+      var _route$path2;
+
+      const navigation = ref.current;
+
+      if (!navigation || !enabled) {
+        return;
+      }
+
+      const previousState = previousStateRef.current;
+      const state = navigation.getRootState();
+      const pendingPath = pendingPopStatePathRef.current;
+      const route = (0, _core.findFocusedRoute)(state);
+      const path = (_route$path2 = route === null || route === void 0 ? void 0 : route.path) !== null && _route$path2 !== void 0 ? _route$path2 : getPathFromStateRef.current(state, configRef.current);
+      previousStateRef.current = state;
+      pendingPopStatePathRef.current = undefined; // To detect the kind of state change, we need to:
+      // - Find the common focused navigation state in previous and current state
+      // - If only the route keys changed, compare history/routes.length to check if we go back/forward/replace
+      // - If no common focused navigation state found, it's a replace
+
+      const [previousFocusedState, focusedState] = findMatchingState(previousState, state);
+
+      if (previousFocusedState && focusedState && // We should only handle push/pop if path changed from what was in last `popstate`
+      // Otherwise it's likely a change triggered by `popstate`
+      path !== pendingPath) {
+        const historyDelta = (focusedState.history ? focusedState.history.length : focusedState.routes.length) - (previousFocusedState.history ? previousFocusedState.history.length : previousFocusedState.routes.length);
+
+        if (historyDelta > 0) {
+          // If history length is increased, we should pushState
+          // Note that path might not actually change here, for example, drawer open should pushState
+          history.push({
+            path,
+            state
+          });
+        } else if (historyDelta < 0) {
+          // If history length is decreased, i.e. entries were removed, we want to go back
+          const nextIndex = history.backIndex({
+            path
+          });
+          const currentIndex = history.index;
+
+          try {
+            if (nextIndex !== -1 && nextIndex < currentIndex) {
+              // An existing entry for this path exists and it's less than current index, go back to that
+              await history.go(nextIndex - currentIndex);
+            } else {
+              // We couldn't find an existing entry to go back to, so we'll go back by the delta
+              // This won't be correct if multiple routes were pushed in one go before
+              // Usually this shouldn't happen and this is a fallback for that
+              await history.go(historyDelta);
+            } // Store the updated state as well as fix the path if incorrect
+
+
+            history.replace({
+              path,
+              state
+            });
+          } catch (e) {// The navigation was interrupted
+          }
+        } else {
+          // If history length is unchanged, we want to replaceState
+          history.replace({
+            path,
+            state
+          });
+        }
+      } else {
+        // If no common navigation state was found, assume it's a replace
+        // This would happen if the user did a reset/conditionally changed navigators
+        history.replace({
+          path,
+          state
+        });
+      }
+    }; // We debounce onStateChange coz we don't want multiple state changes to be handled at one time
+    // This could happen since `history.go(n)` is asynchronous
+    // If `pushState` or `replaceState` were called before `history.go(n)` completes, it'll mess stuff up
+
+
+    return (_ref$current = ref.current) === null || _ref$current === void 0 ? void 0 : _ref$current.addListener('state', series(onStateChange));
+  });
+  return {
+    getInitialState
+  };
+}
+},{"@react-navigation/core":"node_modules/@react-navigation/core/lib/module/index.js","nanoid/non-secure":"node_modules/nanoid/non-secure/index.js","react":"node_modules/react/index.js","./ServerContext":"node_modules/@react-navigation/native/lib/module/ServerContext.js"}],"node_modules/@react-navigation/native/lib/module/useThenable.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useThenable;
+
+var React = _interopRequireWildcard(require("react"));
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function useThenable(create) {
+  const [promise] = React.useState(create);
+  let initialState = [false, undefined]; // Check if our thenable is synchronous
+
+  promise.then(result => {
+    initialState = [true, result];
+  });
+  const [state, setState] = React.useState(initialState);
+  const [resolved] = state;
+  React.useEffect(() => {
+    let cancelled = false;
+
+    const resolve = async () => {
+      let result;
+
+      try {
+        result = await promise;
+      } finally {
+        if (!cancelled) {
+          setState([true, result]);
+        }
+      }
+    };
+
+    if (!resolved) {
+      resolve();
+    }
+
+    return () => {
+      cancelled = true;
+    };
+  }, [promise, resolved]);
+  return state;
+}
+},{"react":"node_modules/react/index.js"}],"node_modules/@react-navigation/native/lib/module/NavigationContainer.js":[function(require,module,exports) {
+var global = arguments[3];
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _core = require("@react-navigation/core");
+
+var React = _interopRequireWildcard(require("react"));
+
+var _LinkingContext = _interopRequireDefault(require("./LinkingContext"));
+
+var _DefaultTheme = _interopRequireDefault(require("./theming/DefaultTheme"));
+
+var _ThemeProvider = _interopRequireDefault(require("./theming/ThemeProvider"));
+
+var _useBackButton = _interopRequireDefault(require("./useBackButton"));
+
+var _useDocumentTitle = _interopRequireDefault(require("./useDocumentTitle"));
+
+var _useLinking = _interopRequireDefault(require("./useLinking"));
+
+var _useThenable = _interopRequireDefault(require("./useThenable"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _extends() {
+  _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
+
+global.REACT_NAVIGATION_DEVTOOLS = new WeakMap();
+/**
+ * Container component which holds the navigation state designed for React Native apps.
+ * This should be rendered at the root wrapping the whole app.
+ *
+ * @param props.initialState Initial state object for the navigation tree. When deep link handling is enabled, this will override deep links when specified. Make sure that you don't specify an `initialState` when there's a deep link (`Linking.getInitialURL()`).
+ * @param props.onReady Callback which is called after the navigation tree mounts.
+ * @param props.onStateChange Callback which is called with the latest navigation state when it changes.
+ * @param props.theme Theme object for the navigators.
+ * @param props.linking Options for deep linking. Deep link handling is enabled when this prop is provided, unless `linking.enabled` is `false`.
+ * @param props.fallback Fallback component to render until we have finished getting initial state when linking is enabled. Defaults to `null`.
+ * @param props.documentTitle Options to configure the document title on Web. Updating document title is handled by default unless `documentTitle.enabled` is `false`.
+ * @param props.children Child elements to render the content.
+ * @param props.ref Ref object which refers to the navigation object containing helper methods.
+ */
+
+function NavigationContainerInner({
+  theme = _DefaultTheme.default,
+  linking,
+  fallback = null,
+  documentTitle,
+  onReady,
+  ...rest
+}, ref) {
+  const isLinkingEnabled = linking ? linking.enabled !== false : false;
+
+  if (linking !== null && linking !== void 0 && linking.config) {
+    (0, _core.validatePathConfig)(linking.config);
+  }
+
+  const refContainer = React.useRef(null);
+  (0, _useBackButton.default)(refContainer);
+  (0, _useDocumentTitle.default)(refContainer, documentTitle);
+  const {
+    getInitialState
+  } = (0, _useLinking.default)(refContainer, {
+    independent: rest.independent,
+    enabled: isLinkingEnabled,
+    prefixes: [],
+    ...linking
+  }); // Add additional linking related info to the ref
+  // This will be used by the devtools
+
+  React.useEffect(() => {
+    if (refContainer.current) {
+      REACT_NAVIGATION_DEVTOOLS.set(refContainer.current, {
+        get linking() {
+          var _linking$prefixes, _linking$getStateFrom, _linking$getPathFromS, _linking$getActionFro;
+
+          return { ...linking,
+            enabled: isLinkingEnabled,
+            prefixes: (_linking$prefixes = linking === null || linking === void 0 ? void 0 : linking.prefixes) !== null && _linking$prefixes !== void 0 ? _linking$prefixes : [],
+            getStateFromPath: (_linking$getStateFrom = linking === null || linking === void 0 ? void 0 : linking.getStateFromPath) !== null && _linking$getStateFrom !== void 0 ? _linking$getStateFrom : _core.getStateFromPath,
+            getPathFromState: (_linking$getPathFromS = linking === null || linking === void 0 ? void 0 : linking.getPathFromState) !== null && _linking$getPathFromS !== void 0 ? _linking$getPathFromS : _core.getPathFromState,
+            getActionFromState: (_linking$getActionFro = linking === null || linking === void 0 ? void 0 : linking.getActionFromState) !== null && _linking$getActionFro !== void 0 ? _linking$getActionFro : _core.getActionFromState
+          };
+        }
+
+      });
+    }
+  });
+  const [isResolved, initialState] = (0, _useThenable.default)(getInitialState);
+  React.useImperativeHandle(ref, () => refContainer.current);
+  const linkingContext = React.useMemo(() => ({
+    options: linking
+  }), [linking]);
+  const isReady = rest.initialState != null || !isLinkingEnabled || isResolved;
+  const onReadyRef = React.useRef(onReady);
+  React.useEffect(() => {
+    onReadyRef.current = onReady;
+  });
+  React.useEffect(() => {
+    if (isReady) {
+      var _onReadyRef$current;
+
+      (_onReadyRef$current = onReadyRef.current) === null || _onReadyRef$current === void 0 ? void 0 : _onReadyRef$current.call(onReadyRef);
+    }
+  }, [isReady]);
+
+  if (!isReady) {
+    // This is temporary until we have Suspense for data-fetching
+    // Then the fallback will be handled by a parent `Suspense` component
+    return fallback;
+  }
+
+  return /*#__PURE__*/React.createElement(_LinkingContext.default.Provider, {
+    value: linkingContext
+  }, /*#__PURE__*/React.createElement(_ThemeProvider.default, {
+    value: theme
+  }, /*#__PURE__*/React.createElement(_core.BaseNavigationContainer, _extends({}, rest, {
+    initialState: rest.initialState == null ? initialState : rest.initialState,
+    ref: refContainer
+  }))));
+}
+
+const NavigationContainer = /*#__PURE__*/React.forwardRef(NavigationContainerInner);
+var _default = NavigationContainer;
+exports.default = _default;
+},{"@react-navigation/core":"node_modules/@react-navigation/core/lib/module/index.js","react":"node_modules/react/index.js","./LinkingContext":"node_modules/@react-navigation/native/lib/module/LinkingContext.js","./theming/DefaultTheme":"node_modules/@react-navigation/native/lib/module/theming/DefaultTheme.js","./theming/ThemeProvider":"node_modules/@react-navigation/native/lib/module/theming/ThemeProvider.js","./useBackButton":"node_modules/@react-navigation/native/lib/module/useBackButton.js","./useDocumentTitle":"node_modules/@react-navigation/native/lib/module/useDocumentTitle.js","./useLinking":"node_modules/@react-navigation/native/lib/module/useLinking.js","./useThenable":"node_modules/@react-navigation/native/lib/module/useThenable.js"}],"node_modules/@react-navigation/native/lib/module/ServerContainer.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _core = require("@react-navigation/core");
+
+var React = _interopRequireWildcard(require("react"));
+
+var _ServerContext = _interopRequireDefault(require("./ServerContext"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/**
+ * Container component for server rendering.
+ *
+ * @param props.location Location object to base the initial URL for SSR.
+ * @param props.children Child elements to render the content.
+ * @param props.ref Ref object which contains helper methods.
+ */
+var _default = /*#__PURE__*/React.forwardRef(function ServerContainer({
+  children,
+  location
+}, ref) {
+  React.useEffect(() => {
+    console.error("'ServerContainer' should only be used on the server with 'react-dom/server' for SSR.");
+  }, []);
+  const current = {};
+
+  if (ref) {
+    const value = {
+      getCurrentOptions() {
+        return current.options;
+      }
+
+    }; // We write to the `ref` during render instead of `React.useImperativeHandle`
+    // This is because `useImperativeHandle` will update the ref after 'commit',
+    // and there's no 'commit' phase during SSR.
+    // Mutating ref during render is unsafe in concurrent mode, but we don't care about it for SSR.
+
+    if (typeof ref === 'function') {
+      ref(value);
+    } else {
+      // @ts-expect-error: the TS types are incorrect and say that ref.current is readonly
+      ref.current = value;
+    }
+  }
+
+  return /*#__PURE__*/React.createElement(_ServerContext.default.Provider, {
+    value: {
+      location
+    }
+  }, /*#__PURE__*/React.createElement(_core.CurrentRenderContext.Provider, {
+    value: current
+  }, children));
+});
+
+exports.default = _default;
+},{"@react-navigation/core":"node_modules/@react-navigation/core/lib/module/index.js","react":"node_modules/react/index.js","./ServerContext":"node_modules/@react-navigation/native/lib/module/ServerContext.js"}],"node_modules/@react-navigation/native/lib/module/theming/DarkTheme.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+const DarkTheme = {
+  dark: true,
+  colors: {
+    primary: 'rgb(10, 132, 255)',
+    background: 'rgb(1, 1, 1)',
+    card: 'rgb(18, 18, 18)',
+    text: 'rgb(229, 229, 231)',
+    border: 'rgb(39, 39, 41)',
+    notification: 'rgb(255, 69, 58)'
+  }
+};
+var _default = DarkTheme;
+exports.default = _default;
+},{}],"node_modules/@react-navigation/native/lib/module/theming/useTheme.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useTheme;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _ThemeContext = _interopRequireDefault(require("./ThemeContext"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function useTheme() {
+  const theme = React.useContext(_ThemeContext.default);
+  return theme;
+}
+},{"react":"node_modules/react/index.js","./ThemeContext":"node_modules/@react-navigation/native/lib/module/theming/ThemeContext.js"}],"node_modules/@react-navigation/native/lib/module/types.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+},{}],"node_modules/@react-navigation/native/lib/module/useLinkBuilder.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useLinkBuilder;
+
+var _core = require("@react-navigation/core");
+
+var React = _interopRequireWildcard(require("react"));
+
+var _LinkingContext = _interopRequireDefault(require("./LinkingContext"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+const getRootStateForNavigate = (navigation, state) => {
+  const parent = navigation.getParent();
+
+  if (parent) {
+    const parentState = parent.getState();
+    return getRootStateForNavigate(parent, {
+      index: 0,
+      routes: [{ ...parentState.routes[parentState.index],
+        state: state
+      }]
+    });
+  }
+
+  return state;
+};
+/**
+ * Build destination link for a navigate action.
+ * Useful for showing anchor tags on the web for buttons that perform navigation.
+ */
+
+
+function useLinkBuilder() {
+  const navigation = React.useContext(_core.NavigationHelpersContext);
+  const linking = React.useContext(_LinkingContext.default);
+  const buildLink = React.useCallback((name, params) => {
+    const {
+      options
+    } = linking;
+
+    if ((options === null || options === void 0 ? void 0 : options.enabled) === false) {
+      return undefined;
+    }
+
+    const state = navigation ? getRootStateForNavigate(navigation, {
+      index: 0,
+      routes: [{
+        name,
+        params
+      }]
+    }) : // If we couldn't find a navigation object in context, we're at root
+    // So we'll construct a basic state object to use
+    {
+      index: 0,
+      routes: [{
+        name,
+        params
+      }]
+    };
+    const path = options !== null && options !== void 0 && options.getPathFromState ? options.getPathFromState(state, options === null || options === void 0 ? void 0 : options.config) : (0, _core.getPathFromState)(state, options === null || options === void 0 ? void 0 : options.config);
+    return path;
+  }, [linking, navigation]);
+  return buildLink;
+}
+},{"@react-navigation/core":"node_modules/@react-navigation/core/lib/module/index.js","react":"node_modules/react/index.js","./LinkingContext":"node_modules/@react-navigation/native/lib/module/LinkingContext.js"}],"node_modules/@react-navigation/native/lib/module/useScrollToTop.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useScrollToTop;
+
+var _core = require("@react-navigation/core");
+
+var React = _interopRequireWildcard(require("react"));
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function getScrollableNode(ref) {
+  if (ref.current == null) {
+    return null;
+  }
+
+  if ('scrollToTop' in ref.current || 'scrollTo' in ref.current || 'scrollToOffset' in ref.current || 'scrollResponderScrollTo' in ref.current) {
+    // This is already a scrollable node.
+    return ref.current;
+  } else if ('getScrollResponder' in ref.current) {
+    // If the view is a wrapper like FlatList, SectionList etc.
+    // We need to use `getScrollResponder` to get access to the scroll responder
+    return ref.current.getScrollResponder();
+  } else if ('getNode' in ref.current) {
+    // When a `ScrollView` is wraped in `Animated.createAnimatedComponent`
+    // we need to use `getNode` to get the ref to the actual scrollview.
+    // Note that `getNode` is deprecated in newer versions of react-native
+    // this is why we check if we already have a scrollable node above.
+    return ref.current.getNode();
+  } else {
+    return ref.current;
+  }
+}
+
+function useScrollToTop(ref) {
+  const navigation = (0, _core.useNavigation)();
+  const route = (0, _core.useRoute)();
+  React.useEffect(() => {
+    let current = navigation; // The screen might be inside another navigator such as stack nested in tabs
+    // We need to find the closest tab navigator and add the listener there
+
+    while (current && current.getState().type !== 'tab') {
+      current = current.getParent();
+    }
+
+    if (!current) {
+      return;
+    }
+
+    const unsubscribe = current.addListener( // We don't wanna import tab types here to avoid extra deps
+    // in addition, there are multiple tab implementations
+    // @ts-expect-error
+    'tabPress', e => {
+      // We should scroll to top only when the screen is focused
+      const isFocused = navigation.isFocused(); // In a nested stack navigator, tab press resets the stack to first screen
+      // So we should scroll to top only when we are on first screen
+
+      const isFirst = navigation === current || navigation.getState().routes[0].key === route.key; // Run the operation in the next frame so we're sure all listeners have been run
+      // This is necessary to know if preventDefault() has been called
+
+      requestAnimationFrame(() => {
+        const scrollable = getScrollableNode(ref);
+
+        if (isFocused && isFirst && scrollable && !e.defaultPrevented) {
+          if ('scrollToTop' in scrollable) {
+            scrollable.scrollToTop();
+          } else if ('scrollTo' in scrollable) {
+            scrollable.scrollTo({
+              x: 0,
+              y: 0,
+              animated: true
+            });
+          } else if ('scrollToOffset' in scrollable) {
+            scrollable.scrollToOffset({
+              offset: 0,
+              animated: true
+            });
+          } else if ('scrollResponderScrollTo' in scrollable) {
+            scrollable.scrollResponderScrollTo({
+              y: 0,
+              animated: true
+            });
+          }
+        }
+      });
+    });
+    return unsubscribe;
+  }, [navigation, ref, route.key]);
+}
+},{"@react-navigation/core":"node_modules/@react-navigation/core/lib/module/index.js","react":"node_modules/react/index.js"}],"node_modules/@react-navigation/native/lib/module/index.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var _exportNames = {
+  Link: true,
+  NavigationContainer: true,
+  ServerContainer: true,
+  DarkTheme: true,
+  DefaultTheme: true,
+  ThemeProvider: true,
+  useTheme: true,
+  useLinkBuilder: true,
+  useLinkProps: true,
+  useLinkTo: true,
+  useScrollToTop: true
+};
+Object.defineProperty(exports, "DarkTheme", {
+  enumerable: true,
+  get: function () {
+    return _DarkTheme.default;
+  }
+});
+Object.defineProperty(exports, "DefaultTheme", {
+  enumerable: true,
+  get: function () {
+    return _DefaultTheme.default;
+  }
+});
+Object.defineProperty(exports, "Link", {
+  enumerable: true,
+  get: function () {
+    return _Link.default;
+  }
+});
+Object.defineProperty(exports, "NavigationContainer", {
+  enumerable: true,
+  get: function () {
+    return _NavigationContainer.default;
+  }
+});
+Object.defineProperty(exports, "ServerContainer", {
+  enumerable: true,
+  get: function () {
+    return _ServerContainer.default;
+  }
+});
+Object.defineProperty(exports, "ThemeProvider", {
+  enumerable: true,
+  get: function () {
+    return _ThemeProvider.default;
+  }
+});
+Object.defineProperty(exports, "useLinkBuilder", {
+  enumerable: true,
+  get: function () {
+    return _useLinkBuilder.default;
+  }
+});
+Object.defineProperty(exports, "useLinkProps", {
+  enumerable: true,
+  get: function () {
+    return _useLinkProps.default;
+  }
+});
+Object.defineProperty(exports, "useLinkTo", {
+  enumerable: true,
+  get: function () {
+    return _useLinkTo.default;
+  }
+});
+Object.defineProperty(exports, "useScrollToTop", {
+  enumerable: true,
+  get: function () {
+    return _useScrollToTop.default;
+  }
+});
+Object.defineProperty(exports, "useTheme", {
+  enumerable: true,
+  get: function () {
+    return _useTheme.default;
+  }
+});
+
+var _Link = _interopRequireDefault(require("./Link"));
+
+var _NavigationContainer = _interopRequireDefault(require("./NavigationContainer"));
+
+var _ServerContainer = _interopRequireDefault(require("./ServerContainer"));
+
+var _DarkTheme = _interopRequireDefault(require("./theming/DarkTheme"));
+
+var _DefaultTheme = _interopRequireDefault(require("./theming/DefaultTheme"));
+
+var _ThemeProvider = _interopRequireDefault(require("./theming/ThemeProvider"));
+
+var _useTheme = _interopRequireDefault(require("./theming/useTheme"));
+
+var _types = require("./types");
+
+Object.keys(_types).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _types[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _types[key];
+    }
+  });
+});
+
+var _useLinkBuilder = _interopRequireDefault(require("./useLinkBuilder"));
+
+var _useLinkProps = _interopRequireDefault(require("./useLinkProps"));
+
+var _useLinkTo = _interopRequireDefault(require("./useLinkTo"));
+
+var _useScrollToTop = _interopRequireDefault(require("./useScrollToTop"));
+
+var _core = require("@react-navigation/core");
+
+Object.keys(_core).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _core[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _core[key];
+    }
+  });
+});
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+},{"./Link":"node_modules/@react-navigation/native/lib/module/Link.js","./NavigationContainer":"node_modules/@react-navigation/native/lib/module/NavigationContainer.js","./ServerContainer":"node_modules/@react-navigation/native/lib/module/ServerContainer.js","./theming/DarkTheme":"node_modules/@react-navigation/native/lib/module/theming/DarkTheme.js","./theming/DefaultTheme":"node_modules/@react-navigation/native/lib/module/theming/DefaultTheme.js","./theming/ThemeProvider":"node_modules/@react-navigation/native/lib/module/theming/ThemeProvider.js","./theming/useTheme":"node_modules/@react-navigation/native/lib/module/theming/useTheme.js","./types":"node_modules/@react-navigation/native/lib/module/types.js","./useLinkBuilder":"node_modules/@react-navigation/native/lib/module/useLinkBuilder.js","./useLinkProps":"node_modules/@react-navigation/native/lib/module/useLinkProps.js","./useLinkTo":"node_modules/@react-navigation/native/lib/module/useLinkTo.js","./useScrollToTop":"node_modules/@react-navigation/native/lib/module/useScrollToTop.js","@react-navigation/core":"node_modules/@react-navigation/core/lib/module/index.js"}],"node_modules/@react-navigation/elements/lib/module/Background.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Background;
+
+var _native = require("@react-navigation/native");
+
+var React = _interopRequireWildcard(require("react"));
+
+var _reactNative = require("react-native");
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _extends() {
+  _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
+
+function Background({
+  style,
+  ...rest
+}) {
+  const {
+    colors
+  } = (0, _native.useTheme)();
+  return /*#__PURE__*/React.createElement(_reactNative.View, _extends({}, rest, {
+    style: [{
+      flex: 1,
+      backgroundColor: colors.background
+    }, style]
+  }));
+}
+},{"@react-navigation/native":"node_modules/@react-navigation/native/lib/module/index.js","react":"node_modules/react/index.js","react-native":"node_modules/react-native-web/dist/index.js"}],"node_modules/@react-navigation/elements/lib/module/Header/getDefaultHeaderHeight.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = getDefaultHeaderHeight;
+
+var _reactNative = require("react-native");
+
+function getDefaultHeaderHeight(layout, modalPresentation, statusBarHeight) {
+  let headerHeight;
+  const isLandscape = layout.width > layout.height;
+
+  if (_reactNative.Platform.OS === 'ios') {
+    if (_reactNative.Platform.isPad) {
+      if (modalPresentation) {
+        headerHeight = 56;
+      } else {
+        headerHeight = 50;
+      }
+    } else {
+      if (isLandscape) {
+        headerHeight = 32;
+      } else {
+        if (modalPresentation) {
+          headerHeight = 56;
+        } else {
+          headerHeight = 44;
+        }
+      }
+    }
+  } else if (_reactNative.Platform.OS === 'android') {
+    headerHeight = 56;
+  } else {
+    headerHeight = 64;
+  }
+
+  return headerHeight + statusBarHeight;
+}
+},{"react-native":"node_modules/react-native-web/dist/index.js"}],"node_modules/@react-navigation/elements/lib/module/Header/getHeaderTitle.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = getHeaderTitle;
+
+function getHeaderTitle(options, fallback) {
+  return typeof options.headerTitle === 'string' ? options.headerTitle : options.title !== undefined ? options.title : fallback;
+}
+},{}],"node_modules/react-native-safe-area-context/lib/module/NativeSafeAreaProvider.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = NativeSafeAreaView;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _reactNative = require("react-native");
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+/* eslint-env browser */
+
+/**
+ * TODO:
+ * Currently insets and frame are based on the window and are not
+ * relative to the provider view. This is inconsistent with iOS and Android.
+ * However in most cases if the provider view covers the screen this is not
+ * an issue.
+ */
+const CSSTransitions = {
+  WebkitTransition: 'webkitTransitionEnd',
+  Transition: 'transitionEnd',
+  MozTransition: 'transitionend',
+  MSTransition: 'msTransitionEnd',
+  OTransition: 'oTransitionEnd'
+};
+
+function NativeSafeAreaView({
+  children,
+  style,
+  onInsetsChange
+}) {
+  React.useEffect(() => {
+    // Skip for SSR.
+    if (typeof document === 'undefined') {
+      return;
+    }
+
+    const element = createContextElement();
+    document.body.appendChild(element);
+
+    const onEnd = () => {
+      const {
+        paddingTop,
+        paddingBottom,
+        paddingLeft,
+        paddingRight
+      } = window.getComputedStyle(element);
+      const insets = {
+        top: paddingTop ? parseInt(paddingTop, 10) : 0,
+        bottom: paddingBottom ? parseInt(paddingBottom, 10) : 0,
+        left: paddingLeft ? parseInt(paddingLeft, 10) : 0,
+        right: paddingRight ? parseInt(paddingRight, 10) : 0
+      };
+      const frame = {
+        x: 0,
+        y: 0,
+        width: document.documentElement.offsetWidth,
+        height: document.documentElement.offsetHeight
+      }; // @ts-ignore: missing properties
+
+      onInsetsChange({
+        nativeEvent: {
+          insets,
+          frame
+        }
+      });
+    };
+
+    element.addEventListener(getSupportedTransitionEvent(), onEnd);
+    onEnd();
+    return () => {
+      document.body.removeChild(element);
+      element.removeEventListener(getSupportedTransitionEvent(), onEnd);
+    };
+  }, [onInsetsChange]);
+  return /*#__PURE__*/React.createElement(_reactNative.View, {
+    style: style
+  }, children);
+}
+
+let _supportedTransitionEvent = null;
+
+function getSupportedTransitionEvent() {
+  if (_supportedTransitionEvent !== null) {
+    return _supportedTransitionEvent;
+  }
+
+  const element = document.createElement('invalidtype');
+  _supportedTransitionEvent = CSSTransitions.Transition;
+
+  for (const key in CSSTransitions) {
+    if (element.style[key] !== undefined) {
+      _supportedTransitionEvent = CSSTransitions[key];
+      break;
+    }
+  }
+
+  return _supportedTransitionEvent;
+}
+
+let _supportedEnv = null;
+
+function getSupportedEnv() {
+  if (_supportedEnv !== null) {
+    return _supportedEnv;
+  }
+
+  const {
+    CSS
+  } = window;
+
+  if (CSS && CSS.supports && CSS.supports('top: constant(safe-area-inset-top)')) {
+    _supportedEnv = 'constant';
+  } else {
+    _supportedEnv = 'env';
+  }
+
+  return _supportedEnv;
+}
+
+function getInset(side) {
+  return `${getSupportedEnv()}(safe-area-inset-${side})`;
+}
+
+function createContextElement() {
+  const element = document.createElement('div');
+  const {
+    style
+  } = element;
+  style.position = 'fixed';
+  style.left = '0';
+  style.top = '0';
+  style.width = '0';
+  style.height = '0';
+  style.zIndex = '-1';
+  style.overflow = 'hidden';
+  style.visibility = 'hidden'; // Bacon: Anything faster than this and the callback will be invoked too early with the wrong insets
+
+  style.transitionDuration = '0.05s';
+  style.transitionProperty = 'padding';
+  style.transitionDelay = '0s';
+  style.paddingTop = getInset('top');
+  style.paddingBottom = getInset('bottom');
+  style.paddingLeft = getInset('left');
+  style.paddingRight = getInset('right');
+  return element;
+}
+},{"react":"node_modules/react/index.js","react-native":"node_modules/react-native-web/dist/index.js"}],"node_modules/react-native-safe-area-context/lib/module/SafeAreaContext.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.SafeAreaInsetsContext = exports.SafeAreaFrameContext = exports.SafeAreaContext = exports.SafeAreaConsumer = void 0;
+exports.SafeAreaProvider = SafeAreaProvider;
+exports.useSafeArea = useSafeArea;
+exports.useSafeAreaFrame = useSafeAreaFrame;
+exports.useSafeAreaInsets = useSafeAreaInsets;
+exports.withSafeAreaInsets = withSafeAreaInsets;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _reactNative = require("react-native");
+
+var _NativeSafeAreaProvider = _interopRequireDefault(require("./NativeSafeAreaProvider"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _extends() {
+  _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
+
+const SafeAreaInsetsContext = /*#__PURE__*/React.createContext(null);
+exports.SafeAreaInsetsContext = SafeAreaInsetsContext;
+SafeAreaInsetsContext.displayName = 'SafeAreaInsetsContext';
+const SafeAreaFrameContext = /*#__PURE__*/React.createContext(null);
+exports.SafeAreaFrameContext = SafeAreaFrameContext;
+SafeAreaFrameContext.displayName = 'SafeAreaFrameContext';
+
+function SafeAreaProvider({
+  children,
+  initialMetrics,
+  initialSafeAreaInsets,
+  style
+}) {
+  var _ref, _ref2, _initialMetrics$inset, _ref3, _initialMetrics$frame;
+
+  const parentInsets = useParentSafeAreaInsets();
+  const parentFrame = useParentSafeAreaFrame();
+  const [insets, setInsets] = React.useState((_ref = (_ref2 = (_initialMetrics$inset = initialMetrics === null || initialMetrics === void 0 ? void 0 : initialMetrics.insets) !== null && _initialMetrics$inset !== void 0 ? _initialMetrics$inset : initialSafeAreaInsets) !== null && _ref2 !== void 0 ? _ref2 : parentInsets) !== null && _ref !== void 0 ? _ref : null);
+  const [frame, setFrame] = React.useState((_ref3 = (_initialMetrics$frame = initialMetrics === null || initialMetrics === void 0 ? void 0 : initialMetrics.frame) !== null && _initialMetrics$frame !== void 0 ? _initialMetrics$frame : parentFrame) !== null && _ref3 !== void 0 ? _ref3 : {
+    // Backwards compat so we render anyway if we don't have frame.
+    x: 0,
+    y: 0,
+    width: _reactNative.Dimensions.get('window').width,
+    height: _reactNative.Dimensions.get('window').height
+  });
+  const onInsetsChange = React.useCallback(event => {
+    const {
+      nativeEvent: {
+        frame: nextFrame,
+        insets: nextInsets
+      }
+    } = event;
+
+    if ( // Backwards compat with old native code that won't send frame.
+    nextFrame && (nextFrame.height !== frame.height || nextFrame.width !== frame.width || nextFrame.x !== frame.x || nextFrame.y !== frame.y)) {
+      setFrame(nextFrame);
+    }
+
+    if (!insets || nextInsets.bottom !== insets.bottom || nextInsets.left !== insets.left || nextInsets.right !== insets.right || nextInsets.top !== insets.top) {
+      setInsets(nextInsets);
+    }
+  }, [frame, insets]);
+  return /*#__PURE__*/React.createElement(_NativeSafeAreaProvider.default, {
+    style: [styles.fill, style],
+    onInsetsChange: onInsetsChange
+  }, insets != null ? /*#__PURE__*/React.createElement(SafeAreaFrameContext.Provider, {
+    value: frame
+  }, /*#__PURE__*/React.createElement(SafeAreaInsetsContext.Provider, {
+    value: insets
+  }, children)) : null);
+}
+
+const styles = _reactNative.StyleSheet.create({
+  fill: {
+    flex: 1
+  }
+});
+
+function useParentSafeAreaInsets() {
+  return React.useContext(SafeAreaInsetsContext);
+}
+
+function useParentSafeAreaFrame() {
+  return React.useContext(SafeAreaFrameContext);
+}
+
+function useSafeAreaInsets() {
+  const safeArea = React.useContext(SafeAreaInsetsContext);
+
+  if (safeArea == null) {
+    throw new Error('No safe area insets value available. Make sure you are rendering `<SafeAreaProvider>` at the top of your app.');
+  }
+
+  return safeArea;
+}
+
+function useSafeAreaFrame() {
+  const frame = React.useContext(SafeAreaFrameContext);
+
+  if (frame == null) {
+    throw new Error('No safe area frame value available. Make sure you are rendering `<SafeAreaProvider>` at the top of your app.');
+  }
+
+  return frame;
+}
+
+function withSafeAreaInsets(WrappedComponent) {
+  return /*#__PURE__*/React.forwardRef((props, ref) => /*#__PURE__*/React.createElement(SafeAreaConsumer, null, insets => /*#__PURE__*/React.createElement(WrappedComponent, _extends({}, props, {
+    insets: insets,
+    ref: ref
+  }))));
+}
+/**
+ * @deprecated
+ */
+
+
+function useSafeArea() {
+  return useSafeAreaInsets();
+}
+/**
+ * @deprecated
+ */
+
+
+const SafeAreaConsumer = SafeAreaInsetsContext.Consumer;
+/**
+ * @deprecated
+ */
+
+exports.SafeAreaConsumer = SafeAreaConsumer;
+const SafeAreaContext = SafeAreaInsetsContext;
+exports.SafeAreaContext = SafeAreaContext;
+},{"react":"node_modules/react/index.js","react-native":"node_modules/react-native-web/dist/index.js","./NativeSafeAreaProvider":"node_modules/react-native-safe-area-context/lib/module/NativeSafeAreaProvider.js"}],"node_modules/react-native-safe-area-context/lib/module/SafeAreaView.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.SafeAreaView = SafeAreaView;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _reactNative = require("react-native");
+
+var _SafeAreaContext = require("./SafeAreaContext");
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _extends() {
+  _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
+
+// prettier-ignore
+const TOP = 0b1000,
+      RIGHT = 0b0100,
+      BOTTOM = 0b0010,
+      LEFT = 0b0001,
+      ALL = 0b1111;
+/* eslint-disable no-bitwise */
+
+const edgeBitmaskMap = {
+  top: TOP,
+  right: RIGHT,
+  bottom: BOTTOM,
+  left: LEFT
+};
+
+function SafeAreaView({
+  style = {},
+  mode,
+  edges,
+  ...rest
+}) {
+  const insets = (0, _SafeAreaContext.useSafeAreaInsets)();
+  const edgeBitmask = edges != null ? edges.reduce((accum, edge) => accum | edgeBitmaskMap[edge], 0) : ALL;
+  const appliedStyle = React.useMemo(() => {
+    const insetTop = edgeBitmask & TOP ? insets.top : 0;
+    const insetRight = edgeBitmask & RIGHT ? insets.right : 0;
+    const insetBottom = edgeBitmask & BOTTOM ? insets.bottom : 0;
+    const insetLeft = edgeBitmask & LEFT ? insets.left : 0;
+
+    const flatStyle = _reactNative.StyleSheet.flatten(style);
+
+    if (mode === 'margin') {
+      const {
+        margin = 0,
+        marginVertical = margin,
+        marginHorizontal = margin,
+        marginTop = marginVertical,
+        marginRight = marginHorizontal,
+        marginBottom = marginVertical,
+        marginLeft = marginHorizontal
+      } = flatStyle;
+      const marginStyle = {
+        marginTop: marginTop + insetTop,
+        marginRight: marginRight + insetRight,
+        marginBottom: marginBottom + insetBottom,
+        marginLeft: marginLeft + insetLeft
+      };
+      return [style, marginStyle];
+    } else {
+      const {
+        padding = 0,
+        paddingVertical = padding,
+        paddingHorizontal = padding,
+        paddingTop = paddingVertical,
+        paddingRight = paddingHorizontal,
+        paddingBottom = paddingVertical,
+        paddingLeft = paddingHorizontal
+      } = flatStyle;
+      const paddingStyle = {
+        paddingTop: paddingTop + insetTop,
+        paddingRight: paddingRight + insetRight,
+        paddingBottom: paddingBottom + insetBottom,
+        paddingLeft: paddingLeft + insetLeft
+      };
+      return [style, paddingStyle];
+    }
+  }, [style, insets, mode, edgeBitmask]);
+  return /*#__PURE__*/React.createElement(_reactNative.View, _extends({
+    style: appliedStyle
+  }, rest));
+}
+},{"react":"node_modules/react/index.js","react-native":"node_modules/react-native-web/dist/index.js","./SafeAreaContext":"node_modules/react-native-safe-area-context/lib/module/SafeAreaContext.js"}],"node_modules/react-native-safe-area-context/lib/module/InitialWindow.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.initialWindowSafeAreaInsets = exports.initialWindowMetrics = void 0;
+const initialWindowMetrics = null;
+/**
+ * @deprecated
+ */
+
+exports.initialWindowMetrics = initialWindowMetrics;
+const initialWindowSafeAreaInsets = null;
+exports.initialWindowSafeAreaInsets = initialWindowSafeAreaInsets;
+},{}],"node_modules/react-native-safe-area-context/lib/module/SafeArea.types.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+},{}],"node_modules/react-native-safe-area-context/lib/module/index.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _SafeAreaContext = require("./SafeAreaContext");
+
+Object.keys(_SafeAreaContext).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (key in exports && exports[key] === _SafeAreaContext[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _SafeAreaContext[key];
+    }
+  });
+});
+
+var _SafeAreaView = require("./SafeAreaView");
+
+Object.keys(_SafeAreaView).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (key in exports && exports[key] === _SafeAreaView[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _SafeAreaView[key];
+    }
+  });
+});
+
+var _InitialWindow = require("./InitialWindow");
+
+Object.keys(_InitialWindow).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (key in exports && exports[key] === _InitialWindow[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _InitialWindow[key];
+    }
+  });
+});
+
+var _SafeArea = require("./SafeArea.types");
+
+Object.keys(_SafeArea).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (key in exports && exports[key] === _SafeArea[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _SafeArea[key];
+    }
+  });
+});
+},{"./SafeAreaContext":"node_modules/react-native-safe-area-context/lib/module/SafeAreaContext.js","./SafeAreaView":"node_modules/react-native-safe-area-context/lib/module/SafeAreaView.js","./InitialWindow":"node_modules/react-native-safe-area-context/lib/module/InitialWindow.js","./SafeArea.types":"node_modules/react-native-safe-area-context/lib/module/SafeArea.types.js"}],"node_modules/@react-navigation/elements/lib/module/Header/HeaderBackground.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = HeaderBackground;
+
+var _native = require("@react-navigation/native");
+
+var React = _interopRequireWildcard(require("react"));
+
+var _reactNative = require("react-native");
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _extends() {
+  _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
+
+function HeaderBackground({
+  style,
+  ...rest
+}) {
+  const {
+    colors
+  } = (0, _native.useTheme)();
+  return /*#__PURE__*/React.createElement(_reactNative.Animated.View, _extends({
+    style: [styles.container, {
+      backgroundColor: colors.card,
+      borderBottomColor: colors.border,
+      shadowColor: colors.border
+    }, style]
+  }, rest));
+}
+
+const styles = _reactNative.StyleSheet.create({
+  container: {
+    flex: 1,
+    ..._reactNative.Platform.select({
+      android: {
+        elevation: 4
+      },
+      ios: {
+        shadowOpacity: 0.85,
+        shadowRadius: 0,
+        shadowOffset: {
+          width: 0,
+          height: _reactNative.StyleSheet.hairlineWidth
+        }
+      },
+      default: {
+        borderBottomWidth: _reactNative.StyleSheet.hairlineWidth
+      }
+    })
+  }
+});
+},{"@react-navigation/native":"node_modules/@react-navigation/native/lib/module/index.js","react":"node_modules/react/index.js","react-native":"node_modules/react-native-web/dist/index.js"}],"node_modules/@react-navigation/elements/lib/module/getNamedContext.js":[function(require,module,exports) {
+var global = arguments[3];
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = getNamedContext;
+
+var React = _interopRequireWildcard(require("react"));
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+var _global$contexts;
+
+const contexts = '__react_navigation__elements_contexts'; // We use a global variable to keep our contexts so that we can reuse same contexts across packages
+
+global[contexts] = (_global$contexts = global[contexts]) !== null && _global$contexts !== void 0 ? _global$contexts : new Map();
+
+function getNamedContext(name, initialValue) {
+  let context = global[contexts].get(name);
+
+  if (context) {
+    return context;
+  }
+
+  context = /*#__PURE__*/React.createContext(initialValue);
+  context.displayName = name;
+  global[contexts].set(name, context);
+  return context;
+}
+},{"react":"node_modules/react/index.js"}],"node_modules/@react-navigation/elements/lib/module/Header/HeaderShownContext.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _getNamedContext = _interopRequireDefault(require("../getNamedContext"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+const HeaderShownContext = (0, _getNamedContext.default)('HeaderShownContext', false);
+var _default = HeaderShownContext;
+exports.default = _default;
+},{"../getNamedContext":"node_modules/@react-navigation/elements/lib/module/getNamedContext.js"}],"node_modules/@react-navigation/elements/lib/module/Header/HeaderTitle.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = HeaderTitle;
+
+var _native = require("@react-navigation/native");
+
+var React = _interopRequireWildcard(require("react"));
+
+var _reactNative = require("react-native");
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _extends() {
+  _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
+
+function HeaderTitle({
+  tintColor,
+  style,
+  ...rest
+}) {
+  const {
+    colors
+  } = (0, _native.useTheme)();
+  return /*#__PURE__*/React.createElement(_reactNative.Animated.Text, _extends({
+    accessibilityRole: "header",
+    "aria-level": "1",
+    numberOfLines: 1
+  }, rest, {
+    style: [styles.title, {
+      color: tintColor === undefined ? colors.text : tintColor
+    }, style]
+  }));
+}
+
+const styles = _reactNative.StyleSheet.create({
+  title: _reactNative.Platform.select({
+    ios: {
+      fontSize: 17,
+      fontWeight: '600'
+    },
+    android: {
+      fontSize: 20,
+      fontFamily: 'sans-serif-medium',
+      fontWeight: 'normal'
+    },
+    default: {
+      fontSize: 18,
+      fontWeight: '500'
+    }
+  })
+});
+},{"@react-navigation/native":"node_modules/@react-navigation/native/lib/module/index.js","react":"node_modules/react/index.js","react-native":"node_modules/react-native-web/dist/index.js"}],"node_modules/@react-navigation/elements/lib/module/Header/Header.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Header;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _reactNative = require("react-native");
+
+var _reactNativeSafeAreaContext = require("react-native-safe-area-context");
+
+var _getDefaultHeaderHeight = _interopRequireDefault(require("./getDefaultHeaderHeight"));
+
+var _HeaderBackground = _interopRequireDefault(require("./HeaderBackground"));
+
+var _HeaderShownContext = _interopRequireDefault(require("./HeaderShownContext"));
+
+var _HeaderTitle = _interopRequireDefault(require("./HeaderTitle"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+const warnIfHeaderStylesDefined = styles => {
+  Object.keys(styles).forEach(styleProp => {
+    const value = styles[styleProp];
+
+    if (styleProp === 'position' && value === 'absolute') {
+      console.warn("position: 'absolute' is not supported on headerStyle. If you would like to render content under the header, use the 'headerTransparent' option.");
+    } else if (value !== undefined) {
+      console.warn(`${styleProp} was given a value of ${value}, this has no effect on headerStyle.`);
+    }
+  });
+};
+
+function Header(props) {
+  const insets = (0, _reactNativeSafeAreaContext.useSafeAreaInsets)();
+  const frame = (0, _reactNativeSafeAreaContext.useSafeAreaFrame)();
+  const isParentHeaderShown = React.useContext(_HeaderShownContext.default);
+  const {
+    layout = frame,
+    modal = false,
+    title,
+    headerTitle: customTitle,
+    headerTitleAlign = _reactNative.Platform.select({
+      ios: 'center',
+      default: 'left'
+    }),
+    headerLeft,
+    headerLeftLabelVisible,
+    headerTransparent,
+    headerTintColor,
+    headerBackground,
+    headerRight,
+    headerTitleAllowFontScaling: titleAllowFontScaling,
+    headerTitleStyle: titleStyle,
+    headerLeftContainerStyle: leftContainerStyle,
+    headerRightContainerStyle: rightContainerStyle,
+    headerTitleContainerStyle: titleContainerStyle,
+    headerBackgroundContainerStyle: backgroundContainerStyle,
+    headerStyle: customHeaderStyle,
+    headerShadowVisible,
+    headerPressColor,
+    headerPressOpacity,
+    headerStatusBarHeight = isParentHeaderShown ? 0 : insets.top
+  } = props;
+  const defaultHeight = (0, _getDefaultHeaderHeight.default)(layout, modal, headerStatusBarHeight);
+
+  const {
+    height = defaultHeight,
+    minHeight,
+    maxHeight,
+    backgroundColor,
+    borderBottomColor,
+    borderBottomEndRadius,
+    borderBottomLeftRadius,
+    borderBottomRightRadius,
+    borderBottomStartRadius,
+    borderBottomWidth,
+    borderColor,
+    borderEndColor,
+    borderEndWidth,
+    borderLeftColor,
+    borderLeftWidth,
+    borderRadius,
+    borderRightColor,
+    borderRightWidth,
+    borderStartColor,
+    borderStartWidth,
+    borderStyle,
+    borderTopColor,
+    borderTopEndRadius,
+    borderTopLeftRadius,
+    borderTopRightRadius,
+    borderTopStartRadius,
+    borderTopWidth,
+    borderWidth,
+    // @ts-expect-error: web support for shadow
+    boxShadow,
+    elevation,
+    shadowColor,
+    shadowOffset,
+    shadowOpacity,
+    shadowRadius,
+    opacity,
+    transform,
+    ...unsafeStyles
+  } = _reactNative.StyleSheet.flatten(customHeaderStyle || {});
+
+  if ("development" !== 'production') {
+    warnIfHeaderStylesDefined(unsafeStyles);
+  }
+
+  const safeStyles = {
+    backgroundColor,
+    borderBottomColor,
+    borderBottomEndRadius,
+    borderBottomLeftRadius,
+    borderBottomRightRadius,
+    borderBottomStartRadius,
+    borderBottomWidth,
+    borderColor,
+    borderEndColor,
+    borderEndWidth,
+    borderLeftColor,
+    borderLeftWidth,
+    borderRadius,
+    borderRightColor,
+    borderRightWidth,
+    borderStartColor,
+    borderStartWidth,
+    borderStyle,
+    borderTopColor,
+    borderTopEndRadius,
+    borderTopLeftRadius,
+    borderTopRightRadius,
+    borderTopStartRadius,
+    borderTopWidth,
+    borderWidth,
+    // @ts-expect-error: boxShadow is only for Web
+    boxShadow,
+    elevation,
+    shadowColor,
+    shadowOffset,
+    shadowOpacity,
+    shadowRadius,
+    opacity,
+    transform
+  }; // Setting a property to undefined triggers default style
+  // So we need to filter them out
+  // Users can use `null` instead
+
+  for (const styleProp in safeStyles) {
+    // @ts-expect-error: typescript wrongly complains that styleProp cannot be used to index safeStyles
+    if (safeStyles[styleProp] === undefined) {
+      // @ts-expect-error
+      // eslint-disable-next-line @typescript-eslint/no-dynamic-delete
+      delete safeStyles[styleProp];
+    }
+  }
+
+  const backgroundStyle = [safeStyles, headerShadowVisible === false && {
+    elevation: 0,
+    shadowOpacity: 0,
+    borderBottomWidth: 0
+  }];
+  const leftButton = headerLeft ? headerLeft({
+    tintColor: headerTintColor,
+    pressColor: headerPressColor,
+    pressOpacity: headerPressOpacity,
+    labelVisible: headerLeftLabelVisible
+  }) : null;
+  const rightButton = headerRight ? headerRight({
+    tintColor: headerTintColor,
+    pressColor: headerPressColor,
+    pressOpacity: headerPressOpacity
+  }) : null;
+  const headerTitle = typeof customTitle !== 'function' ? props => /*#__PURE__*/React.createElement(_HeaderTitle.default, props) : customTitle;
+  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(_reactNative.Animated.View, {
+    pointerEvents: "box-none",
+    style: [_reactNative.StyleSheet.absoluteFill, {
+      zIndex: 0
+    }, backgroundContainerStyle]
+  }, headerBackground ? headerBackground({
+    style: backgroundStyle
+  }) : headerTransparent ? null : /*#__PURE__*/React.createElement(_HeaderBackground.default, {
+    style: backgroundStyle
+  })), /*#__PURE__*/React.createElement(_reactNative.Animated.View, {
+    pointerEvents: "box-none",
+    style: [{
+      height,
+      minHeight,
+      maxHeight,
+      opacity,
+      transform
+    }]
+  }, /*#__PURE__*/React.createElement(_reactNative.View, {
+    pointerEvents: "none",
+    style: {
+      height: headerStatusBarHeight
+    }
+  }), /*#__PURE__*/React.createElement(_reactNative.View, {
+    pointerEvents: "box-none",
+    style: styles.content
+  }, /*#__PURE__*/React.createElement(_reactNative.Animated.View, {
+    pointerEvents: "box-none",
+    style: [styles.left, headerTitleAlign === 'center' && styles.expand, {
+      marginStart: insets.left
+    }, leftContainerStyle]
+  }, leftButton), /*#__PURE__*/React.createElement(_reactNative.Animated.View, {
+    pointerEvents: "box-none",
+    style: [styles.title, {
+      // Avoid the title from going offscreen or overlapping buttons
+      maxWidth: headerTitleAlign === 'center' ? layout.width - ((leftButton ? headerLeftLabelVisible !== false ? 80 : 32 : 16) + Math.max(insets.left, insets.right)) * 2 : layout.width - ((leftButton ? 72 : 16) + (rightButton ? 72 : 16) + insets.left - insets.right)
+    }, titleContainerStyle]
+  }, headerTitle({
+    children: title,
+    allowFontScaling: titleAllowFontScaling,
+    tintColor: headerTintColor,
+    style: titleStyle
+  })), /*#__PURE__*/React.createElement(_reactNative.Animated.View, {
+    pointerEvents: "box-none",
+    style: [styles.right, styles.expand, {
+      marginEnd: insets.right
+    }, rightContainerStyle]
+  }, rightButton))));
+}
+
+const styles = _reactNative.StyleSheet.create({
+  content: {
+    flex: 1,
+    flexDirection: 'row',
+    alignItems: 'stretch'
+  },
+  title: {
+    marginHorizontal: 16,
+    justifyContent: 'center'
+  },
+  left: {
+    justifyContent: 'center',
+    alignItems: 'flex-start'
+  },
+  right: {
+    justifyContent: 'center',
+    alignItems: 'flex-end'
+  },
+  expand: {
+    flexGrow: 1,
+    flexBasis: 0
+  }
+});
+},{"react":"node_modules/react/index.js","react-native":"node_modules/react-native-web/dist/index.js","react-native-safe-area-context":"node_modules/react-native-safe-area-context/lib/module/index.js","./getDefaultHeaderHeight":"node_modules/@react-navigation/elements/lib/module/Header/getDefaultHeaderHeight.js","./HeaderBackground":"node_modules/@react-navigation/elements/lib/module/Header/HeaderBackground.js","./HeaderShownContext":"node_modules/@react-navigation/elements/lib/module/Header/HeaderShownContext.js","./HeaderTitle":"node_modules/@react-navigation/elements/lib/module/Header/HeaderTitle.js"}],"node_modules/@react-navigation/elements/lib/module/MaskedView.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = MaskedView;
+
+/**
+ * Use a stub for MaskedView on all Platforms that don't support it.
+ */
+function MaskedView({
+  children
+}) {
+  return children;
+}
+},{}],"node_modules/@react-navigation/elements/lib/module/PlatformPressable.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = PlatformPressable;
+
+var _native = require("@react-navigation/native");
+
+var React = _interopRequireWildcard(require("react"));
+
+var _reactNative = require("react-native");
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _extends() {
+  _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
+
+const AnimatedPressable = _reactNative.Animated.createAnimatedComponent(_reactNative.Pressable);
+
+const ANDROID_VERSION_LOLLIPOP = 21;
+const ANDROID_SUPPORTS_RIPPLE = _reactNative.Platform.OS === 'android' && _reactNative.Platform.Version >= ANDROID_VERSION_LOLLIPOP;
+/**
+ * PlatformPressable provides an abstraction on top of Pressable to handle platform differences.
+ */
+
+function PlatformPressable({
+  onPressIn,
+  onPressOut,
+  android_ripple,
+  pressColor,
+  pressOpacity = 0.3,
+  style,
+  ...rest
+}) {
+  const {
+    dark
+  } = (0, _native.useTheme)();
+  const [opacity] = React.useState(() => new _reactNative.Animated.Value(1));
+
+  const animateTo = (toValue, duration) => {
+    if (ANDROID_SUPPORTS_RIPPLE) {
+      return;
+    }
+
+    _reactNative.Animated.timing(opacity, {
+      toValue,
+      duration,
+      easing: _reactNative.Easing.inOut(_reactNative.Easing.quad),
+      useNativeDriver: true
+    }).start();
+  };
+
+  const handlePressIn = e => {
+    animateTo(pressOpacity, 0);
+    onPressIn === null || onPressIn === void 0 ? void 0 : onPressIn(e);
+  };
+
+  const handlePressOut = e => {
+    animateTo(1, 200);
+    onPressOut === null || onPressOut === void 0 ? void 0 : onPressOut(e);
+  };
+
+  return /*#__PURE__*/React.createElement(AnimatedPressable, _extends({
+    onPressIn: handlePressIn,
+    onPressOut: handlePressOut,
+    android_ripple: ANDROID_SUPPORTS_RIPPLE ? {
+      color: pressColor !== undefined ? pressColor : dark ? 'rgba(255, 255, 255, .32)' : 'rgba(0, 0, 0, .32)',
+      ...android_ripple
+    } : undefined,
+    style: [{
+      opacity: !ANDROID_SUPPORTS_RIPPLE ? opacity : 1
+    }, style]
+  }, rest));
+}
+},{"@react-navigation/native":"node_modules/@react-navigation/native/lib/module/index.js","react":"node_modules/react/index.js","react-native":"node_modules/react-native-web/dist/index.js"}],"node_modules/@react-navigation/elements/lib/module/assets/back-icon.png":[function(require,module,exports) {
+module.exports="/back-icon.b6899092.png";
+},{}],"node_modules/@react-navigation/elements/lib/module/assets/back-icon-mask.png":[function(require,module,exports) {
+module.exports="/back-icon-mask.3d263ecb.png";
+},{}],"node_modules/@react-navigation/elements/lib/module/Header/HeaderBackButton.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = HeaderBackButton;
+
+var _native = require("@react-navigation/native");
+
+var React = _interopRequireWildcard(require("react"));
+
+var _reactNative = require("react-native");
+
+var _MaskedView = _interopRequireDefault(require("../MaskedView"));
+
+var _PlatformPressable = _interopRequireDefault(require("../PlatformPressable"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function HeaderBackButton({
+  disabled,
+  allowFontScaling,
+  backImage,
+  label,
+  labelStyle,
+  labelVisible,
+  onLabelLayout,
+  onPress,
+  pressColor,
+  pressOpacity,
+  screenLayout,
+  tintColor: customTintColor,
+  titleLayout,
+  truncatedLabel = 'Back',
+  accessibilityLabel = label && label !== 'Back' ? `${label}, back` : 'Go back',
+  testID,
+  style
+}) {
+  const {
+    colors
+  } = (0, _native.useTheme)();
+  const [initialLabelWidth, setInitialLabelWidth] = React.useState(undefined);
+  const tintColor = customTintColor !== undefined ? customTintColor : _reactNative.Platform.select({
+    ios: colors.primary,
+    default: colors.text
+  });
+
+  const handleLabelLayout = e => {
+    onLabelLayout === null || onLabelLayout === void 0 ? void 0 : onLabelLayout(e);
+    setInitialLabelWidth(e.nativeEvent.layout.x + e.nativeEvent.layout.width);
+  };
+
+  const shouldTruncateLabel = () => {
+    return !label || initialLabelWidth && titleLayout && screenLayout && (screenLayout.width - titleLayout.width) / 2 < initialLabelWidth + 26;
+  };
+
+  const renderBackImage = () => {
+    if (backImage) {
+      return backImage({
+        tintColor
+      });
+    } else {
+      return /*#__PURE__*/React.createElement(_reactNative.Image, {
+        style: [styles.icon, Boolean(labelVisible) && styles.iconWithLabel, Boolean(tintColor) && {
+          tintColor
+        }],
+        source: require('../assets/back-icon.png'),
+        fadeDuration: 0
+      });
+    }
+  };
+
+  const renderLabel = () => {
+    const leftLabelText = shouldTruncateLabel() ? truncatedLabel : label;
+
+    if (!labelVisible || leftLabelText === undefined) {
+      return null;
+    }
+
+    const labelElement = /*#__PURE__*/React.createElement(_reactNative.View, {
+      style: screenLayout ? // We make the button extend till the middle of the screen
+      // Otherwise it appears to cut off when translating
+      [styles.labelWrapper, {
+        minWidth: screenLayout.width / 2 - 27
+      }] : null
+    }, /*#__PURE__*/React.createElement(_reactNative.Animated.Text, {
+      accessible: false,
+      onLayout: // This measurement is used to determine if we should truncate the label when it doesn't fit
+      // Only measure it when label is not truncated because we want the measurement of full label
+      leftLabelText === label ? handleLabelLayout : undefined,
+      style: [styles.label, tintColor ? {
+        color: tintColor
+      } : null, labelStyle],
+      numberOfLines: 1,
+      allowFontScaling: !!allowFontScaling
+    }, leftLabelText));
+
+    if (backImage || _reactNative.Platform.OS !== 'ios') {
+      // When a custom backimage is specified, we can't mask the label
+      // Otherwise there might be weird effect due to our mask not being the same as the image
+      return labelElement;
+    }
+
+    return /*#__PURE__*/React.createElement(_MaskedView.default, {
+      maskElement: /*#__PURE__*/React.createElement(_reactNative.View, {
+        style: styles.iconMaskContainer
+      }, /*#__PURE__*/React.createElement(_reactNative.Image, {
+        source: require('../assets/back-icon-mask.png'),
+        style: styles.iconMask
+      }), /*#__PURE__*/React.createElement(_reactNative.View, {
+        style: styles.iconMaskFillerRect
+      }))
+    }, labelElement);
+  };
+
+  const handlePress = () => onPress && requestAnimationFrame(onPress);
+
+  return /*#__PURE__*/React.createElement(_PlatformPressable.default, {
+    disabled: disabled,
+    accessible: true,
+    accessibilityRole: "button",
+    accessibilityLabel: accessibilityLabel,
+    testID: testID,
+    onPress: disabled ? undefined : handlePress,
+    pressColor: pressColor,
+    pressOpacity: pressOpacity,
+    android_ripple: {
+      borderless: true
+    },
+    style: [styles.container, disabled && styles.disabled, style],
+    hitSlop: _reactNative.Platform.select({
+      ios: undefined,
+      default: {
+        top: 16,
+        right: 16,
+        bottom: 16,
+        left: 16
+      }
+    })
+  }, /*#__PURE__*/React.createElement(React.Fragment, null, renderBackImage(), renderLabel()));
+}
+
+const styles = _reactNative.StyleSheet.create({
+  container: {
+    alignItems: 'center',
+    flexDirection: 'row',
+    minWidth: _reactNative.StyleSheet.hairlineWidth,
+    // Avoid collapsing when title is long
+    ..._reactNative.Platform.select({
+      ios: null,
+      default: {
+        marginVertical: 3,
+        marginHorizontal: 11
+      }
+    })
+  },
+  disabled: {
+    opacity: 0.5
+  },
+  label: {
+    fontSize: 17,
+    // Title and back label are a bit different width due to title being bold
+    // Adjusting the letterSpacing makes them coincide better
+    letterSpacing: 0.35
+  },
+  labelWrapper: {
+    // These styles will make sure that the label doesn't fill the available space
+    // Otherwise it messes with the measurement of the label
+    flexDirection: 'row',
+    alignItems: 'flex-start'
+  },
+  icon: _reactNative.Platform.select({
+    ios: {
+      height: 21,
+      width: 13,
+      marginLeft: 8,
+      marginRight: 22,
+      marginVertical: 12,
+      resizeMode: 'contain',
+      transform: [{
+        scaleX: _reactNative.I18nManager.isRTL ? -1 : 1
+      }]
+    },
+    default: {
+      height: 24,
+      width: 24,
+      margin: 3,
+      resizeMode: 'contain',
+      transform: [{
+        scaleX: _reactNative.I18nManager.isRTL ? -1 : 1
+      }]
+    }
+  }),
+  iconWithLabel: _reactNative.Platform.OS === 'ios' ? {
+    marginRight: 6
+  } : {},
+  iconMaskContainer: {
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'center'
+  },
+  iconMaskFillerRect: {
+    flex: 1,
+    backgroundColor: '#000'
+  },
+  iconMask: {
+    height: 21,
+    width: 13,
+    marginLeft: -14.5,
+    marginVertical: 12,
+    alignSelf: 'center',
+    resizeMode: 'contain',
+    transform: [{
+      scaleX: _reactNative.I18nManager.isRTL ? -1 : 1
+    }]
+  }
+});
+},{"@react-navigation/native":"node_modules/@react-navigation/native/lib/module/index.js","react":"node_modules/react/index.js","react-native":"node_modules/react-native-web/dist/index.js","../MaskedView":"node_modules/@react-navigation/elements/lib/module/MaskedView.js","../PlatformPressable":"node_modules/@react-navigation/elements/lib/module/PlatformPressable.js","../assets/back-icon.png":"node_modules/@react-navigation/elements/lib/module/assets/back-icon.png","../assets/back-icon-mask.png":"node_modules/@react-navigation/elements/lib/module/assets/back-icon-mask.png"}],"node_modules/@react-navigation/elements/lib/module/Header/HeaderBackContext.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _getNamedContext = _interopRequireDefault(require("../getNamedContext"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+const HeaderBackContext = (0, _getNamedContext.default)('HeaderBackContext', undefined);
+var _default = HeaderBackContext;
+exports.default = _default;
+},{"../getNamedContext":"node_modules/@react-navigation/elements/lib/module/getNamedContext.js"}],"node_modules/@react-navigation/elements/lib/module/Header/HeaderHeightContext.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _getNamedContext = _interopRequireDefault(require("../getNamedContext"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+const HeaderHeightContext = (0, _getNamedContext.default)('HeaderHeightContext', undefined);
+var _default = HeaderHeightContext;
+exports.default = _default;
+},{"../getNamedContext":"node_modules/@react-navigation/elements/lib/module/getNamedContext.js"}],"node_modules/@react-navigation/elements/lib/module/Header/useHeaderHeight.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useHeaderHeight;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _HeaderHeightContext = _interopRequireDefault(require("./HeaderHeightContext"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function useHeaderHeight() {
+  const height = React.useContext(_HeaderHeightContext.default);
+
+  if (height === undefined) {
+    throw new Error("Couldn't find the header height. Are you inside a screen in a navigator with a header?");
+  }
+
+  return height;
+}
+},{"react":"node_modules/react/index.js","./HeaderHeightContext":"node_modules/@react-navigation/elements/lib/module/Header/HeaderHeightContext.js"}],"node_modules/@react-navigation/elements/lib/module/MissingIcon.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = MissingIcon;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _reactNative = require("react-native");
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function MissingIcon({
+  color,
+  size,
+  style
+}) {
+  return /*#__PURE__*/React.createElement(_reactNative.Text, {
+    style: [styles.icon, {
+      color,
+      fontSize: size
+    }, style]
+  }, "\u23F7");
+}
+
+const styles = _reactNative.StyleSheet.create({
+  icon: {
+    backgroundColor: 'transparent'
+  }
+});
+},{"react":"node_modules/react/index.js","react-native":"node_modules/react-native-web/dist/index.js"}],"node_modules/@react-navigation/elements/lib/module/ResourceSavingView.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = ResourceSavingScene;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _reactNative = require("react-native");
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _extends() {
+  _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
+
+const FAR_FAR_AWAY = 30000; // this should be big enough to move the whole view out of its container
+
+function ResourceSavingScene({
+  visible,
+  children,
+  style,
+  ...rest
+}) {
+  if (_reactNative.Platform.OS === 'web') {
+    return /*#__PURE__*/React.createElement(_reactNative.View // @ts-expect-error: hidden exists on web, but not in React Native
+    , _extends({
+      hidden: !visible,
+      style: [{
+        display: visible ? 'flex' : 'none'
+      }, styles.container, style],
+      pointerEvents: visible ? 'auto' : 'none'
+    }, rest), children);
+  }
+
+  return /*#__PURE__*/React.createElement(_reactNative.View, {
+    style: [styles.container, style] // box-none doesn't seem to work properly on Android
+    ,
+    pointerEvents: visible ? 'auto' : 'none'
+  }, /*#__PURE__*/React.createElement(_reactNative.View, {
+    collapsable: false,
+    removeClippedSubviews: // On iOS & macOS, set removeClippedSubviews to true only when not focused
+    // This is an workaround for a bug where the clipped view never re-appears
+    _reactNative.Platform.OS === 'ios' || _reactNative.Platform.OS === 'macos' ? !visible : true,
+    pointerEvents: visible ? 'auto' : 'none',
+    style: visible ? styles.attached : styles.detached
+  }, children));
+}
+
+const styles = _reactNative.StyleSheet.create({
+  container: {
+    flex: 1,
+    overflow: 'hidden'
+  },
+  attached: {
+    flex: 1
+  },
+  detached: {
+    flex: 1,
+    top: FAR_FAR_AWAY
+  }
+});
+},{"react":"node_modules/react/index.js","react-native":"node_modules/react-native-web/dist/index.js"}],"node_modules/@react-navigation/elements/lib/module/SafeAreaProviderCompat.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = SafeAreaProviderCompat;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _reactNative = require("react-native");
+
+var _reactNativeSafeAreaContext = require("react-native-safe-area-context");
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+const {
+  width = 0,
+  height = 0
+} = _reactNative.Dimensions.get('window'); // To support SSR on web, we need to have empty insets for initial values
+// Otherwise there can be mismatch between SSR and client output
+// We also need to specify empty values to support tests environments
+
+
+const initialMetrics = _reactNative.Platform.OS === 'web' || _reactNativeSafeAreaContext.initialWindowMetrics == null ? {
+  frame: {
+    x: 0,
+    y: 0,
+    width,
+    height
+  },
+  insets: {
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0
+  }
+} : _reactNativeSafeAreaContext.initialWindowMetrics;
+
+function SafeAreaProviderCompat({
+  children,
+  style
+}) {
+  return /*#__PURE__*/React.createElement(_reactNativeSafeAreaContext.SafeAreaInsetsContext.Consumer, null, insets => {
+    if (insets) {
+      // If we already have insets, don't wrap the stack in another safe area provider
+      // This avoids an issue with updates at the cost of potentially incorrect values
+      // https://github.com/react-navigation/react-navigation/issues/174
+      return /*#__PURE__*/React.createElement(_reactNative.View, {
+        style: [styles.container, style]
+      }, children);
+    }
+
+    return /*#__PURE__*/React.createElement(_reactNativeSafeAreaContext.SafeAreaProvider, {
+      initialMetrics: initialMetrics,
+      style: style
+    }, children);
+  });
+}
+
+SafeAreaProviderCompat.initialMetrics = initialMetrics;
+
+const styles = _reactNative.StyleSheet.create({
+  container: {
+    flex: 1
+  }
+});
+},{"react":"node_modules/react/index.js","react-native":"node_modules/react-native-web/dist/index.js","react-native-safe-area-context":"node_modules/react-native-safe-area-context/lib/module/index.js"}],"node_modules/@react-navigation/elements/lib/module/Screen.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Screen;
+
+var _native = require("@react-navigation/native");
+
+var React = _interopRequireWildcard(require("react"));
+
+var _reactNative = require("react-native");
+
+var _reactNativeSafeAreaContext = require("react-native-safe-area-context");
+
+var _Background = _interopRequireDefault(require("./Background"));
+
+var _getDefaultHeaderHeight = _interopRequireDefault(require("./Header/getDefaultHeaderHeight"));
+
+var _HeaderHeightContext = _interopRequireDefault(require("./Header/HeaderHeightContext"));
+
+var _HeaderShownContext = _interopRequireDefault(require("./Header/HeaderShownContext"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function Screen(props) {
+  const dimensions = (0, _reactNativeSafeAreaContext.useSafeAreaFrame)();
+  const insets = (0, _reactNativeSafeAreaContext.useSafeAreaInsets)();
+  const isParentHeaderShown = React.useContext(_HeaderShownContext.default);
+  const parentHeaderHeight = React.useContext(_HeaderHeightContext.default);
+  const {
+    focused,
+    modal = false,
+    header,
+    headerShown = true,
+    headerTransparent,
+    headerStatusBarHeight = isParentHeaderShown ? 0 : insets.top,
+    navigation,
+    route,
+    children,
+    style
+  } = props;
+  const [headerHeight, setHeaderHeight] = React.useState(() => (0, _getDefaultHeaderHeight.default)(dimensions, modal, headerStatusBarHeight));
+  return /*#__PURE__*/React.createElement(_Background.default, {
+    accessibilityElementsHidden: !focused,
+    importantForAccessibility: focused ? 'auto' : 'no-hide-descendants',
+    style: [styles.container, style]
+  }, /*#__PURE__*/React.createElement(_reactNative.View, {
+    style: styles.content
+  }, /*#__PURE__*/React.createElement(_HeaderShownContext.default.Provider, {
+    value: isParentHeaderShown || headerShown !== false
+  }, /*#__PURE__*/React.createElement(_HeaderHeightContext.default.Provider, {
+    value: headerShown ? headerHeight : parentHeaderHeight !== null && parentHeaderHeight !== void 0 ? parentHeaderHeight : 0
+  }, children))), headerShown ? /*#__PURE__*/React.createElement(_native.NavigationContext.Provider, {
+    value: navigation
+  }, /*#__PURE__*/React.createElement(_native.NavigationRouteContext.Provider, {
+    value: route
+  }, /*#__PURE__*/React.createElement(_reactNative.View, {
+    onLayout: e => {
+      const {
+        height
+      } = e.nativeEvent.layout;
+      setHeaderHeight(height);
+    },
+    style: headerTransparent ? styles.absolute : null
+  }, header))) : null);
+}
+
+const styles = _reactNative.StyleSheet.create({
+  container: {
+    flex: 1,
+    flexDirection: 'column-reverse'
+  },
+  // This is necessary to avoid applying 'column-reverse' to screen content
+  content: {
+    flex: 1
+  },
+  absolute: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0
+  }
+});
+},{"@react-navigation/native":"node_modules/@react-navigation/native/lib/module/index.js","react":"node_modules/react/index.js","react-native":"node_modules/react-native-web/dist/index.js","react-native-safe-area-context":"node_modules/react-native-safe-area-context/lib/module/index.js","./Background":"node_modules/@react-navigation/elements/lib/module/Background.js","./Header/getDefaultHeaderHeight":"node_modules/@react-navigation/elements/lib/module/Header/getDefaultHeaderHeight.js","./Header/HeaderHeightContext":"node_modules/@react-navigation/elements/lib/module/Header/HeaderHeightContext.js","./Header/HeaderShownContext":"node_modules/@react-navigation/elements/lib/module/Header/HeaderShownContext.js"}],"node_modules/@react-navigation/elements/lib/module/types.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+},{}],"node_modules/@react-navigation/elements/lib/module/index.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var _exportNames = {
+  Assets: true,
+  Background: true,
+  getDefaultHeaderHeight: true,
+  getHeaderTitle: true,
+  Header: true,
+  HeaderBackButton: true,
+  HeaderBackContext: true,
+  HeaderBackground: true,
+  HeaderHeightContext: true,
+  HeaderShownContext: true,
+  HeaderTitle: true,
+  useHeaderHeight: true,
+  MissingIcon: true,
+  PlatformPressable: true,
+  ResourceSavingView: true,
+  SafeAreaProviderCompat: true,
+  Screen: true
+};
+exports.Assets = void 0;
+Object.defineProperty(exports, "Background", {
+  enumerable: true,
+  get: function () {
+    return _Background.default;
+  }
+});
+Object.defineProperty(exports, "Header", {
+  enumerable: true,
+  get: function () {
+    return _Header.default;
+  }
+});
+Object.defineProperty(exports, "HeaderBackButton", {
+  enumerable: true,
+  get: function () {
+    return _HeaderBackButton.default;
+  }
+});
+Object.defineProperty(exports, "HeaderBackContext", {
+  enumerable: true,
+  get: function () {
+    return _HeaderBackContext.default;
+  }
+});
+Object.defineProperty(exports, "HeaderBackground", {
+  enumerable: true,
+  get: function () {
+    return _HeaderBackground.default;
+  }
+});
+Object.defineProperty(exports, "HeaderHeightContext", {
+  enumerable: true,
+  get: function () {
+    return _HeaderHeightContext.default;
+  }
+});
+Object.defineProperty(exports, "HeaderShownContext", {
+  enumerable: true,
+  get: function () {
+    return _HeaderShownContext.default;
+  }
+});
+Object.defineProperty(exports, "HeaderTitle", {
+  enumerable: true,
+  get: function () {
+    return _HeaderTitle.default;
+  }
+});
+Object.defineProperty(exports, "MissingIcon", {
+  enumerable: true,
+  get: function () {
+    return _MissingIcon.default;
+  }
+});
+Object.defineProperty(exports, "PlatformPressable", {
+  enumerable: true,
+  get: function () {
+    return _PlatformPressable.default;
+  }
+});
+Object.defineProperty(exports, "ResourceSavingView", {
+  enumerable: true,
+  get: function () {
+    return _ResourceSavingView.default;
+  }
+});
+Object.defineProperty(exports, "SafeAreaProviderCompat", {
+  enumerable: true,
+  get: function () {
+    return _SafeAreaProviderCompat.default;
+  }
+});
+Object.defineProperty(exports, "Screen", {
+  enumerable: true,
+  get: function () {
+    return _Screen.default;
+  }
+});
+Object.defineProperty(exports, "getDefaultHeaderHeight", {
+  enumerable: true,
+  get: function () {
+    return _getDefaultHeaderHeight.default;
+  }
+});
+Object.defineProperty(exports, "getHeaderTitle", {
+  enumerable: true,
+  get: function () {
+    return _getHeaderTitle.default;
+  }
+});
+Object.defineProperty(exports, "useHeaderHeight", {
+  enumerable: true,
+  get: function () {
+    return _useHeaderHeight.default;
+  }
+});
+
+var _Background = _interopRequireDefault(require("./Background"));
+
+var _getDefaultHeaderHeight = _interopRequireDefault(require("./Header/getDefaultHeaderHeight"));
+
+var _getHeaderTitle = _interopRequireDefault(require("./Header/getHeaderTitle"));
+
+var _Header = _interopRequireDefault(require("./Header/Header"));
+
+var _HeaderBackButton = _interopRequireDefault(require("./Header/HeaderBackButton"));
+
+var _HeaderBackContext = _interopRequireDefault(require("./Header/HeaderBackContext"));
+
+var _HeaderBackground = _interopRequireDefault(require("./Header/HeaderBackground"));
+
+var _HeaderHeightContext = _interopRequireDefault(require("./Header/HeaderHeightContext"));
+
+var _HeaderShownContext = _interopRequireDefault(require("./Header/HeaderShownContext"));
+
+var _HeaderTitle = _interopRequireDefault(require("./Header/HeaderTitle"));
+
+var _useHeaderHeight = _interopRequireDefault(require("./Header/useHeaderHeight"));
+
+var _MissingIcon = _interopRequireDefault(require("./MissingIcon"));
+
+var _PlatformPressable = _interopRequireDefault(require("./PlatformPressable"));
+
+var _ResourceSavingView = _interopRequireDefault(require("./ResourceSavingView"));
+
+var _SafeAreaProviderCompat = _interopRequireDefault(require("./SafeAreaProviderCompat"));
+
+var _Screen = _interopRequireDefault(require("./Screen"));
+
+var _types = require("./types");
+
+Object.keys(_types).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _types[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function () {
+      return _types[key];
+    }
+  });
+});
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+const Assets = [// eslint-disable-next-line import/no-commonjs
+require('./assets/back-icon.png'), // eslint-disable-next-line import/no-commonjs
+require('./assets/back-icon-mask.png')];
+exports.Assets = Assets;
+},{"./Background":"node_modules/@react-navigation/elements/lib/module/Background.js","./Header/getDefaultHeaderHeight":"node_modules/@react-navigation/elements/lib/module/Header/getDefaultHeaderHeight.js","./Header/getHeaderTitle":"node_modules/@react-navigation/elements/lib/module/Header/getHeaderTitle.js","./Header/Header":"node_modules/@react-navigation/elements/lib/module/Header/Header.js","./Header/HeaderBackButton":"node_modules/@react-navigation/elements/lib/module/Header/HeaderBackButton.js","./Header/HeaderBackContext":"node_modules/@react-navigation/elements/lib/module/Header/HeaderBackContext.js","./Header/HeaderBackground":"node_modules/@react-navigation/elements/lib/module/Header/HeaderBackground.js","./Header/HeaderHeightContext":"node_modules/@react-navigation/elements/lib/module/Header/HeaderHeightContext.js","./Header/HeaderShownContext":"node_modules/@react-navigation/elements/lib/module/Header/HeaderShownContext.js","./Header/HeaderTitle":"node_modules/@react-navigation/elements/lib/module/Header/HeaderTitle.js","./Header/useHeaderHeight":"node_modules/@react-navigation/elements/lib/module/Header/useHeaderHeight.js","./MissingIcon":"node_modules/@react-navigation/elements/lib/module/MissingIcon.js","./PlatformPressable":"node_modules/@react-navigation/elements/lib/module/PlatformPressable.js","./ResourceSavingView":"node_modules/@react-navigation/elements/lib/module/ResourceSavingView.js","./SafeAreaProviderCompat":"node_modules/@react-navigation/elements/lib/module/SafeAreaProviderCompat.js","./Screen":"node_modules/@react-navigation/elements/lib/module/Screen.js","./assets/back-icon.png":"node_modules/@react-navigation/elements/lib/module/assets/back-icon.png","./assets/back-icon-mask.png":"node_modules/@react-navigation/elements/lib/module/assets/back-icon-mask.png","./types":"node_modules/@react-navigation/elements/lib/module/types.js"}],"node_modules/@react-navigation/native-stack/lib/module/views/NativeStackView.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = NativeStackView;
+
+var _elements = require("@react-navigation/elements");
+
+var React = _interopRequireWildcard(require("react"));
+
+var _reactNative = require("react-native");
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function NativeStackView({
+  state,
+  descriptors
+}) {
+  return /*#__PURE__*/React.createElement(_elements.SafeAreaProviderCompat, null, /*#__PURE__*/React.createElement(_reactNative.View, {
+    style: styles.container
+  }, state.routes.map((route, i) => {
+    var _state$routes;
+
+    const isFocused = state.index === i;
+    const canGoBack = i !== 0;
+    const previousKey = (_state$routes = state.routes[i - 1]) === null || _state$routes === void 0 ? void 0 : _state$routes.key;
+    const previousDescriptor = previousKey ? descriptors[previousKey] : undefined;
+    const {
+      options,
+      navigation,
+      render
+    } = descriptors[route.key];
+    const {
+      header,
+      headerShown,
+      headerTintColor,
+      headerBackImageSource,
+      headerLeft,
+      headerRight,
+      headerTitle,
+      headerTitleAlign,
+      headerTitleStyle,
+      headerStyle,
+      headerShadowVisible,
+      headerTransparent,
+      contentStyle,
+      headerBackTitle
+    } = options;
+    return /*#__PURE__*/React.createElement(_elements.Screen, {
+      key: route.key,
+      focused: isFocused,
+      route: route,
+      navigation: navigation,
+      headerShown: headerShown,
+      headerTransparent: headerTransparent,
+      header: header !== undefined ? header({
+        back: previousDescriptor ? {
+          title: (0, _elements.getHeaderTitle)(previousDescriptor.options, previousDescriptor.route.name)
+        } : undefined,
+        options,
+        route,
+        navigation
+      }) : /*#__PURE__*/React.createElement(_elements.Header, {
+        title: (0, _elements.getHeaderTitle)(options, route.name),
+        headerTintColor: headerTintColor,
+        headerLeft: typeof headerLeft === 'function' ? ({
+          tintColor
+        }) => headerLeft({
+          tintColor,
+          canGoBack,
+          label: headerBackTitle
+        }) : headerLeft === undefined && canGoBack ? ({
+          tintColor
+        }) => /*#__PURE__*/React.createElement(_elements.HeaderBackButton, {
+          tintColor: tintColor,
+          backImage: headerBackImageSource !== undefined ? () => /*#__PURE__*/React.createElement(_reactNative.Image, {
+            source: headerBackImageSource,
+            style: [styles.backImage, {
+              tintColor
+            }]
+          }) : undefined,
+          onPress: navigation.goBack,
+          canGoBack: canGoBack
+        }) : headerLeft,
+        headerRight: typeof headerRight === 'function' ? ({
+          tintColor
+        }) => headerRight({
+          tintColor
+        }) : headerRight,
+        headerTitle: typeof headerTitle === 'function' ? ({
+          children,
+          tintColor
+        }) => headerTitle({
+          children,
+          tintColor
+        }) : headerTitle,
+        headerTitleAlign: headerTitleAlign,
+        headerTitleStyle: headerTitleStyle,
+        headerStyle: [headerTransparent ? {
+          position: 'absolute',
+          backgroundColor: 'transparent'
+        } : null, headerStyle, headerShadowVisible === false ? {
+          shadowOpacity: 0,
+          borderBottomWidth: 0
+        } : null]
+      }),
+      style: [_reactNative.StyleSheet.absoluteFill, {
+        display: isFocused ? 'flex' : 'none'
+      }]
+    }, /*#__PURE__*/React.createElement(_reactNative.View, {
+      style: [styles.contentContainer, contentStyle]
+    }, render()));
+  })));
+}
+
+const styles = _reactNative.StyleSheet.create({
+  container: {
+    flex: 1
+  },
+  contentContainer: {
+    flex: 1
+  },
+  backImage: {
+    height: 24,
+    width: 24,
+    margin: 3,
+    resizeMode: 'contain'
+  }
+});
+},{"@react-navigation/elements":"node_modules/@react-navigation/elements/lib/module/index.js","react":"node_modules/react/index.js","react-native":"node_modules/react-native-web/dist/index.js"}],"node_modules/@react-navigation/native-stack/lib/module/navigators/createNativeStackNavigator.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _native = require("@react-navigation/native");
+
+var React = _interopRequireWildcard(require("react"));
+
+var _NativeStackView = _interopRequireDefault(require("../views/NativeStackView"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _extends() {
+  _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
+
+function NativeStackNavigator({
+  initialRouteName,
+  children,
+  screenListeners,
+  screenOptions,
+  ...rest
+}) {
+  const {
+    state,
+    descriptors,
+    navigation
+  } = (0, _native.useNavigationBuilder)(_native.StackRouter, {
+    initialRouteName,
+    children,
+    screenListeners,
+    screenOptions
+  });
+  React.useEffect(() => {
+    var _navigation$addListen;
+
+    return navigation === null || navigation === void 0 ? void 0 : (_navigation$addListen = navigation.addListener) === null || _navigation$addListen === void 0 ? void 0 : _navigation$addListen.call(navigation, 'tabPress', e => {
+      const isFocused = navigation.isFocused(); // Run the operation in the next frame so we're sure all listeners have been run
+      // This is necessary to know if preventDefault() has been called
+
+      requestAnimationFrame(() => {
+        if (state.index > 0 && isFocused && !e.defaultPrevented) {
+          // When user taps on already focused tab and we're inside the tab,
+          // reset the stack to replicate native behaviour
+          navigation.dispatch({ ..._native.StackActions.popToTop(),
+            target: state.key
+          });
+        }
+      });
+    });
+  }, [navigation, state.index, state.key]);
+  return /*#__PURE__*/React.createElement(_NativeStackView.default, _extends({}, rest, {
+    state: state,
+    navigation: navigation,
+    descriptors: descriptors
+  }));
+}
+
+var _default = (0, _native.createNavigatorFactory)(NativeStackNavigator);
+
+exports.default = _default;
+},{"@react-navigation/native":"node_modules/@react-navigation/native/lib/module/index.js","react":"node_modules/react/index.js","../views/NativeStackView":"node_modules/@react-navigation/native-stack/lib/module/views/NativeStackView.js"}],"node_modules/@react-navigation/native-stack/lib/module/index.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "createNativeStackNavigator", {
+  enumerable: true,
+  get: function () {
+    return _createNativeStackNavigator.default;
+  }
+});
+
+var _createNativeStackNavigator = _interopRequireDefault(require("./navigators/createNativeStackNavigator"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+},{"./navigators/createNativeStackNavigator":"node_modules/@react-navigation/native-stack/lib/module/navigators/createNativeStackNavigator.js"}],"shared/shared/components/Navigation.tsx":[function(require,module,exports) {
+"use strict";
+
+var __importDefault = this && this.__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
 };
 
 Object.defineProperty(exports, "__esModule", {
   value: true
-}); // This will be a shared folder
+});
 
-var react_1 = __importStar(require("react"));
+var react_1 = __importDefault(require("react"));
 
 var react_native_1 = require("react-native");
 
-var centered = {
-  justifyContent: "center",
-  alignItems: "center"
-};
-var SIZE = 100;
-var FONT_SIZE = SIZE / 2;
+var native_1 = require("@react-navigation/native");
+
+var native_stack_1 = require("@react-navigation/native-stack");
+
+var Stack = (0, native_stack_1.createNativeStackNavigator)();
 var styles = react_native_1.StyleSheet.create({
-  container: _objectSpread(_objectSpread({}, centered), {}, {
+  home: {
     flex: 1,
-    flexDirection: "row",
-    backgroundColor: "#ee7767"
-  }),
-  counter: _objectSpread(_objectSpread({}, centered), {}, {
-    height: SIZE,
-    width: SIZE,
-    borderRadius: 5,
-    backgroundColor: "white"
-  })
+    alignItems: 'center',
+    justifyContent: 'center'
+  }
 });
 
-var Counter = function Counter() {
-  var _ref = (0, react_1.useState)(0),
-      _ref2 = _slicedToArray(_ref, 2),
-      count = _ref2[0],
-      setCount = _ref2[1];
-
-  var decrement = function decrement() {
-    count > 0 && setCount(count - 1);
-  };
-
-  var increment = function increment() {
-    setCount(count + 1);
-  };
-
-  return react_1.default.createElement(react_native_1.View, null, react_1.default.createElement(react_native_1.Pressable, {
-    onPress: decrement
-  }, react_1.default.createElement(react_native_1.Text, null, "-")), react_1.default.createElement(react_native_1.View, null, react_1.default.createElement(react_native_1.Text, null, count)), react_1.default.createElement(react_native_1.Pressable, {
-    onPress: increment
-  }, react_1.default.createElement(react_native_1.Text, null, "+")));
+var HomeScreen = function HomeScreen() {
+  return react_1.default.createElement(react_native_1.View, {
+    style: styles.home
+  }, react_1.default.createElement(react_native_1.Text, null, "HomeScreen"));
 };
 
-exports.default = Counter;
-},{"react":"node_modules/react/index.js","react-native":"node_modules/react-native-web/dist/index.js"}],"index.tsx":[function(require,module,exports) {
+var StatusScreen = function StatusScreen() {
+  return react_1.default.createElement(react_native_1.View, {
+    style: styles.home
+  }, react_1.default.createElement(react_native_1.Text, null, "StatusScreen"));
+};
+
+var linking = {
+  prefixes: ['127.0.0.1', 'wallet://'],
+  config: {
+    screens: {
+      Home: '',
+      Status: '/status'
+    }
+  }
+};
+
+var Navigation = function Navigation() {
+  return react_1.default.createElement(native_1.NavigationContainer, {
+    linking: linking,
+    fallback: react_1.default.createElement(react_native_1.Text, null, "Loading...")
+  }, react_1.default.createElement(Stack.Navigator, {
+    initialRouteName: "Home"
+  }, react_1.default.createElement(Stack.Screen, {
+    name: "Home",
+    component: HomeScreen
+  }), react_1.default.createElement(Stack.Screen, {
+    name: "Status",
+    component: StatusScreen
+  })));
+};
+
+exports.default = Navigation;
+},{"react":"node_modules/react/index.js","react-native":"node_modules/react-native-web/dist/index.js","@react-navigation/native":"node_modules/@react-navigation/native/lib/module/index.js","@react-navigation/native-stack":"node_modules/@react-navigation/native-stack/lib/module/index.js"}],"index.tsx":[function(require,module,exports) {
 "use strict";
 
 var __importDefault = this && this.__importDefault || function (mod) {
@@ -61313,14 +71059,14 @@ var react_1 = __importDefault(require("react"));
 
 var react_dom_1 = require("react-dom");
 
-var counter_1 = __importDefault(require("./shared/shared/components/counter"));
+var Navigation_1 = __importDefault(require("./shared/shared/components/Navigation"));
 
 var App = function App() {
-  return react_1.default.createElement(counter_1.default, null);
+  return react_1.default.createElement(Navigation_1.default, null);
 };
 
 (0, react_dom_1.render)(react_1.default.createElement(App, null), document.getElementById("root"));
-},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./shared/shared/components/counter":"shared/shared/components/counter.tsx"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./shared/shared/components/Navigation":"shared/shared/components/Navigation.tsx"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -61348,7 +71094,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54945" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61405" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

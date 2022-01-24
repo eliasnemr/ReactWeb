@@ -1,9 +1,9 @@
 import React from "react";
 import { render } from "react-dom";
-import Counter from "./shared/shared/components/counter";
+import Navigation from "./shared/shared/components/Navigation";
 
 const App = () => {
-  return <Counter></Counter>;
+  return <Navigation></Navigation>;
 };
 
 render(<App />, document.getElementById("root"));
